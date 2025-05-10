@@ -2,7 +2,7 @@
 This file contains the code for an Agent.
 """
 
-from llm import LLM
+from reasoning.llm import LLM
 
 class Agent:
     """
@@ -43,7 +43,7 @@ class Agent:
         })
         
         # Get response from the model using full conversation history
-        response = self.llm.get_llm_response(self.conversation)
+        response = self.llm.generate(self.conversation)
         
         # Add assistant's response to conversation history
         self.conversation.append({
