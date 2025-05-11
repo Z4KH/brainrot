@@ -5,7 +5,10 @@
 
 
 ## Changes
-- added simple data segmentation
+- finished simple information transfer layer (zach)
+    - wrote create_agents method
+
+- added simple data segmentation (zach)
     - need to do agent transfer next
     - started information transfer layer with data segmentation
 

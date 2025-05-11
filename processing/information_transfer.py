@@ -41,6 +41,7 @@ class InformationTransfer:
         self.agents = []
         self.llm = LLM()
         self.data = data
+        self.create_agents()
 
     def _estimate_tokens(self, text: str) -> int:
         """Estimate the number of tokens in a text string."""
@@ -121,7 +122,35 @@ class InformationTransfer:
             current_category_tokens[category] += entry_tokens
         
         return categories
+    
+    def _build_system_prompt(self, category: str, entries: list[str]) -> str:
+        """
+        Build a system prompt for the agent.
+        """
+        agent_name = category + "Expert Agent"
+        system_prompt = AGENT_SYSTEM_PROMPT.format(
+            agent_name=category,
+            category_name=category
+        )
+        return system_prompt
+    
+    def create_agents(self) -> list[Agent]:
+        """
+        Create agents for each category.
+        TODO: Hierachy of agents/Grouping of agents
         
+        Returns:
+            list[Agent]: The list of agents.
+        """
+        categories = self.cluster_data()
+        agents = []
+        for category, entries in categories.items():
+            # Generate a system prompt for the agent
+            system_prompt = self._build_system_prompt(category, entries)
+            agent = Agent(system_prompt)
+            agents.append(agent)
+        return agents
+
 
 if __name__ == "__main__":
     # Sample test data
