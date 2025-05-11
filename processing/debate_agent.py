@@ -159,22 +159,24 @@ class DebateAgent:
             "role": "assistant",
             "content": response
         })
+        self.opening_statement = response
         self.round_number += 1
-        self.print_conversation()
         
         
-    def print_conversation(self):
+    def output_conversation(self, filename: str = 'out.txt'):
         """
         Print the entire conversation in a nicely formatted way.
         """
-        print(f"\n{'='*80}")
-        print(f"Agent: {self.agent_name}")
-        print(f"{'='*80}")
-        
-        for message in self.conversation:
-            print(f"\n{message['role'].upper()}:")
-            print(f"{'-'*40}")
-            print(message['content'])
-            print(f"{'-'*40}")
-        
-        print(f"{'='*80}\n")
+        if filename:
+            with open(filename, 'a', encoding='utf-8') as f:
+                f.write(f"\n{'='*80}")
+                f.write(f"\nAgent: {self.agent_name}")
+                f.write(f"\n{'='*80}")
+                
+                for message in self.conversation:
+                    f.write(f"\n{message['role'].upper()}:")
+                    f.write(f"\n{'-'*40}")
+                    f.write(f"{message['content']}\n")
+                    f.write(f"\n{'-'*40}\n")
+                    
+                f.write(f"\n{'='*80}\n")

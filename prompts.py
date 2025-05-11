@@ -3,9 +3,9 @@
 DEBATE_ROUND_PROMPT = """
 ### Round {round_number}: Debate Update
 
-Below are the arguments from other agents in Round {round_number - 1}:
+Below are the arguments from other agents in Round {round_number}:
 
-{formatted_agent_0_responses}
+{prev_round_responses}
 
 Update your prediction based on the arguments above. Then respond in the required format.
 """

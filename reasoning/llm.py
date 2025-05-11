@@ -12,7 +12,7 @@ This file contains the code to interact with the LLM.
 # GROQ = False
 
 ### GROQ API ###
-MODEL = 'meta-llama/llama-4-maverick-17b-128e-instruct'
+MODEL = 'llama3-70b-8192'
 URL = 'https://api.groq.com/openai/v1/chat/completions'
 from groq import Groq
 GROQ = True
