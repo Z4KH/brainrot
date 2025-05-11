@@ -5,6 +5,11 @@
 
 
 ## Changes
+- debate round 0 (zach)
+    - transfer info in round 0 of debate
+    - added several prompts
+    - refactored Agent -> DebateAgent
+
 - finished simple information transfer layer (zach)
     - wrote create_agents method
 

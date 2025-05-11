@@ -2,22 +2,9 @@
 This file contains the code for the information transfer layer of the system.
 This layer segments the filtered data into different categories, creates agents for each category,
 sets up the debate hierarchy, and passes the data to the agents.
-
-Here is an example of the data:
-data_entries = [
-    {
-        "source": "Reddit | 2025-05-09T13:40Z | reliability: medium",
-        "data": "GME is going to explode today because..."
-    },
-    {
-        "source": "Reuters | 2025-05-09T12:10Z | reliability: high",
-        "data": "GameStop quarterly earnings beat expectations..."
-    },
-    ...
-]
 """
 
-from reasoning.agent import Agent
+from processing.debate_agent import DebateAgent
 from reasoning.llm import LLM
 import re
 from typing import Dict, List, Tuple
@@ -38,10 +25,10 @@ class InformationTransfer:
             data (list[dict[str, str]]): The data to be transferred to the agents.
                 str is the source of the data, and str is the data.
         """
-        self.agents = []
         self.llm = LLM()
         self.data = data
-        self.create_agents()
+        self.categories = self.cluster_data()
+        self.agents = self.create_agents()
 
     def _estimate_tokens(self, text: str) -> int:
         """Estimate the number of tokens in a text string."""
@@ -123,78 +110,78 @@ class InformationTransfer:
         
         return categories
     
-    def _build_system_prompt(self, category: str, entries: list[str]) -> str:
+    def create_agents(self) -> list[DebateAgent]:
         """
-        Build a system prompt for the agent.
-        """
-        agent_name = category + "Expert Agent"
-        system_prompt = AGENT_SYSTEM_PROMPT.format(
-            agent_name=category,
-            category_name=category
-        )
-        return system_prompt
-    
-    def create_agents(self) -> list[Agent]:
-        """
-        Create agents for each category.
+        Create agents for each category and transfer the data to them.
         TODO: Hierachy of agents/Grouping of agents
         
         Returns:
-            list[Agent]: The list of agents.
+            list[DebateAgent]: The list of agents.
         """
-        categories = self.cluster_data()
         agents = []
-        for category, entries in categories.items():
-            # Generate a system prompt for the agent
-            system_prompt = self._build_system_prompt(category, entries)
-            agent = Agent(system_prompt)
+        for category, entries in self.categories.items():
+            agent = DebateAgent(category, entries)
+            agent.transfer_data()
             agents.append(agent)
         return agents
 
 
+
 if __name__ == "__main__":
-    # Sample test data
+    # Sample test data with conflicting and noisy information
     test_data = [
         {
-            "source": "Reddit | 2025-05-09T13:40Z | reliability: medium",
-            "data": "GME is going to explode today because of the massive short interest and upcoming earnings call!"
-        },
-        {
             "source": "Reuters | 2025-05-09T12:10Z | reliability: high",
-            "data": "GameStop quarterly earnings beat expectations with $1.2B in revenue, up 15% YoY"
+            "data": "BREAKING: Elon Musk announces he's changing his name to 'ClownCoin' and launching a new cryptocurrency"
         },
         {
-            "source": "Twitter | 2025-05-09T14:20Z | reliability: low",
-            "data": "Just bought 100 shares of $GME at $45.50, this is going to the moon!"
+            "source": "Twitter | 2025-05-09T12:15Z | reliability: high",
+            "data": "This is Elon Musk. I have NOT changed my name and I have NOT launched any cryptocurrency. Beware of scams."
+        },
+        {
+            "source": "Reddit | 2025-05-09T13:40Z | reliability: medium",
+            "data": "Just bought 1000 ClownCoin at $0.001, this is going to the moon!"
         },
         {
             "source": "Bloomberg | 2025-05-09T11:30Z | reliability: high",
-            "data": "GameStop announces new partnership with major gaming studio for exclusive NFT marketplace"
+            "data": "ClownCoin surges 500% after viral tweet from @elonmusk, but account appears to be fake"
+        },
+        {
+            "source": "Twitter | 2025-05-09T14:20Z | reliability: low",
+            "data": "ClownCoin is a scam! I lost all my life savings!"
         },
         {
             "source": "Reddit | 2025-05-09T15:00Z | reliability: medium",
-            "data": "Technical analysis shows GME forming a bullish pennant pattern, breakout expected soon"
+            "data": "Technical analysis shows ClownCoin forming a bullish pennant pattern, breakout expected soon"
+        },
+        {
+            "source": "CNBC | 2025-05-09T16:00Z | reliability: high",
+            "data": "SEC launches investigation into ClownCoin after reports of market manipulation"
+        },
+        {
+            "source": "Twitter | 2025-05-09T16:30Z | reliability: low",
+            "data": "Just met @elonmusk at Tesla factory, he confirmed ClownCoin is legit!"
+        },
+        {
+            "source": "WSJ | 2025-05-09T17:00Z | reliability: high",
+            "data": "ClownCoin trading volume exceeds $1B in 24 hours, but 80% of transactions appear to be wash trading"
+        },
+        {
+            "source": "Reddit | 2025-05-09T17:30Z | reliability: medium",
+            "data": "My uncle works at Tesla and he says ClownCoin is actually a secret project by Elon"
+        },
+        {
+            "source": "Twitter | 2025-05-09T18:00Z | reliability: high",
+            "data": "This is Elon Musk. I am suing the creators of ClownCoin for using my name without permission."
+        },
+        {
+            "source": "Reddit | 2025-05-09T18:30Z | reliability: low",
+            "data": "ClownCoin devs just doxxed themselves, they're actually from North Korea!"
         }
     ]
 
     # Create InformationTransfer instance
     it = InformationTransfer(test_data)
-    
-    # Test clustering
-    print("\nTesting InformationTransfer.cluster_data()...")
-    print("-" * 50)
-    
-    categories = it.cluster_data()
-    
-    # Print results
-    print("\nCategorized Data:")
-    print("-" * 50)
-    for category, entries in categories.items():
-        print(f"\nCategory: {category}")
-        print("-" * 30)
-        for entry in entries:
-            print(entry)
-            print("-" * 20)
         
 
 
