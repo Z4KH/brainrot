@@ -1,18 +1,33 @@
 # BRAINROT: Behavioural Reasoning Agent for Inference & Natural-language Risk Optimization in Trading
 
 ## Setup:
-- Set TOGETHER_API_KEY or GROQ_API_KEY as an environment variable 
+- Set TOGETHER_API_KEY or GROQ_API_KEY as an environment variable
+- install requirements.txt
 
 ## TODO:
-- research section (maybe some deep research repo, or input list of sources)
+- research section
+    - list of sources links to look at in sources.txt -> ingestion
+        - or pre-existing deep research library
+    - do simple NLP to highlight significant sentences/phrases in source, and output data as specified in bottom of information_transfer.py -> filtering
+- finish processing section
+    - hierarchical & group based debate structure
+    - list of assets to debate over extracted from data or specifically inputted
+    - list of relevant points to consider inputted from user
+    - enforce argumentation with data in justifications
+    - add roles/personalities (risk-taker, etc.)
+    - action layer -- actual interface with the market -> output trade and projections for reinforcement layer
 - reinforcement section (maybe grade sources/grade agent types/fine tune)
-- action layer
-- hierarcical debate structure
-- require that the agents argue with data in justifications in debate prompt
-- possibly input list of important points to consider for agents
+    - consistently monitor all trades
+    - determine when to sell
+    - fine tune model or update some explicit weights for sources/agent types based on performance
+- figure out how to run continuous loop
+    - Set up cheap server
+- run experiment
 
 
 ## Changes:
+- updated todos (zach)
+    - just edited todos in readme
 - simple debate layer (zach)
     - implemented naive running of debate
     - debate takes a long time
