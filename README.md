@@ -4,6 +4,12 @@
 - Set TOGETHER_API_KEY or GROQ_API_KEY as an environment variable
 - install requirements.txt
 
+## Breakdown:
+- Zach - Advanced debate framework (hierarchical & gorup based debate)
+- Ryan - Reinforcement Section
+- Jacob - Static agent allocation & Action layer
+- Jeff - Research section & Sever
+
 ## TODO:
 - research section
     - list of sources links to look at in sources.txt -> ingestion
@@ -28,6 +34,7 @@
 ## Changes:
 - updated todos (zach)
     - just edited todos in readme
+    
 - simple debate layer (zach)
     - implemented naive running of debate
     - debate takes a long time
