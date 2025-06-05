@@ -57,3 +57,8 @@
     - implemented simple agent with memory
     - implemented llm class
     - Created repo
+
+- Broker (Jacob)
+    - implemented broker class that allows agents to buy/sell/access stocks via Robinhood
+    - created .env file to store login information
+    - added .env file to list of files on .gitignore
