@@ -61,17 +61,9 @@ def main():
         }
     ]
 
-    # Transfer information
-    print('Transferring information...')
-    information_transfer = InformationTransfer(test_data)
-    agents = information_transfer.agents
-    print('Agents created, debating...')
+    debate = Debate(test_data, '', 'What is the best way to invest in ClownCoin?')
     
-    # Debate
-    debate = Debate(agents)
-    debate.run()
-    print('Debate complete, printing results...')
-    
+        
     # Print debate
     for agent in agents:
         agent.output_conversation('out.txt')

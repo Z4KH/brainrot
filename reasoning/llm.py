@@ -52,7 +52,15 @@ class LLM:
         return [
             {"role": "user", "content": prompt}
         ]
-
+    
+    def format_messages_with_system_prompt(system_prompt: str, user_prompt: str) -> list[dict]:
+        """
+        This function is used to format the messages for the LLM with a system prompt.
+        """
+        return [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
 
 if __name__ == "__main__":
     llm = LLM()
