@@ -3,6 +3,7 @@ This file contains a class to manage prompts for the debate.
 """
 
 import json
+import re
 
 class Prompts:
     """
@@ -40,6 +41,121 @@ class Prompts:
         """
         return HEAD_AGENT_OPENING_PROMPT
     
+    def format_category_generation_prompt(self, entry: str, existing_categories: list[str]) -> str:
+        """
+        Format the category generation prompt.
+        This prompt is used to generate a category for a data entry.
+        
+        :param entry: The entry to categorize.
+        :param existing_categories: The existing categories.
+        :return: The formatted category generation prompt.
+        """
+        return CATEGORY_GENERATION_PROMPT.format(
+            source=entry.get("source", "N/A"),
+            date=entry.get("date", "N/A"),
+            reliability=entry.get("reliability", "unknown"),
+            data=entry.get("data", "N/A"),
+            existing_categories=", ".join(existing_categories)
+        )
+    
+    def parse_category_generation_output(self, output: str, existing_categories: list[str]) -> str:
+        """
+        Robustly extracts the category string from an LLM output, handling multiple common formats.
+        
+        :param output: The raw LLM output text.
+        :param existing_categories: The existing categories.
+        :return: The cleaned category string (or 'Unknown' if no category is found).
+        """
+        if not output or not isinstance(output, str):
+            return 'Unknown'
+
+        lines = [line.strip() for line in output.splitlines() if line.strip()]
+
+        # Strategy 1: Look for "Category: <something>" on same line
+        for line in lines:
+            match = re.match(r"[Cc]ategory\s*[:\-]\s*(.+)", line)
+            if match:
+                category = match.group(1).strip()
+                if category:
+                    return category
+
+        # Strategy 2: Look for "Category:" followed by a line with the category
+        for i, line in enumerate(lines[:-1]):
+            if re.match(r"[Cc]ategory\s*[:\-]?\s*$", line) and lines[i + 1]:
+                return lines[i + 1].strip()
+
+        # Strategy 3: JSON-like key-value format
+        json_match = re.search(r'"?category"?\s*[:\-]\s*"?([a-zA-Z0-9_\- ]+)"?', output)
+        if json_match:
+            return json_match.group(1).strip()
+
+        # Strategy 4: Fallback — find the first line that looks like a category
+        for line in lines:
+            if line.lower() in existing_categories or (
+                all(c.isalnum() or c in "-_ " for c in line) and len(line) < 50
+            ):
+                return line.strip()
+
+        return 'Unknown'
+
+
+CATEGORY_GENERATION_PROMPT = """
+You are a categorization agent in a multi-agent debate system designed to make high-quality short-term trading decisions about **NVIDIA (NVDA)** stock.
+
+Your role is to analyze incoming data entries and assign a **concise, specific category** that describes the nature of the information. This categorization is essential for routing the data to the most relevant expert debate agents, who will use it to argue for or against trading actions (buy, short, or hold) on NVDA.
+
+Each entry may be a news headline, financial report, social media post, or macroeconomic update. Your job is to determine what kind of information it represents — not to assess its truth, sentiment, or impact — just what **type** of data it is.
+
+---
+
+### Instructions:
+
+- Carefully read the content of the entry.
+- Assign **one category** that best represents the kind of information this is.
+- If it fits multiple categories, choose the most relevant to NVDA stock.
+- If none of the example categories apply, **you are encouraged to create a new one**.
+- Avoid vague labels — be as precise and informative as possible.
+
+---
+
+### Example Categories (you may use one or create a new one):
+- EARNINGS
+- PRODUCT_LAUNCH
+- CEO_COMMENTARY
+- AI_INDUSTRY
+- SUPPLY_CHAIN
+- MACRO
+- INTEREST_RATES
+- SEMICONDUCTOR_NEWS
+- COMPETITOR_NEWS
+- CRYPTO
+- SOCIAL_SENTIMENT
+- REGULATION
+- RUMOR
+- LEGAL
+- FED_POLICY
+- NVDA_PARTNERSHIP
+- NVDA_CUSTOMER_NEWS
+
+---
+
+### Data Entry:
+Source: {source}
+Date: {date}
+Reliability: {reliability}
+Content: {data}
+
+---
+
+### Existing Categories Seen So Far:
+{existing_categories}
+
+---
+
+### Output Format:
+Category: <your category here>
+"""
+
     
 LEAF_AGENT_OPENING_PROMPT = """
 You are participating in Round 0 of a structured multi-agent debate about short-term trading of NVIDIA stock.
@@ -198,7 +314,7 @@ LEAF_AGENT_DEBATE_ROUND_PROMPT = """
 You are participating in Round {round_number} of a structured multi-agent debate about short-term trading of NVIDIA stock.
 
 Below is the debate history up to this point. You must:
-- Read all agents’ previous justifications,
+- Read all agents' previous justifications,
 - Consider how their reasoning and evidence affects your position,
 - Respond with your updated justification and position,
 - Follow the exact output format already described in the system prompt.

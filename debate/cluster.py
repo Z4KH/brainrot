@@ -25,6 +25,8 @@ class Cluster:
         """
         Conduct a debate for a given number of rounds.
         """
+        if len(self.debate_agents) == 1:
+            return # No debate needed if there is only one agent
         for round_number in range(1, num_rounds + 1):
             self.debate_rounds.append({})
             for agent in self.debate_agents:
@@ -60,6 +62,8 @@ class Cluster:
         """
         Initialize the head agent.
         """
+        if len(self.debate_agents) == 1:
+            return self.debate_agents[0] # No head agent needed if there is only one agent
         head_agent_name = f'{self.cluster_name}_HeadAgent'
         data = []
         represented_agent_names = []
@@ -73,6 +77,23 @@ class Cluster:
         opening_prompt = self.prompts.format_head_agent_opening_prompt()
         head_agent.initialize(opening_prompt)
         return head_agent
+    
+    def get_diversity_score(self, additional_agents: list[DebateAgent] = []):
+        """
+        Get the diversity score of the cluster based on the diversity of the opening statements.
+        Diversity score is computed as (1 - average_pairwise_similarity)
+        
+        :param additional_agents: Additional agents to include in the diversity score calculation.
+        :return: The diversity score.
+        """
+        agents = self.debate_agents + additional_agents
+        similarity_matrix = [[0 for _ in agents] for _ in agents]
+        for i in range(len(agents)):
+            for j in range(i+1, len(agents)):
+                similarity_matrix[i][j] = self.util.get_similarity(agents[i].opening_statement, agents[j].opening_statement)
+                similarity_matrix[j][i] = similarity_matrix[i][j]
+        average_similarity = sum(sum(row) for row in similarity_matrix) / (len(agents) * (len(agents) - 1) / 2)
+        return 1 - average_similarity
 
 if __name__ == "__main__":
     # Test Cluster functionality
@@ -80,7 +101,9 @@ if __name__ == "__main__":
     from test.test import leaf_system_prompt, test_data, example_debate, leaf_user_debate_round_prompt, leaf_user_opening_prompt
     from reasoning.llm import LLM
     from prompts import Prompts
+    from utils import Utils
     llm = LLM()
+    util = Utils()
     # Create agents
     agents = []
     prompts = Prompts()
