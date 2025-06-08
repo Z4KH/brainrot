@@ -14,17 +14,35 @@ import time
 
 def main():
     time_start = time.time()
+    print("Starting NVIDIA Trading Debate...")
+    
+    print("Initializing components...")
     prompts = Prompts()
     util = Utils()
     llm = LLM()
+    print("Components initialized successfully")
+    
+    print("Creating debate instance...")
     debate = Debate(debate_name="NVIDIA_TRADING_DEBATE", data=data, prompts=prompts, util=util, llm=llm)
+    print("Debate instance created")
+    
+    print("Initializing debate...")
     debate.initialize()
+    print("Debate initialized successfully")
+    
+    print("Running debate with 3 rounds and 1 hidden layer...")
     debate.run_debate(num_rounds=3, num_hidden_layers=1)
+    print("Debate completed!")
+    
     time_end = time.time()
-    print(debate.final_position)
+    print(f"Final position: {debate.final_position}")
+    
+    print("Saving debate results...")
     with open("debate/examples/NVIDIA_debate/debate.txt", "w") as f:
         f.write(f'Time taken: {time_end - time_start} seconds\n\n' + debate.get_debate())
-    print(f"Time taken: {time_end - time_start} seconds")
+    print("Results saved to debate.txt")
+    
+    print(f"Total time taken: {time_end - time_start:.2f} seconds")
     
 if __name__ == "__main__":
     main()
