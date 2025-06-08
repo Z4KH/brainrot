@@ -28,3 +28,12 @@ def main():
     
 if __name__ == "__main__":
     main()
+    
+    
+# Static vs Dynamic
+# Rounds Layers
+# When we add in static
+# Full debate vs one shot prompt, one cluster
+# How much data to give to different agents
+# Compare against existing debates
+# TODO fix categorization & integrate portfolio manager

@@ -10,6 +10,11 @@ import json
 class DebateAgent:
     """
     A Debate Agent is a base agent that participates in a debate.
+    
+    - Leaf Agent: A layer 0 agent that represents only its data
+    - Head Agent: A 
+    - Final Agent: 
+    - Static Agent:
     """
 
     def __init__(self, agent_name: str, category: str, data: list[dict], system_prompt: str, llm: LLM,
