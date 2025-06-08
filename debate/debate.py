@@ -4,6 +4,7 @@ This file contains the top level debate class.
 
 from debate.cluster import Cluster
 from debate.debate_agent import DebateAgent
+from debate.static_debate_agent import StaticDebateAgent
 from debate.data_utils import categorize_data, split_data_by_token_count
 
 MAX_TOKEN_COUNT = 1000
@@ -26,32 +27,62 @@ class Debate:
         self.initialized = False
         self.final_position = None
 
-    def initialize(self, max_token_count=MAX_TOKEN_COUNT):
+    def initialize(self, max_token_count=MAX_TOKEN_COUNT, num_static_agents=0):
         """
         Initialize the debate by creating a the first layer of debate agents.
         
         :param max_token_count: The maximum number of tokens allowed for a single debate agent.
+        :param num_static_agents: Number of static persona agents to include (0-5).
         """
         # Categorize data
         categories = categorize_data(self.data, self.prompts, self.llm)
-        # Form clusters
+        
+        # Create static agents if requested (added)
+        static_agents = []
+        if num_static_agents > 0:
+            print(f"Creating {num_static_agents} static persona agents...")
+            static_agents = StaticDebateAgent.create_static_agents(num_static_agents, self.data, self.llm)
+            for agent in static_agents:
+                agent.initialize(opening_prompt=self.prompts.format_leaf_agent_opening_prompt())
+            print(f"Created static agents: {[agent.agent_name for agent in static_agents]}")
+        
+        # Form clusters from regular categorized agents (original)
+        all_regular_agents = []
         for category in categories:
-            cluster_name = f"{category}_Cluster"
             # Split data within each category by token count
             data_chunks = split_data_by_token_count(self.data, category, token_count=max_token_count)
             # Create debate agents for each chunk
-            debate_agents = []
             for i, chunk in enumerate(data_chunks):
                 agent_name = f"{category}_Agent_{i}"
                 system_prompt = self.prompts.format_leaf_agent_system_prompt(agent_name=agent_name, category=category, data=chunk)
                 agent = DebateAgent(agent_name=agent_name, category=category, data=chunk,
                                                  system_prompt=system_prompt, llm=self.llm)
                 agent.initialize(opening_prompt=self.prompts.format_leaf_agent_opening_prompt())
-                debate_agents.append(agent)
+                all_regular_agents.append((agent, category))
 
-            # Create cluster
-            cluster = Cluster(cluster_name, debate_agents, self.prompts)
-            self.layers[0].append(cluster)
+        # Create clusters and distribute agents (added)
+        category_clusters = {}
+        for agent, category in all_regular_agents:
+            cluster_name = f"{category}_Cluster"
+            if cluster_name not in category_clusters:
+                category_clusters[cluster_name] = Cluster(cluster_name, [], self.prompts)
+                self.layers[0].append(category_clusters[cluster_name])
+            category_clusters[cluster_name].add_agent(agent)
+        
+        # Distribute static agents across existing clusters in round-robin fashion (added)
+        if static_agents and self.layers[0]:
+            print(f"Distributing static agents across {len(self.layers[0])} clusters...")
+            for i, static_agent in enumerate(static_agents):
+                target_cluster_idx = i % len(self.layers[0])
+                self.layers[0][target_cluster_idx].add_agent(static_agent)
+                print(f"Added {static_agent.agent_name} to {self.layers[0][target_cluster_idx].cluster_name}")
+        
+        # If we only have static agents and no regular clusters, create a single cluster for them (added)
+        elif static_agents and not self.layers[0]:
+            print("No regular clusters found, creating single cluster for static agents...")
+            static_cluster = Cluster("Static_Agents_Cluster", static_agents, self.prompts)
+            self.layers[0].append(static_cluster)
+        
         self.initialized = True
     
     def run_debate(self, num_rounds, num_hidden_layers):

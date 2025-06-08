@@ -74,8 +74,26 @@ class Cluster:
         :param final_agent: Whether this is the final head agent.
         :return: The head agent.
         """
-        if len(self.debate_agents) == 1:
-            return self.debate_agents[0] # No head agent needed if there is only one agent
+        # Filter out static agents - they should never become head agents
+        non_static_agents = [agent for agent in self.debate_agents if getattr(agent, 'role', 'leaf') != 'static']
+        static_agents = [agent for agent in self.debate_agents if getattr(agent, 'role', 'leaf') == 'static']
+        
+        if static_agents:
+            print(f"   └─ Excluding {len(static_agents)} static agents from head agent selection: {[a.agent_name for a in static_agents]}")
+        
+        if len(non_static_agents) == 1:
+            print(f"   └─ Using single non-static agent as head: {non_static_agents[0].agent_name}")
+            return non_static_agents[0] # Return the single non-static agent
+        elif len(non_static_agents) == 0:
+            print(f"   └─ Only static agents present, creating synthetic head agent from debate synthesis")
+            # If only static agents remain, create a synthetic head agent based on all agents
+            # but don't return a static agent directly
+            pass  # Fall through to create new head agent
+        else:
+            print(f"   └─ Creating synthetic head agent from {len(non_static_agents)} non-static agents")
+
+            
+        # If multiple non-static agents or only static agents, create new head agent
         if final_agent:
             head_agent_name = 'FinalDecisionAgent'
         else:
