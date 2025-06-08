@@ -1,12 +1,8 @@
 """
 This file contains utility functions for the debate.
 """
-from debate.debate_agent import DebateAgent
-from debate.cluster import Cluster
-from reasoning.llm import LLM
-from prompts import Prompts
 
-def categorize_data(data: list[dict[str, str]], prompts: Prompts, llm: LLM) -> dict[str, list[str]]:
+def categorize_data(data: list[dict[str, str]], prompts, llm) -> dict[str, list[str]]:
     """
     Categorize data into named groups. Returns a dictionary like:
     {"social": [...], "market": [...], "technical": [...]}
@@ -31,7 +27,7 @@ def categorize_data(data: list[dict[str, str]], prompts: Prompts, llm: LLM) -> d
     
     return categories
     
-def get_category(entry: str, existing_categories: dict[str, list[str]], prompts: Prompts, llm: LLM) -> str:
+def get_category(entry: str, existing_categories: dict[str, list[str]], prompts, llm) -> str:
     """
     Determine the category for a data entry.
     
@@ -42,7 +38,7 @@ def get_category(entry: str, existing_categories: dict[str, list[str]], prompts:
     :return: The category for the entry.
     """
     prompt = prompts.format_category_generation_prompt(entry, existing_categories)
-    return prompts.parse_category_generation_output(llm.generate(LLM.format_messages(prompt)), 
+    return prompts.parse_category_generation_output(llm.generate(llm.format_messages(prompt)), 
                                                     existing_categories)
     
 def estimate_tokens(text: str) -> int:

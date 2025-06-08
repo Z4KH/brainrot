@@ -19,7 +19,16 @@ class Cluster:
         # Add opening statements to debate_rounds
         for agent in self.debate_agents:
             self.debate_rounds[0][agent.agent_name] = agent.opening_statement
-            
+    
+    def add_agent(self, agent: DebateAgent):
+        """
+        Add an agent to the cluster.
+        The agent will be added to the most recent round of the debate.
+        
+        :param agent: The agent to add to the cluster.
+        """
+        self.debate_agents.append(agent)
+        self.debate_rounds[-1][agent.agent_name] = agent.opening_statement
 
     def debate(self, num_rounds: int):
         """
@@ -50,7 +59,7 @@ class Cluster:
         for round_num, round_data in enumerate(self.debate_rounds[:round_number]):
             if round_num == 0: round_type = "Opening Statements"
             else: round_type = "Debate"
-            formatted_debate += f"\n\n\nROUND {round_num} ({round_type}):\n"
+            formatted_debate += f"\n========== ROUND {round_num} ({round_type}) ==========\n"
             
             # Format each agent's statement in the round
             for agent_name, statement in round_data.items():
@@ -58,41 +67,62 @@ class Cluster:
                 
         return formatted_debate
 
-    def initialize_head_agent(self):
+    def initialize_head_agent(self, final_agent: bool = False):
         """
         Initialize the head agent.
+        
+        :param final_agent: Whether this is the final head agent.
+        :return: The head agent.
         """
         if len(self.debate_agents) == 1:
             return self.debate_agents[0] # No head agent needed if there is only one agent
-        head_agent_name = f'{self.cluster_name}_HeadAgent'
+        if final_agent:
+            head_agent_name = 'FinalDecisionAgent'
+        else:
+            head_agent_name = f'{self.cluster_name}_HeadAgent'
         data = []
         represented_agent_names = []
         for agent in self.debate_agents:
             data += agent.data
             represented_agent_names.append(agent.agent_name)
-        system_prompt = self.prompts.format_head_agent_system_prompt(head_agent_name, self.cluster_name, data, self.format_debate(), represented_agent_names)
+        if not final_agent: 
+            system_prompt = self.prompts.format_head_agent_system_prompt(
+                head_agent_name, self.cluster_name, data, self.format_debate(), represented_agent_names)
+            opening_prompt = self.prompts.format_head_agent_opening_prompt()
+            role = 'head'
+        else:
+            system_prompt = self.prompts.format_final_head_agent_system_prompt(
+                head_agent_name, self.cluster_name, data, self.format_debate(), represented_agent_names)
+            opening_prompt = self.prompts.format_final_head_agent_opening_prompt()
+            role = 'final'
         head_agent = DebateAgent(agent_name=head_agent_name, category=self.cluster_name, data=data, 
-                                 system_prompt=system_prompt, llm=self.debate_agents[0].llm, role='head', represented_agents=self.debate_agents,
+                                 system_prompt=system_prompt, llm=self.debate_agents[0].llm, role=role, represented_agents=self.debate_agents,
                                  represented_debate_rounds=self.debate_rounds)
-        opening_prompt = self.prompts.format_head_agent_opening_prompt()
         head_agent.initialize(opening_prompt)
         return head_agent
     
-    def get_diversity_score(self, additional_agents: list[DebateAgent] = []):
+    def get_diversity_score(self, util, additional_agents: list[DebateAgent] = []):
         """
         Get the diversity score of the cluster based on the diversity of the opening statements.
         Diversity score is computed as (1 - average_pairwise_similarity)
         
+        :param util: The utility object to use for similarity calculations.
         :param additional_agents: Additional agents to include in the diversity score calculation.
         :return: The diversity score.
         """
         agents = self.debate_agents + additional_agents
+        if not agents or len(agents) == 1: return 0 # No agents to compute diversity score
         similarity_matrix = [[0 for _ in agents] for _ in agents]
         for i in range(len(agents)):
             for j in range(i+1, len(agents)):
-                similarity_matrix[i][j] = self.util.get_similarity(agents[i].opening_statement, agents[j].opening_statement)
+                similarity_matrix[i][j] = util.get_similarity(agents[i].opening_statement, agents[j].opening_statement)
                 similarity_matrix[j][i] = similarity_matrix[i][j]
-        average_similarity = sum(sum(row) for row in similarity_matrix) / (len(agents) * (len(agents) - 1) / 2)
+        # Sum upper triangle off-diagonal elements
+        sum_similarity = 0
+        for i in range(len(agents)):
+            for j in range(i+1, len(agents)):
+                sum_similarity += similarity_matrix[i][j]
+        average_similarity = sum_similarity / (len(agents) * (len(agents) - 1) / 2)
         return 1 - average_similarity
 
 if __name__ == "__main__":

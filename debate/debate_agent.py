@@ -27,14 +27,14 @@ class DebateAgent:
         """
         Initialize the agent with an opening statement.
         """
-        messages = LLM.format_messages_with_system_prompt(self.system_prompt, opening_prompt)
+        messages = self.llm.format_messages_with_system_prompt(self.system_prompt, opening_prompt)
         self.opening_statement = self.llm.generate(messages)
         
     def generate_debate_response(self, user_prompt: str):
         """
         Generate a debate response.
         """
-        messages = LLM.format_messages_with_system_prompt(self.system_prompt, user_prompt)
+        messages = self.llm.format_messages_with_system_prompt(self.system_prompt, user_prompt)
         return self.llm.generate(messages)
 
 

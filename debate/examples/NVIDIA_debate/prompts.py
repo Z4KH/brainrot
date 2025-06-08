@@ -4,17 +4,36 @@ This file contains a class to manage prompts for the debate.
 
 import json
 import re
+from debate.data_utils import estimate_tokens
+import random
+
+# Maximum number of tokens in a prompt due to rate limits
+MAX_TOKENS = 6000
+MAX_DATA_TOKENS = 1000
 
 class Prompts:
     """
     A class to manage prompts for the debate.
     """
     
+    def sample_data(self, data: list[dict]) -> list[dict]:
+        """
+        Sample data to fit within the maximum data tokens.
+        """
+        sampled_data = []
+        tokens = 0
+        while tokens < MAX_DATA_TOKENS:
+            sampled_data.append(data.pop(random.randint(0, len(data) - 1)))
+            tokens += estimate_tokens(sampled_data[-1]['data'])
+        return sampled_data
+    
     def format_leaf_agent_system_prompt(self, agent_name: str, category: str, data: list[dict]) -> str:
         """
         Format the leaf agent system prompt.
         """
-        return LEAF_AGENT_SYSTEM_PROMPT.format(agent_name=agent_name, category_name=category, data=data)
+        prompt = LEAF_AGENT_SYSTEM_PROMPT.format(agent_name=agent_name, category_name=category, data=json.dumps(data, indent=2))
+        if estimate_tokens(prompt) > MAX_TOKENS: data = self.sample_data(data)
+        return LEAF_AGENT_SYSTEM_PROMPT.format(agent_name=agent_name, category_name=category, data=json.dumps(data, indent=2))
     
     def format_leaf_agent_opening_prompt(self) -> str:
         """
@@ -33,6 +52,8 @@ class Prompts:
         """
         Format the head agent system prompt.
         """
+        prompt = HEAD_AGENT_SYSTEM_PROMPT.format(agent_name=agent_name, cluster_name=cluster_name, data=json.dumps(data, indent=2), debate_history=debate_history, represented_agents='\n'.join(represented_agent_names))
+        if estimate_tokens(prompt) > MAX_TOKENS: data = self.sample_data(data)
         return HEAD_AGENT_SYSTEM_PROMPT.format(agent_name=agent_name, cluster_name=cluster_name, data=json.dumps(data, indent=2), debate_history=debate_history, represented_agents='\n'.join(represented_agent_names))
         
     def format_head_agent_opening_prompt(self) -> str:
@@ -97,6 +118,141 @@ class Prompts:
                 return line.strip()
 
         return 'Unknown'
+    
+    def format_final_head_agent_system_prompt(self, agent_name: str, cluster_name: str, 
+                                        data: list[dict], debate_history: str, represented_agent_names: list[str]) -> str:
+        """
+        Format the final head agent system prompt.
+        """
+        prompt = FINAL_HEAD_AGENT_SYSTEM_PROMPT.format(agent_name=agent_name, cluster_name=cluster_name, data=json.dumps(data, indent=2), debate_history=debate_history, represented_agents='\n'.join(represented_agent_names))
+        if estimate_tokens(prompt) > MAX_TOKENS: data = self.sample_data(data)
+        return FINAL_HEAD_AGENT_SYSTEM_PROMPT.format(agent_name=agent_name, cluster_name=cluster_name, data=json.dumps(data, indent=2), debate_history=debate_history, represented_agents='\n'.join(represented_agent_names))
+
+    def format_final_agent_decision_prompt(self) -> str:
+        """
+        Format the final agent decision prompt.
+        """
+        return FINAL_AGENT_DECISION_PROMPT
+
+FINAL_AGENT_DECISION_PROMPT = """
+You are issuing the final decision in this structured multi-agent debate on short-term trading of NVIDIA stock.
+
+Your task is to synthesize the provided structured data and the full transcript of the prior debate history into a single, confident, and actionable trading recommendation.
+
+Instructions:
+- This is the **last step** in the debate — your decision will be used directly to trade. No further refinement will occur.
+- Use only the data and debate history provided in the system prompt.
+- Resolve all remaining disagreements and make a final judgment.
+- Do not speculate or introduce any information not present in the inputs.
+- Do not hedge, defer, or restate arguments verbatim — commit to the strongest reasoning available.
+- Follow the exact output format defined in the system prompt.
+
+Now provide your final recommendation.
+"""
+
+FINAL_HEAD_AGENT_SYSTEM_PROMPT = """
+You are {agent_name}, the **final HeadAgent** in a structured, multi-agent debate for a financial intelligence benchmark.
+
+You represent **{cluster_name}**, a cluster of expert agents tasked with evaluating NVIDIA (ticker: NVDA) as a short-term trading opportunity. Your role is to synthesize all arguments, resolve conflicts, and issue the **final trading recommendation** for this debate.
+
+Your output will **not be reviewed or revised**. The trading action will be based entirely on your response.
+
+---
+
+### Role & Responsibilities
+
+You have been assigned two key inputs:
+
+1. A set of structured data relevant to your cluster's domain.
+2. A transcript of the debate held by your cluster's agents.
+
+Unlike earlier HeadAgents, you are not preparing for another round of debate — you are delivering the **final, decisive judgment**. You must take full responsibility for identifying the most compelling arguments, resolving internal disagreement, and making a clear, confident recommendation.
+
+You are expected to:
+
+- **Analyze** the data and debate transcript with rigor and objectivity.
+- **Identify** the strongest reasoning and eliminate weak, redundant, or unsupported claims.
+- **Resolve** all remaining disagreements.
+- **Synthesize** a single, precise, and confident justification and trading position.
+
+---
+
+### Trading Objective
+
+You are evaluating **only NVIDIA stock** as a short-term trade. Your final position must include:
+
+- The **direction** (Buy, Short, or Wait),
+- A **projected percentage price change** (+/-X%) expected by the end of the time horizon,
+- The **length of the time horizon** (in hours),
+- A **confidence score** between 0.00 and 1.00,
+- A **justification** grounded entirely in the provided data and debate history.
+
+You may not reference or recommend any asset other than NVIDIA.
+
+---
+
+### Reasoning Requirements
+
+You must **not fabricate** any information or speculate beyond your inputs. Every claim must be directly supported by:
+
+- A specific fact, quote, or event in your assigned data, or
+- A justification provided by one of your represented agents
+
+You should aim to **maximize clarity and decisiveness**. There is no further opportunity for discussion.
+
+**If your cluster reached consensus:** refine and strengthen it with clarity and finality.
+
+**If your cluster was divided:** make a final call — clearly justify why one perspective is superior.
+
+You are not allowed to hedge or defer responsibility. You must commit to a final, well-reasoned trading stance.
+
+---
+
+### Output Format
+
+Return your response using the format below **exactly**:
+
+Justification:  
+[Concise, data-grounded synthesis of the debate and data. Cite facts and prior agent arguments where relevant and build on them with more precise statistics and data.]
+
+Position:  
+[Buy / Short / Wait]
+
+Asset:  
+NVIDIA
+
+Projected Percentage Change:  
+[+/-X.X%]
+
+Time Horizon:  
+[X hours]
+
+Confidence:  
+[0.00 to 1.00]
+
+---
+
+### Do NOT:
+
+- Mention any asset other than NVIDIA.
+- Invent numbers, events, or claims not found in your data or the debate.
+- Copy or restate arguments verbatim without refinement.
+- Defer decision-making or remain undecided.
+- Deviate from the required output format.
+
+---
+
+### Represented Agents:  
+{represented_agents}
+
+--- STRUCTURED DATA STARTS BELOW ---
+{data}
+--- STRUCTURED DATA ENDS ---
+
+--- DEBATE HISTORY STARTS BELOW ---
+{debate_history}
+--- DEBATE HISTORY ENDS ---
+"""
 
 
 CATEGORY_GENERATION_PROMPT = """
