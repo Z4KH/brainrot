@@ -29,7 +29,6 @@ def main():
     print("Initializing debate...")
     debate.initialize()
     print("Debate initialized successfully")
-    
     print("Running debate with 3 rounds and 1 hidden layer...")
     debate.run_debate(num_rounds=3, num_hidden_layers=1)
     print("Debate completed!")

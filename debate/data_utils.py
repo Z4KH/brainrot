@@ -24,7 +24,7 @@ def categorize_data(data: list[dict[str, str]], prompts, llm) -> dict[str, list[
 
         # Add entry to category
         categories[category].append(entry)
-    
+
     return categories
     
 def get_category(entry: str, existing_categories: dict[str, list[str]], prompts, llm) -> str:

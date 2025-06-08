@@ -6,6 +6,7 @@ import json
 import re
 from debate.data_utils import estimate_tokens
 import random
+import copy
 
 # Maximum number of tokens in a prompt due to rate limits
 MAX_TOKENS = 6000
@@ -20,9 +21,11 @@ class Prompts:
         """
         Sample data to fit within the maximum data tokens.
         """
+        data = copy.deepcopy(data)
         sampled_data = []
         tokens = 0
         while tokens < MAX_DATA_TOKENS:
+            if len(data) == 0: break
             sampled_data.append(data.pop(random.randint(0, len(data) - 1)))
             tokens += estimate_tokens(sampled_data[-1]['data'])
         return sampled_data

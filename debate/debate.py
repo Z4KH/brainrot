@@ -38,7 +38,7 @@ class Debate:
         for category in categories:
             cluster_name = f"{category}_Cluster"
             # Split data within each category by token count
-            data_chunks = split_data_by_token_count(self.data, category, token_count=max_token_count)
+            data_chunks = split_data_by_token_count(categories[category], category, token_count=max_token_count)
             # Create debate agents for each chunk
             debate_agents = []
             for i, chunk in enumerate(data_chunks):
