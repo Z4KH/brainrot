@@ -93,7 +93,7 @@ class Cluster:
         else:
             system_prompt = self.prompts.format_final_head_agent_system_prompt(
                 head_agent_name, self.cluster_name, data, self.format_debate(), represented_agent_names)
-            opening_prompt = self.prompts.format_final_head_agent_opening_prompt()
+            opening_prompt = self.prompts.format_final_agent_decision_prompt()
             role = 'final'
         head_agent = DebateAgent(agent_name=head_agent_name, category=self.cluster_name, data=data, 
                                  system_prompt=system_prompt, llm=self.debate_agents[0].llm, role=role, represented_agents=self.debate_agents,

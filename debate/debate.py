@@ -150,7 +150,7 @@ class Debate:
                 cluster_debate += f'{cluster.cluster_name} with {len(cluster.debate_agents)} agents:\n'
                 cluster_debate += cluster.format_debate()
                 cluster_debate += "########################\n"
-            debate += indent_text(cluster_debate, prefix='    ')
+            debate += self.indent_text(cluster_debate, prefix='    ')
         return debate
     
     def indent_text(self, text, prefix='    '):
