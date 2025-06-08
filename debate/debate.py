@@ -152,3 +152,9 @@ class Debate:
                 cluster_debate += "########################\n"
             debate += indent_text(cluster_debate, prefix='    ')
         return debate
+    
+    def indent_text(self, text, prefix='    '):
+        """
+        Indent the text with a given prefix.
+        """
+        return ''.join(prefix + line if line.strip() else line for line in text.splitlines(True))
