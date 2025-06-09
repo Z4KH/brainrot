@@ -41,8 +41,8 @@ class Utils:
 
         Returns a float in [0, 1].
         """
-        alpha = 0.4  # Justification weight
-        beta = 0.6   # Directional confidence alignment weight
+        alpha = 0.25  # Justification weight
+        beta = 0.75   # Directional confidence alignment weight
 
         # Parse outputs
         parsed1 = self.parse_agent_output(agent1_output)
@@ -119,70 +119,42 @@ class Utils:
 if __name__ == "__main__":
     utils = Utils()
     
-    # Test case 1: Original format
     example1 = """
-    Justification: My initial assessment (Round 0) highlighted a major hedge fund increasing its NVDA position by 20% (Substack, low reliability) and generally bullish institutional sentiment (Wall Street Journal, low reliability).  Rounds 1 and 2 introduced substantial conflicting information.  While several agents highlight positive short-term momentum (strong Q4 revenue, new AI chip architecture, new partnerships),  `REGULATION_Agent_0` consistently presents a strong counterargument: potential regulatory scrutiny from high-reliability sources (Barron's and Financial Times). This credible risk of negative regulatory impact outweighs the less reliable positive signals.  The numerous "Buy" recommendations often rely on medium-to-low reliability sources and lack detailed short-term price impact analysis. The consensus has shifted towards "Wait" in Rounds 1 and 2, largely due to the weight given to the high-reliability regulatory concerns.  Therefore, a cautious "Wait" position remains justified.  The upcoming earnings announcement (EARNINGS_ANNOUNCEMENT_Agent_0) adds further uncertainty, reinforcing a neutral stance.
-
-    Position:  Wait
-
-    Asset:  NVIDIA
-
-    Projected Percentage Change:  
-    +/-1.0%
-
-    Time Horizon:  
-    24 hours
-
-    Confidence:  
-    0.55
-    """
-
-    # Test case 2: Same-line format
-    example2 = """
-    Justification: NVDA is a terrible company.
-    Position: Sell
-    Asset: NVIDIA
-    Projected Percentage Change: -4.2%
-    Time Horizon: 24 hours
-    Confidence: 0.92
-    """
-
-    # Test case 3: Mixed format with varying spacing
-    example3 = """
-    Justification:Some analysis here
-    Position:  Buy
-    Asset:NVIDIA
-    Projected Percentage Change: +2.5%
-    Time Horizon:48 hours
-    Confidence:0.75
-    """
-
-    print("Test 1 (Original format):")
-    print(utils.parse_agent_output(example1))
-    print("\nTest 2 (Same-line format):")
-    print(utils.parse_agent_output(example2))
-    print("\nTest 3 (Mixed format):")
-    print(utils.parse_agent_output(example3))
-    
-    # test get_similarity
-    second_example = """
-    Justification:  
-    NVDA is a terrible company.
+Justification:  NVIDIA's Q4 revenue of $22.1 billion, a 265% year-over-year increase, and particularly the strong data center revenue of $18.4 billion driven by AI infrastructure demand, suggests significant positive momentum.  Furthermore, multiple sources report retail volume spikes following an unexpected earnings beat. While the reliability of some sources is low or medium, the high-reliability Bloomberg report strongly supports a bullish short-term outlook.
 
     Position:  
-    Sell
+    Short
 
     Asset:  
     NVIDIA
 
     Projected Percentage Change:  
-    -4.2%
-    
+    +5.0%
+
     Time Horizon:  
     24 hours
 
     Confidence:  
-    0.92
+    1
     """
     
-    print(utils.get_similarity(example1, second_example))
+    example2 = """
+Justification:  NVIDIA's Q4 revenue surged 265% YoY to $22.1 billion, with data center revenue reaching $18.4 billion driven by AI infrastructure demand.  This massive growth, confirmed by multiple high-reliability sources (Bloomberg, Reuters, Wall Street Journal), points to a strong current market position and significant TAM expansion potential in the AI sector.  The announcement of a new AI chip architecture with 2x performance improvement (CNBC) further solidifies their technological leadership and competitive advantage.  Analyst consensus points to a price target of $1,100 (Seeking Alpha), suggesting significant upside potential. While competition exists (MarketWatch), the current data overwhelmingly demonstrates exceptional near-term growth.  High institutional buying (Investor's Business Daily) coupled with the expansion of manufacturing partnerships (Financial Times) suggests the company can meet the current, extraordinarily high demand.  Even concerns about high valuation (multiple sources) are outweighed by the extraordinary financial results and future growth potential in what CEO Huang calls "the new industrial revolution."
+
+    Position:  
+    Buy
+
+    Asset:  
+    NVIDIA
+
+    Projected Percentage Change:  
+    +5.0%
+
+    Time Horizon:  
+    24 hours
+
+    Confidence:  
+    1
+    """
+    
+    print(utils.get_similarity(example1, example2))
