@@ -52,7 +52,7 @@ class Debate:
                 agent.initialize(opening_prompt=self.prompts.format_leaf_agent_opening_prompt())
                 debate_agents.append(agent)
             # Create the debate cluster for this category
-            cluster = Cluster(cluster_name, debate_agents, self.prompts)
+            cluster = Cluster(cluster_name, debate_agents, self.prompts, self.util)
             self.layers[0].append(cluster)
         
         # Create static agents if requested
@@ -97,7 +97,7 @@ class Debate:
         final_cluster = self.layers[-1][0]
         final_cluster.debate(num_rounds)
         final_head_agent = final_cluster.initialize_head_agent(final_agent=True)
-        self.layers.append([Cluster(f'{self.debate_name}_FinalCluster', [final_head_agent], self.prompts)])
+        self.layers.append([Cluster(f'{self.debate_name}_FinalCluster', [final_head_agent], self.prompts, self.util)])
         self.final_position = self.util.parse_agent_output(final_head_agent.opening_statement)
         return self.final_position
         
@@ -116,7 +116,7 @@ class Debate:
         :param layer_index: The index of the current layer.
         :return: A list of the new clusters.
         """
-        clusters = [Cluster(f"{self.debate_name}_Cluster{i}_Layer{layer_index}", [], self.prompts) for i in range(c_next)]
+        clusters = [Cluster(f"{self.debate_name}_Cluster{i}_Layer{layer_index}", [], self.prompts, self.util) for i in range(c_next)]
         for agent in head_agents:
             if c_next == 1:
                 clusters[0].add_agent(agent)
@@ -124,13 +124,16 @@ class Debate:
             best_cluster = None
             best_diversity_change = -float('inf')
             for i, cluster in enumerate(clusters):
-                initial_diversity = cluster.get_diversity_score(self.util)
-                new_diversity = cluster.get_diversity_score(self.util, additional_agents=[agent])
+                initial_diversity = cluster.get_diversity_score()
+                new_diversity = cluster.get_diversity_score(additional_agents=[agent])
                 diversity_change = new_diversity - initial_diversity
                 if diversity_change > best_diversity_change:
                     best_diversity_change = diversity_change
                     best_cluster = i
             clusters[best_cluster].add_agent(agent)
+        
+        # Remove all clusters with no dynamic agents
+        clusters = [cluster for cluster in clusters if len(cluster.get_dynamic_agents()) > 0]
         return clusters
 
     def compute_cluster_counts(self, c0, cL, L):

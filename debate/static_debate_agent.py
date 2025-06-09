@@ -40,6 +40,9 @@ class StaticDebateAgent(DebateAgent):
     - Complex financial instruments
 
     Speak in your characteristic folksy, plain-spoken manner with occasional references to Omaha, annual shareholder meetings, and your long-term investment track record."""
+        
+        
+        
         },
         
 
@@ -173,7 +176,7 @@ Your approach is methodical, conservative, and designed to minimize risk while a
 
 
 
-    def __init__(self, persona_key: str, data: list[dict], llm: LLM, role: str = "static"):
+    def __init__(self, persona_key: str, data: list[dict], llm: LLM, role: DebateAgent.Role = DebateAgent.Role.STATIC):
         """
         Initialize a static debate agent with a predefined persona.
         
@@ -194,7 +197,44 @@ You are participating in an investment debate about the following data:
 
 {json.dumps(data, indent=2)}
 
-Based on your investment philosophy and the data provided, form your investment thesis and be prepared to defend it in the debate. Consider how this investment opportunity aligns with your proven investment principles and past successful strategies."""
+Based on your investment philosophy and the data provided, form your investment thesis and be prepared to defend it in the debate. Consider how this investment opportunity aligns with your proven investment principles and past successful strategies.
+
+### Output Format
+
+Return your response using the format below **exactly**:
+
+Justification:  
+[Concise, data-grounded synthesis of the debate and data. Cite facts and prior agent arguments where relevant and build on them with more precise statistics and data.]
+
+Position:  
+[Buy / Short / Wait]
+
+Asset:  
+NVIDIA
+
+Projected Percentage Change:  
+[+/-X.X%]
+
+Time Horizon:  
+[X hours]
+
+Confidence:  
+[0.00 to 1.00]
+
+---
+
+### Do NOT:
+
+- Mention any asset other than NVIDIA.
+- Invent numbers, events, or claims not found in your data or the debate.
+- Copy or restate arguments verbatim without refinement.
+- Defer decision-making or remain undecided.
+- Deviate from the required output format.
+
+---
+
+
+"""
 
         # Initialize the parent DebateAgent
         super().__init__(

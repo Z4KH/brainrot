@@ -2,6 +2,7 @@
 This module is used to create and interface with a cluster of agents.
 """
 
+import numpy as np
 from debate.debate_agent import DebateAgent
 
 class Cluster:
@@ -11,12 +12,13 @@ class Cluster:
     """
     # The diversity threshold for the cluster to debate if there is only one
     # dynamic agent and several static agents.
-    DIVERSITY_THRESHOLD = 0.8
+    DIVERSITY_THRESHOLD = 0.25
 
-    def __init__(self, cluster_name: str, debate_agents: list[DebateAgent], prompts):
+    def __init__(self, cluster_name: str, debate_agents: list[DebateAgent], prompts, util):
         self.cluster_name = cluster_name
         self.debate_agents = debate_agents
         self.prompts = prompts
+        self.util = util
         self.debate_rounds = [{}]
         self.debate_completed = False
         
@@ -128,7 +130,7 @@ class Cluster:
         head_agent.initialize(opening_prompt)
         return head_agent
     
-    def get_diversity_score(self, util, additional_agents: list[DebateAgent] = []):
+    def get_diversity_score(self, additional_agents: list[DebateAgent] = []):
         """
         Get the diversity score of the cluster based on the diversity of the opening statements.
         Diversity score is computed as (1 - average_pairwise_similarity)
@@ -142,7 +144,7 @@ class Cluster:
         similarity_matrix = [[0 for _ in agents] for _ in agents]
         for i in range(len(agents)):
             for j in range(i+1, len(agents)):
-                similarity_matrix[i][j] = util.get_similarity(agents[i].opening_statement, agents[j].opening_statement)
+                similarity_matrix[i][j] = self.util.get_similarity(agents[i].opening_statement, agents[j].opening_statement)
                 similarity_matrix[j][i] = similarity_matrix[i][j]
         # Sum upper triangle off-diagonal elements
         sum_similarity = 0
@@ -188,7 +190,7 @@ if __name__ == "__main__":
         agent.initialize(opening_prompt)
         
     # Create cluster
-    cluster = Cluster(cluster_name="Cluster1", debate_agents=agents, prompts=prompts)
+    cluster = Cluster(cluster_name="Cluster1", debate_agents=agents, prompts=prompts, util=util)
     cluster.debate(num_rounds=2)
     print(f"Debate complete:\n{cluster.format_debate()}\n\n")
     
