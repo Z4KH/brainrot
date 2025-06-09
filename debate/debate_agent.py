@@ -11,6 +11,11 @@ import json
 class DebateAgent:
     """
     A Debate Agent is a base agent that participates in a debate.
+    
+    - Leaf Agent: A layer 0 agent that represents only its data
+    - Head Agent: A 
+    - Final Agent: 
+    - Static Agent:
     """
     
     class Role(Enum):
