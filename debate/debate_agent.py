@@ -3,6 +3,7 @@ This file contains the code for a Debate Agent.
 """
 
 from reasoning.llm import LLM
+from enum import Enum
 import re
 import json
 
@@ -11,9 +12,18 @@ class DebateAgent:
     """
     A Debate Agent is a base agent that participates in a debate.
     """
+    
+    class Role(Enum):
+        """
+        The role of the agent in the debate.
+        """
+        LEAF = "leaf" # Initial dynamic agent with limited data
+        HEAD = "head" # Agent that represents a cluster
+        STATIC = "static" # Agent with static personality and all data
+        FINAL = "final" # Final decision agent that represents the full debate
 
     def __init__(self, agent_name: str, category: str, data: list[dict], system_prompt: str, llm: LLM,
-                 role: str="leaf", represented_agents: list=[], represented_debate_rounds: list[dict]=[]):
+                 role: Role=Role.LEAF, represented_agents: list=[], represented_debate_rounds: list[dict]=[]):
         self.agent_name = agent_name
         self.category = category
         self.data = data

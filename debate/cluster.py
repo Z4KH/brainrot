@@ -9,12 +9,16 @@ class Cluster:
     Represents a group of DebateAgents who will internally debate.
     Tracks all round outputs and supports head agent synthesis later.
     """
+    # The diversity threshold for the cluster to debate if there is only one
+    # dynamic agent and several static agents.
+    DIVERSITY_THRESHOLD = 0.8
 
     def __init__(self, cluster_name: str, debate_agents: list[DebateAgent], prompts):
         self.cluster_name = cluster_name
         self.debate_agents = debate_agents
         self.prompts = prompts
         self.debate_rounds = [{}]
+        self.debate_completed = False
         
         # Add opening statements to debate_rounds
         for agent in self.debate_agents:
@@ -33,16 +37,28 @@ class Cluster:
     def debate(self, num_rounds: int):
         """
         Conduct a debate for a given number of rounds.
+        
+        The debate will only be conducted if there are multiple dynamic agents
+        or if the diversity of the cluster is very high. If there is only
+        one total agent, the debate will not be conducted.
         """
-        if len(self.debate_agents) == 1:
-            return # No debate needed if there is only one agent
+        # If there is only one dynamic agent, we never run the debate
+        if len(self.debate_agents) < 2:
+            return
+        
+        # Additionally only conduct debate if either there are multiple dynamic agents
+        # or if the diversity of the cluster is very high
+        if len(self.get_dynamic_agents()) < 2 and self.get_diversity_score() < self.DIVERSITY_THRESHOLD:
+            return
+        
+        # Conduct the debate
         for round_number in range(1, num_rounds + 1):
             self.debate_rounds.append({})
             for agent in self.debate_agents:
                 prompt = self.prompts.format_leaf_agent_debate_prompt(round_number, self.format_debate(round_number))
                 response = agent.generate_debate_response(prompt)
                 self.debate_rounds[round_number][agent.agent_name] = response
-                
+        self.debate_completed = True
             
     def format_debate(self, round_number: int = None):
         """
@@ -69,31 +85,24 @@ class Cluster:
 
     def initialize_head_agent(self, final_agent: bool = False):
         """
-        Initialize the head agent.
+        Initialize the head agent. The head agent is the agent that represents
+        the cluster. It is created as a new agent if there are multiple dynamic
+        agents or if the diversity of the cluster is very high. If neither
+        of these conditions are met, the head agent is the single dynamic agent
+        in the cluster.
         
         :param final_agent: Whether this is the final head agent.
         :return: The head agent.
         """
         # Filter out static agents - they should never become head agents
-        non_static_agents = [agent for agent in self.debate_agents if getattr(agent, 'role', 'leaf') != 'static']
-        static_agents = [agent for agent in self.debate_agents if getattr(agent, 'role', 'leaf') == 'static']
+        dynamic_agents = self.get_dynamic_agents()
+        static_agents = self.get_static_agents()
         
-        if static_agents:
-            print(f"   └─ Excluding {len(static_agents)} static agents from head agent selection: {[a.agent_name for a in static_agents]}")
+        # If no debate has been conducted, return the first dynamic agent
+        if not self.debate_completed:
+            return dynamic_agents[0]
         
-        if len(non_static_agents) == 1:
-            print(f"   └─ Using single non-static agent as head: {non_static_agents[0].agent_name}")
-            return non_static_agents[0] # Return the single non-static agent
-        elif len(non_static_agents) == 0:
-            print(f"   └─ Only static agents present, creating synthetic head agent from debate synthesis")
-            # If only static agents remain, create a synthetic head agent based on all agents
-            # but don't return a static agent directly
-            pass  # Fall through to create new head agent
-        else:
-            print(f"   └─ Creating synthetic head agent from {len(non_static_agents)} non-static agents")
-
-            
-        # If multiple non-static agents or only static agents, create new head agent
+        # Otherwise, create a new head agent to represent the cluster
         if final_agent:
             head_agent_name = 'FinalDecisionAgent'
         else:
@@ -107,12 +116,12 @@ class Cluster:
             system_prompt = self.prompts.format_head_agent_system_prompt(
                 head_agent_name, self.cluster_name, data, self.format_debate(), represented_agent_names)
             opening_prompt = self.prompts.format_head_agent_opening_prompt()
-            role = 'head'
+            role = DebateAgent.Role.HEAD
         else:
             system_prompt = self.prompts.format_final_head_agent_system_prompt(
                 head_agent_name, self.cluster_name, data, self.format_debate(), represented_agent_names)
             opening_prompt = self.prompts.format_final_agent_decision_prompt()
-            role = 'final'
+            role = DebateAgent.Role.FINAL
         head_agent = DebateAgent(agent_name=head_agent_name, category=self.cluster_name, data=data, 
                                  system_prompt=system_prompt, llm=self.debate_agents[0].llm, role=role, represented_agents=self.debate_agents,
                                  represented_debate_rounds=self.debate_rounds)
@@ -142,6 +151,18 @@ class Cluster:
                 sum_similarity += similarity_matrix[i][j]
         average_similarity = sum_similarity / (len(agents) * (len(agents) - 1) / 2)
         return 1 - average_similarity
+    
+    def get_static_agents(self):
+        """
+        Get the static agents in the cluster.
+        """
+        return [agent for agent in self.debate_agents if agent.role == DebateAgent.Role.STATIC]
+    
+    def get_dynamic_agents(self):
+        """
+        Get the dynamic agents in the cluster.
+        """
+        return [agent for agent in self.debate_agents if agent.role != DebateAgent.Role.STATIC]
 
 if __name__ == "__main__":
     # Test Cluster functionality
@@ -158,7 +179,7 @@ if __name__ == "__main__":
     for category in ['NVIDIA_News', 'NVIDIA_Earnings', 'NVIDIA_Earnings_Call', 'NVIDIA_Earnings_Call_Transcript']:
         agent_name = f'{category}_Agent'
         leafSystem = prompts.format_leaf_agent_system_prompt(agent_name, category, test_data)
-        agent = DebateAgent(agent_name=agent_name, category=category, data=test_data, system_prompt=leafSystem, llm=llm, role='leaf')
+        agent = DebateAgent(agent_name=agent_name, category=category, data=test_data, system_prompt=leafSystem, llm=llm, role=DebateAgent.Role.LEAF)
         agents.append(agent)
     
     # Create opening statements
