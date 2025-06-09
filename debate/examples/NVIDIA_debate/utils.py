@@ -56,7 +56,7 @@ class Utils:
         # 2. Directional signed confidence
         def get_signed_confidence(parsed):
             position = parsed.get("position", "").strip().lower()
-            confidence = parsed.get("confidence", 0.0)
+            confidence = float(parsed.get("confidence", 0.0))
             if position == "buy":
                 return confidence
             elif position == "short":
@@ -91,98 +91,78 @@ class Utils:
                 - time_horizon (float) in hours
                 - confidence (float) in [0, 1]
         """
-        output = {
-            "justification": None,
-            "position": None,
-            "asset": None,
-            "projected_change": None,
-            "time_horizon": None,
-            "confidence": None
-        }
+        # Define possible keys
+        keys = ["justification:", "position:", "asset:", "projected percentage change:", "time horizon:", "confidence:"]
+        pattern = "|".join(map(re.escape, keys))
 
-        # Normalize line endings
-        lines = raw_output.strip().replace("\r\n", "\n").split("\n")
+        # Split the text while keeping the keys
+        parts = re.split(f"({pattern})", raw_output.lower())
 
-        # Join lines into chunks between headers
-        current_key = None
-        buffer = []
-        mapping = {
-            "justification": "justification",
-            "position": "position",
-            "asset": "asset",
-            "projected percentage change": "projected_change",
-            "time horizon": "time_horizon",
-            "confidence": "confidence"
-        }
+        result = {}
+        key = None
+        for part in parts:
+            part = part.strip()
+            if not part:
+                continue
+            if part in keys:
+                key = part.rstrip(":")
+            elif key:
+                # Collect multiline value until the next key or end
+                result[key] = part
+                key = None
 
-        def flush():
-            if current_key and buffer:
-                text = "\n".join(buffer).strip()
-                output[current_key] = text
-            buffer.clear()
+        return result
 
-        for line in lines:
-            stripped = line.strip().lower().rstrip(":")
-            if stripped in mapping:
-                flush()
-                current_key = mapping[stripped]
-            elif current_key:
-                buffer.append(line)
 
-        flush()
-
-        # Postprocess types
-        try:
-            if output["projected_change"]:
-                match = re.search(r"([-+]?\d*\.?\d+)", output["projected_change"])
-                if match:
-                    output["projected_change"] = float(match.group(1))
-        except Exception:
-            output["projected_change"] = None
-
-        try:
-            if output["time_horizon"]:
-                match = re.search(r"(\d*\.?\d+)", output["time_horizon"])
-                if match:
-                    output["time_horizon"] = float(match.group(1))
-        except Exception:
-            output["time_horizon"] = None
-
-        try:
-            if output["confidence"]:
-                match = re.search(r"(\d*\.?\d+)", output["confidence"])
-                if match:
-                    output["confidence"] = float(match.group(1))
-        except Exception:
-            output["confidence"] = None
-
-        return output
 
 
 if __name__ == "__main__":
     utils = Utils()
-    example = """
-    Justification:  
-    NVDA's recent earnings beat estimates and AI GPU demand is surging. Short-term upside is highly probable. 
+    
+    # Test case 1: Original format
+    example1 = """
+    Justification: My initial assessment (Round 0) highlighted a major hedge fund increasing its NVDA position by 20% (Substack, low reliability) and generally bullish institutional sentiment (Wall Street Journal, low reliability).  Rounds 1 and 2 introduced substantial conflicting information.  While several agents highlight positive short-term momentum (strong Q4 revenue, new AI chip architecture, new partnerships),  `REGULATION_Agent_0` consistently presents a strong counterargument: potential regulatory scrutiny from high-reliability sources (Barron's and Financial Times). This credible risk of negative regulatory impact outweighs the less reliable positive signals.  The numerous "Buy" recommendations often rely on medium-to-low reliability sources and lack detailed short-term price impact analysis. The consensus has shifted towards "Wait" in Rounds 1 and 2, largely due to the weight given to the high-reliability regulatory concerns.  Therefore, a cautious "Wait" position remains justified.  The upcoming earnings announcement (EARNINGS_ANNOUNCEMENT_Agent_0) adds further uncertainty, reinforcing a neutral stance.
 
-    Position:  
-    Buy
+    Position:  Wait
 
-    Asset:  
-    NVIDIA
+    Asset:  NVIDIA
 
     Projected Percentage Change:  
-    +5.4%
+    +/-1.0%
 
     Time Horizon:  
     24 hours
 
     Confidence:  
-    0.87
+    0.55
     """
 
-    parsed = utils.parse_agent_output(example)
-    print(parsed)
+    # Test case 2: Same-line format
+    example2 = """
+    Justification: NVDA is a terrible company.
+    Position: Sell
+    Asset: NVIDIA
+    Projected Percentage Change: -4.2%
+    Time Horizon: 24 hours
+    Confidence: 0.92
+    """
+
+    # Test case 3: Mixed format with varying spacing
+    example3 = """
+    Justification:Some analysis here
+    Position:  Buy
+    Asset:NVIDIA
+    Projected Percentage Change: +2.5%
+    Time Horizon:48 hours
+    Confidence:0.75
+    """
+
+    print("Test 1 (Original format):")
+    print(utils.parse_agent_output(example1))
+    print("\nTest 2 (Same-line format):")
+    print(utils.parse_agent_output(example2))
+    print("\nTest 3 (Mixed format):")
+    print(utils.parse_agent_output(example3))
     
     # test get_similarity
     second_example = """
@@ -205,4 +185,4 @@ if __name__ == "__main__":
     0.92
     """
     
-    print(utils.get_similarity(example, second_example))
+    print(utils.get_similarity(example1, second_example))
