@@ -130,3 +130,13 @@ def compare_responses(response1, response2):
 class Prompts:
     format_leaf_agent_system_prompt(agent_name, category, data)
 ```
+
+
+## Static Agents
+- Each have all the data, but differring personalities
+- Every cluster must have at least one dynamic agent, but can have several static agents
+- Cluster only debates if the following cases are met:
+    - There are multiple agents
+    - There are multiple dynamic agents or the diversity of the cluster is high
+- Final head agent is either created or in the case when the cluster has not debated, just the first dynamic agent
+- replaced string literal for debate_agent role with an enum
