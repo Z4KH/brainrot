@@ -30,7 +30,7 @@ def main():
     debate.initialize()
     print("Debate initialized successfully")
     print("Running debate with 3 rounds and 1 hidden layer...")
-    debate.run_debate(num_rounds=3, num_hidden_layers=1)
+    debate.run_debate(num_rounds=3, num_hidden_layers=2)
     print("Debate completed!")
     
     time_end = time.time()

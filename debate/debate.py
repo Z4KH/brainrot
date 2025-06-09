@@ -107,7 +107,7 @@ class Debate:
                 clusters[0].add_agent(agent)
                 continue
             best_cluster = None
-            best_diversity_change = 0
+            best_diversity_change = -float('inf')
             for i, cluster in enumerate(clusters):
                 initial_diversity = cluster.get_diversity_score(self.util)
                 new_diversity = cluster.get_diversity_score(self.util, additional_agents=[agent])
