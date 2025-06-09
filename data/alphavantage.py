@@ -1,8 +1,10 @@
 import os, json, datetime, asyncio, requests, functools
+from dotenv import load_dotenv
 from newspaper import Article
 
-# API_KEY = os.getenv("AV_API_KEY")
-API_KEY = "31RDWIS4BVPVI89I"
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY_AV")
 TICKERS = "TSLA,NVDA,AAPL"            
 LIMIT = 50
 
