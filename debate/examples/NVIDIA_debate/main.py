@@ -30,7 +30,7 @@ def main():
     print(f"Initializing debate with {NUM_STATIC_AGENTS} static persona agents...")
     debate.initialize(num_static_agents=NUM_STATIC_AGENTS)
     print("Debate initialized successfully")
-    print("Running debate with 3 rounds and 1 hidden layer...")
+    print("Running debate with 3 rounds and 2 hidden layers...")
     debate.run_debate(num_rounds=3, num_hidden_layers=2)
     print("Debate completed!")
     
