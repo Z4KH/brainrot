@@ -30,9 +30,8 @@ def main():
     print(f"Initializing debate with {NUM_STATIC_AGENTS} static persona agents...")
     debate.initialize(num_static_agents=NUM_STATIC_AGENTS)
     print("Debate initialized successfully")
-    
     print("Running debate with 3 rounds and 1 hidden layer...")
-    debate.run_debate(num_rounds=3, num_hidden_layers=1)
+    debate.run_debate(num_rounds=3, num_hidden_layers=2)
     print("Debate completed!")
     
     time_end = time.time()
@@ -47,3 +46,12 @@ def main():
     
 if __name__ == "__main__":
     main()
+    
+    
+# Static vs Dynamic
+# Rounds Layers
+# When we add in static
+# Full debate vs one shot prompt, one cluster
+# How much data to give to different agents
+# Compare against existing debates
+# TODO fix categorization & integrate portfolio manager
