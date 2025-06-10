@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 # Set console encoding to UTF-8
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-from data.AAPL_news import data
+from data.TSLA_news import data
 from experiments.portfolio_tracker import PortfolioTracker
 from debate.debate import Debate
 from experiments.prompts import Prompts
