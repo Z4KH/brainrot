@@ -1,4 +1,4 @@
-[
+data =[
   {
     "source": "Yahoo",
     "date": "2025-05-07T22:50Z",
@@ -958,12 +958,6 @@
     "date": "2025-05-02T15:40Z",
     "reliability": "medium",
     "data": "HOG or TSLA: Which Is the Better Value Stock Right Now?\n\nHOG vs. TSLA: Which Stock Is the Better Value Option?"
-  },
-  {
-    "source": "Yahoo",
-    "date": "2025-04-23T12:09Z",
-    "reliability": "medium",
-    "data": "What to expect from Mag 7 company earnings in light of Trump tariff turmoil\n\nThe latest earnings season is now well underway, with Tesla and Alphabet releasing their latest results this week."
   },
   {
     "source": "Yahoo",

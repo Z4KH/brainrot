@@ -3,15 +3,16 @@ import json
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
+from experiments.config import STOCK_NAME, COMPANY_NAME
 
 INIT = True
 
 class PortfolioTracker:
     def __init__(self, initial_balance=1000000.00):
         """Initialize the portfolio tracker with an initial balance."""
-        self.portfolio_file = Path("reinforcement/data/portfolio.json")
-        self.performance_file = Path("reinforcement/data/performance.csv")
-        self.history_file = Path("reinforcement/data/trading_history.json")
+        self.portfolio_file = Path(f"experiments/results/{STOCK_NAME}/portfolio.json")
+        self.performance_file = Path(f"experiments/results/{STOCK_NAME}/performance.csv")
+        self.history_file = Path(f"experiments/results/{STOCK_NAME}/trading_history.json")
         self.portfolio_file.parent.mkdir(parents=True, exist_ok=True)
         
         

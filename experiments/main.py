@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 # Set console encoding to UTF-8
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-from experiments.data import data
+from data.NVDA_news import data
 from experiments.portfolio_tracker import PortfolioTracker
 from debate.debate import Debate
 from experiments.prompts import Prompts
@@ -89,7 +89,7 @@ def main():
         debate.initialize(num_static_agents=5)
         decision = debate.run_debate(num_rounds=NUM_ROUNDS, num_hidden_layers=NUM_LAYERS)
         debate_output = debate.get_debate()
-        with open(f"debates/{STOCK_NAME}/{date}.txt", "w") as f:
+        with open(f"experiments/results/{STOCK_NAME}/debates/{date}.txt", "w") as f:
             f.write(debate_output)
         
         # Pass the decision to the portfolio tracker

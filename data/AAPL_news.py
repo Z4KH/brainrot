@@ -1,4 +1,4 @@
-[
+data = [
   {
     "source": "Finnhub",
     "date": "2025-05-07T21:25Z",
