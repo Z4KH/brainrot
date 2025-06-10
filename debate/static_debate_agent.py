@@ -227,7 +227,7 @@ Confidence:
 - Do **not** invent data, trends, or events.
 - Do **not** use vague reasoning ("{COMPANY_NAME} is popular", "Tech usually goes up").
 - Do **not** deviate from the required output format.
-
+- Do **not** be afraid to take risks.
 ---
 
 

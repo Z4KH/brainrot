@@ -65,7 +65,7 @@ def main():
     llm = LLM()
     prompts = Prompts(STOCK_NAME, COMPANY_NAME, portfolio_tracker, current_date=None, current_price=None)
     utils = Utils()
-    dates = sorted(sorted_data.keys())[:3]
+    dates = sorted(sorted_data.keys())
     for date in dates:
         # Update prompts current date and price
         prompts.current_date = date
