@@ -1,15 +1,14 @@
-import os, requests, datetime as dt, json, argparse, time
+import os, requests, datetime as dt, json, time
 from pathlib import Path
 from collections import defaultdict
 from dotenv import load_dotenv
-from reliability import reliability_score     
+from reliability import reliability_score
 
 load_dotenv()
 FINNHUB_TOKEN = os.getenv("FINNHUB_TOKEN") or ""
 TICKERS       = ["TSLA", "NVDA", "AAPL"]
-OUTFILE       = Path("finnhub_news.json")
 BASE_URL      = "https://finnhub.io/api/v1/company-news"
-MAX_PER_CALL  = 50          
+MAX_PER_CALL  = 50          # Finnhub max per request
 
 def iso_zulu(ts_ms: int) -> str:
     return dt.datetime.utcfromtimestamp(ts_ms).strftime("%Y-%m-%dT%H:%MZ")
@@ -31,7 +30,6 @@ def to_entry(item: dict):
     }
 
 def fetch_symbol(sym: str, start: dt.date, end: dt.date):
-    """Fetch news for *sym* between two date objects (inclusive)."""
     r = requests.get(
         BASE_URL,
         params={
@@ -52,29 +50,26 @@ def month_bounds(year: int, month: int):
     return first, last
 
 def grab_month(sym: str, first: dt.date, last: dt.date):
-    """Yield all entries for *sym* within the month, using 7-day pages."""
     day1 = first
     while day1 <= last:
         day7 = min(day1 + dt.timedelta(days=6), last)
         batch = fetch_symbol(sym, day1, day7)
-        if not batch:                    
+        if not batch:
             break
         for item in batch:
             yield item
-        if len(batch) < MAX_PER_CALL:     
-            day1 = day7 + dt.timedelta(days=1)
-        else:                             
-            day1 = day7 + dt.timedelta(days=1)
-        time.sleep(0.35)                
+        day1 = day7 + dt.timedelta(days=1)
+        time.sleep(0.35)  
 
 def main(year: int, month: int):
     if not FINNHUB_TOKEN:
-        raise SystemExit("Set FINNHUB_TOKEN first.")
+        raise SystemExit("Set FINNHUB_TOKEN in your environment.")
 
     first, last = month_bounds(year, month)
     print(f"Pulling {first} → {last}")
 
-    master, seen = [], set()
+    stories, seen = defaultdict(list), set() 
+
     for sym in TICKERS:
         for raw in grab_month(sym, first, last):
             key = (raw["id"], raw["source"])
@@ -83,24 +78,29 @@ def main(year: int, month: int):
             seen.add(key)
             entry = to_entry(raw)
             if entry:
-                master.append(entry)
+                stories[sym].append(entry)
 
-    with OUTFILE.open("w", encoding="utf-8") as f:
-        json.dump(master, f, indent=2, ensure_ascii=False)
-    print(f"Saved {len(master)} MED/HIGH stories to {OUTFILE}")
+    for sym, items in stories.items():
+        outfile = Path(f"{sym}_news.json")
+        with outfile.open("w", encoding="utf-8") as f:
+            json.dump(items, f, indent=2, ensure_ascii=False)
+        print(f"{sym}: saved {len(items)} MED/HIGH stories → {outfile}")
 
 if __name__ == "__main__":
-    import argparse, datetime as dt
     now = dt.date.today()
-    ap  = argparse.ArgumentParser()
-    ap.add_argument("--month", metavar="YYYY-MM", help="month to fetch (default prev)")
+    first_this = now.replace(day=1)
+    prev_last  = first_this - dt.timedelta(days=1)
+    default_y, default_m = prev_last.year, prev_last.month
+
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--month", metavar="YYYY-MM",
+                    help="month to fetch (default = previous month)")
     args = ap.parse_args()
 
     if args.month:
         y, m = map(int, args.month.split("-"))
-    else:                                 # previous calendar month
-        first_of_this = now.replace(day=1)
-        prev_last     = first_of_this - dt.timedelta(days=1)
-        y, m          = prev_last.year, prev_last.month
+    else:
+        y, m = default_y, default_m
 
     main(y, m)

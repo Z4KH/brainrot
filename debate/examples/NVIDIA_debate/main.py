@@ -11,6 +11,7 @@ from reasoning.llm import LLM
 
 import time
 
+NUM_STATIC_AGENTS = 3  # control how many famous investor personas to include
 
 def main():
     time_start = time.time()
@@ -26,11 +27,11 @@ def main():
     debate = Debate(debate_name="NVIDIA_TRADING_DEBATE", data=data, prompts=prompts, util=util, llm=llm)
     print("Debate instance created")
     
-    print("Initializing debate...")
-    debate.initialize()
+    print(f"Initializing debate with {NUM_STATIC_AGENTS} static persona agents...")
+    debate.initialize(num_static_agents=NUM_STATIC_AGENTS)
     print("Debate initialized successfully")
-    print("Running debate with 3 rounds and 1 hidden layer...")
-    debate.run_debate(num_rounds=3, num_hidden_layers=1)
+    print("Running debate with 3 rounds and 2 hidden layers...")
+    debate.run_debate(num_rounds=3, num_hidden_layers=2)
     print("Debate completed!")
     
     time_end = time.time()

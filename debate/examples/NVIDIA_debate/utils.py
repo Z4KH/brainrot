@@ -41,8 +41,8 @@ class Utils:
 
         Returns a float in [0, 1].
         """
-        alpha = 0.4  # Justification weight
-        beta = 0.6   # Directional confidence alignment weight
+        alpha = 0.25  # Justification weight
+        beta = 0.75   # Directional confidence alignment weight
 
         # Parse outputs
         parsed1 = self.parse_agent_output(agent1_output)
@@ -56,7 +56,7 @@ class Utils:
         # 2. Directional signed confidence
         def get_signed_confidence(parsed):
             position = parsed.get("position", "").strip().lower()
-            confidence = parsed.get("confidence", 0.0)
+            confidence = float(parsed.get("confidence", 0.0))
             if position == "buy":
                 return confidence
             elif position == "short":
@@ -91,79 +91,55 @@ class Utils:
                 - time_horizon (float) in hours
                 - confidence (float) in [0, 1]
         """
-        output = {
-            "justification": None,
-            "position": None,
-            "asset": None,
-            "projected_change": None,
-            "time_horizon": None,
-            "confidence": None
-        }
+        # Define possible keys
+        keys = ["justification:", "position:", "asset:", "projected percentage change:", "time horizon:", "confidence:"]
+        pattern = "|".join(map(re.escape, keys))
 
-        # Normalize line endings
-        lines = raw_output.strip().replace("\r\n", "\n").split("\n")
+        # Split the text while keeping the keys
+        parts = re.split(f"({pattern})", raw_output.lower())
 
-        # Join lines into chunks between headers
-        current_key = None
-        buffer = []
-        mapping = {
-            "justification": "justification",
-            "position": "position",
-            "asset": "asset",
-            "projected percentage change": "projected_change",
-            "time horizon": "time_horizon",
-            "confidence": "confidence"
-        }
+        result = {}
+        key = None
+        for part in parts:
+            part = part.strip()
+            if not part:
+                continue
+            if part in keys:
+                key = part.rstrip(":")
+            elif key:
+                # Collect multiline value until the next key or end
+                result[key] = part
+                key = None
 
-        def flush():
-            if current_key and buffer:
-                text = "\n".join(buffer).strip()
-                output[current_key] = text
-            buffer.clear()
+        return result
 
-        for line in lines:
-            stripped = line.strip().lower().rstrip(":")
-            if stripped in mapping:
-                flush()
-                current_key = mapping[stripped]
-            elif current_key:
-                buffer.append(line)
 
-        flush()
-
-        # Postprocess types
-        try:
-            if output["projected_change"]:
-                match = re.search(r"([-+]?\d*\.?\d+)", output["projected_change"])
-                if match:
-                    output["projected_change"] = float(match.group(1))
-        except Exception:
-            output["projected_change"] = None
-
-        try:
-            if output["time_horizon"]:
-                match = re.search(r"(\d*\.?\d+)", output["time_horizon"])
-                if match:
-                    output["time_horizon"] = float(match.group(1))
-        except Exception:
-            output["time_horizon"] = None
-
-        try:
-            if output["confidence"]:
-                match = re.search(r"(\d*\.?\d+)", output["confidence"])
-                if match:
-                    output["confidence"] = float(match.group(1))
-        except Exception:
-            output["confidence"] = None
-
-        return output
 
 
 if __name__ == "__main__":
     utils = Utils()
-    example = """
-    Justification:  
-    NVDA's recent earnings beat estimates and AI GPU demand is surging. Short-term upside is highly probable. 
+    
+    example1 = """
+Justification:  NVIDIA's Q4 revenue of $22.1 billion, a 265% year-over-year increase, and particularly the strong data center revenue of $18.4 billion driven by AI infrastructure demand, suggests significant positive momentum.  Furthermore, multiple sources report retail volume spikes following an unexpected earnings beat. While the reliability of some sources is low or medium, the high-reliability Bloomberg report strongly supports a bullish short-term outlook.
+
+    Position:  
+    Short
+
+    Asset:  
+    NVIDIA
+
+    Projected Percentage Change:  
+    +5.0%
+
+    Time Horizon:  
+    24 hours
+
+    Confidence:  
+    1
+    """
+    
+    example2 = """
+Justification:  NVIDIA's Q4 revenue surged 265% YoY to $22.1 billion, with data center revenue reaching $18.4 billion driven by AI infrastructure demand.  This massive growth, confirmed by multiple high-reliability sources (Bloomberg, Reuters, Wall Street Journal), points to a strong current market position and significant TAM expansion potential in the AI sector.  The announcement of a new AI chip architecture with 2x performance improvement (CNBC) further solidifies their technological leadership and competitive advantage.  Analyst consensus points to a price target of $1,100 (Seeking Alpha), suggesting significant upside potential. While competition exists (MarketWatch), the current data overwhelmingly demonstrates exceptional near-term growth.  High institutional buying (Investor's Business Daily) coupled with the expansion of manufacturing partnerships (Financial Times) suggests the company can meet the current, extraordinarily high demand.  Even concerns about high valuation (multiple sources) are outweighed by the extraordinary financial results and future growth potential in what CEO Huang calls "the new industrial revolution."
 
     Position:  
     Buy
@@ -172,37 +148,13 @@ if __name__ == "__main__":
     NVIDIA
 
     Projected Percentage Change:  
-    +5.4%
+    +5.0%
 
     Time Horizon:  
     24 hours
 
     Confidence:  
-    0.87
-    """
-
-    parsed = utils.parse_agent_output(example)
-    print(parsed)
-    
-    # test get_similarity
-    second_example = """
-    Justification:  
-    NVDA is a terrible company.
-
-    Position:  
-    Sell
-
-    Asset:  
-    NVIDIA
-
-    Projected Percentage Change:  
-    -4.2%
-    
-    Time Horizon:  
-    24 hours
-
-    Confidence:  
-    0.92
+    1
     """
     
-    print(utils.get_similarity(example, second_example))
+    print(utils.get_similarity(example1, example2))
