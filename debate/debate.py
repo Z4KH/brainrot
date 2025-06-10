@@ -4,6 +4,7 @@ This file contains the top level debate class.
 
 from debate.cluster import Cluster
 from debate.debate_agent import DebateAgent
+from debate.static_debate_agent import StaticDebateAgent
 from debate.data_utils import categorize_data, split_data_by_token_count
 
 MAX_TOKEN_COUNT = 1000
@@ -26,15 +27,17 @@ class Debate:
         self.initialized = False
         self.final_position = None
 
-    def initialize(self, max_token_count=MAX_TOKEN_COUNT):
+    def initialize(self, max_token_count=MAX_TOKEN_COUNT, num_static_agents=0):
         """
         Initialize the debate by creating a the first layer of debate agents.
         
         :param max_token_count: The maximum number of tokens allowed for a single debate agent.
+        :param num_static_agents: Number of static persona agents to include (0-5).
         """
         # Categorize data
         categories = categorize_data(self.data, self.prompts, self.llm)
-        # Form clusters
+        
+        # Form clusters from dynamic categorized agents
         for category in categories:
             cluster_name = f"{category}_Cluster"
             # Split data within each category by token count
@@ -48,10 +51,22 @@ class Debate:
                                                  system_prompt=system_prompt, llm=self.llm)
                 agent.initialize(opening_prompt=self.prompts.format_leaf_agent_opening_prompt())
                 debate_agents.append(agent)
-
-            # Create cluster
-            cluster = Cluster(cluster_name, debate_agents, self.prompts)
+            # Create the debate cluster for this category
+            cluster = Cluster(cluster_name, debate_agents, self.prompts, self.util)
             self.layers[0].append(cluster)
+        
+        # Create static agents if requested
+        if num_static_agents > 0 and self.layers[0]:
+            static_agents = StaticDebateAgent.create_static_agents(num_static_agents, self.data, self.llm)
+            for agent in static_agents:
+                agent.initialize(opening_prompt=self.prompts.format_leaf_agent_opening_prompt())
+        
+            # Distribute static agents across existing clusters in round-robin fashion
+            # All clusters will have at least one dynamic agent at this point
+            for i, static_agent in enumerate(static_agents):
+                target_cluster_idx = i % len(self.layers[0])
+                self.layers[0][target_cluster_idx].add_agent(static_agent)
+        
         self.initialized = True
     
     def run_debate(self, num_rounds, num_hidden_layers):
@@ -82,7 +97,7 @@ class Debate:
         final_cluster = self.layers[-1][0]
         final_cluster.debate(num_rounds)
         final_head_agent = final_cluster.initialize_head_agent(final_agent=True)
-        self.layers.append([Cluster(f'{self.debate_name}_FinalCluster', [final_head_agent], self.prompts)])
+        self.layers.append([Cluster(f'{self.debate_name}_FinalCluster', [final_head_agent], self.prompts, self.util)])
         self.final_position = self.util.parse_agent_output(final_head_agent.opening_statement)
         return self.final_position
         
@@ -101,7 +116,7 @@ class Debate:
         :param layer_index: The index of the current layer.
         :return: A list of the new clusters.
         """
-        clusters = [Cluster(f"{self.debate_name}_Cluster{i}_Layer{layer_index}", [], self.prompts) for i in range(c_next)]
+        clusters = [Cluster(f"{self.debate_name}_Cluster{i}_Layer{layer_index}", [], self.prompts, self.util) for i in range(c_next)]
         for agent in head_agents:
             if c_next == 1:
                 clusters[0].add_agent(agent)
@@ -109,13 +124,16 @@ class Debate:
             best_cluster = None
             best_diversity_change = -float('inf')
             for i, cluster in enumerate(clusters):
-                initial_diversity = cluster.get_diversity_score(self.util)
-                new_diversity = cluster.get_diversity_score(self.util, additional_agents=[agent])
+                initial_diversity = cluster.get_diversity_score()
+                new_diversity = cluster.get_diversity_score(additional_agents=[agent])
                 diversity_change = new_diversity - initial_diversity
                 if diversity_change > best_diversity_change:
                     best_diversity_change = diversity_change
                     best_cluster = i
             clusters[best_cluster].add_agent(agent)
+        
+        # Remove all clusters with no dynamic agents
+        clusters = [cluster for cluster in clusters if len(cluster.get_dynamic_agents()) > 0]
         return clusters
 
     def compute_cluster_counts(self, c0, cL, L):
