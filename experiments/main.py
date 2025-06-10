@@ -54,6 +54,7 @@ def main():
     for item in data:
         # Date is in iso format and includes the time as well
         date = item['date'].split('T')[0]
+        
         if date not in sorted_data:
             sorted_data[date] = []
         sorted_data[date].append(item)
@@ -67,6 +68,10 @@ def main():
     utils = Utils()
     dates = sorted(sorted_data.keys())
     for date in dates:
+        # Start from 2025-05-15
+        if date < "2025-05-15":
+            continue
+        
         # Update prompts current date and price
         prompts.current_date = date
         current_price = get_most_recent_close(f"experiments/prices.csv", STOCK_NAME, date)
