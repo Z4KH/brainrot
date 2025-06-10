@@ -4,6 +4,7 @@ This file contains static debate agents with predefined personas.
 
 from debate.debate_agent import DebateAgent
 from reasoning.llm import LLM
+from experiments.config import COMPANY_NAME
 import json
 
 
@@ -204,32 +205,28 @@ Based on your investment philosophy and the data provided, form your investment 
 Return your response using the format below **exactly**:
 
 Justification:  
-[Concise, data-grounded synthesis of the debate and data. Cite facts and prior agent arguments where relevant and build on them with more precise statistics and data.]
+[Your concise, data-grounded argument about {COMPANY_NAME}'s 1-day price trajectory. Reference specific facts, quotes, or other agents’ arguments.]
 
 Position:  
-[Buy / Short / Wait]
+[Buy / Sell / Wait]
 
-Asset:  
-NVIDIA
+Quantity:
+[Number of shares to buy or sell (0 if Wait) - must be a realistic integer based on current portfolio and price history]
 
 Projected Percentage Change:  
 [+/-X.X%]
-
-Time Horizon:  
-[X hours]
 
 Confidence:  
 [0.00 to 1.00]
 
 ---
 
-### Do NOT:
+### Strict Do-Nots:
 
-- Mention any asset other than NVIDIA.
-- Invent numbers, events, or claims not found in your data or the debate.
-- Copy or restate arguments verbatim without refinement.
-- Defer decision-making or remain undecided.
-- Deviate from the required output format.
+- Do **not** discuss any asset other than {COMPANY_NAME}.
+- Do **not** invent data, trends, or events.
+- Do **not** use vague reasoning ("{COMPANY_NAME} is popular", "Tech usually goes up").
+- Do **not** deviate from the required output format.
 
 ---
 

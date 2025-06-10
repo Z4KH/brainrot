@@ -50,6 +50,12 @@ class Prompts:
         """
         return LEAF_AGENT_DEBATE_ROUND_PROMPT.format(round_number=round_number, debate_history=debate_history)
     
+    def format_head_agent_debate_prompt(self, round_number: int, debate_history: str) -> str:
+        """
+        Format the head agent debate prompt.
+        """
+        return LEAF_AGENT_DEBATE_ROUND_PROMPT.format(round_number=round_number, debate_history=debate_history)
+    
     def format_head_agent_system_prompt(self, agent_name: str, cluster_name: str, 
                                         data: list[dict], debate_history: str, represented_agent_names: list[str]) -> str:
         """

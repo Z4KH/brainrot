@@ -4,14 +4,18 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
+INIT = True
+
 class PortfolioTracker:
     def __init__(self, initial_balance=1000000.00):
         """Initialize the portfolio tracker with an initial balance."""
         self.portfolio_file = Path("reinforcement/data/portfolio.json")
         self.performance_file = Path("reinforcement/data/performance.csv")
+        self.history_file = Path("reinforcement/data/trading_history.json")
         self.portfolio_file.parent.mkdir(parents=True, exist_ok=True)
         
-        if self.portfolio_file.exists():
+        
+        if self.portfolio_file.exists() and not INIT:
             with open(self.portfolio_file, 'r') as f:
                 data = json.load(f)
                 self.portfolio = data['portfolio']
@@ -21,11 +25,19 @@ class PortfolioTracker:
             self.balance = initial_balance
             self._save_portfolio()
         
-        if not self.performance_file.exists():
+        if not self.performance_file.exists() or INIT:
             self.performance_df = pd.DataFrame(columns=['date', 'net_worth'])
             self.performance_df.to_csv(self.performance_file, index=False)
         else:
             self.performance_df = pd.read_csv(self.performance_file)
+            
+        # Initialize or load trading history
+        if self.history_file.exists() and not INIT:
+            with open(self.history_file, 'r') as f:
+                self.trading_history = json.load(f)
+        else:
+            self.trading_history = []
+            self._save_history()
 
     def _save_portfolio(self):
         """Save the current portfolio state to file."""
@@ -34,27 +46,39 @@ class PortfolioTracker:
                 'portfolio': self.portfolio,
                 'balance': self.balance
             }, f, indent=2)
+            
+    def _save_history(self):
+        """Save the trading history to file."""
+        with open(self.history_file, 'w') as f:
+            json.dump(self.trading_history, f, indent=2)
 
-    def update_portfolio(self, agent_response, current_price, quantity):
+    def update_portfolio(self, asset, position, current_price, quantity, date):
         """
         Update portfolio based on agent's response.
         
         Args:
-            agent_response (dict): Agent's trading decision with format:
-                {
-                    'position': 'Buy'/'Sell'/'Wait',
-                    'asset': str,
-                    'projected_percentage_change': float,
-                    'time_horizon': int,
-                    'confidence': float
-                }
+            asset (str): Asset name
+            position (str): Position ('buy'/'sell'/'wait')
             current_price (float): Current price of the asset
             quantity (int): Number of shares to buy/sell
+            date (str): Date of the transaction
         """
-        position = agent_response['position'].lower()
-        asset = agent_response['asset']
+        
+        # Record the trading decision in history
+        decision_record = {
+            'timestamp': date,
+            'position': position,
+            'asset': asset,
+            'price': current_price,
+            'quantity': quantity,
+            'balance_before': self.balance,
+            'portfolio_before': self.portfolio.copy()
+        }
         
         if position == 'wait':
+            decision_record['action_taken'] = 'wait'
+            self.trading_history.append(decision_record)
+            self._save_history()
             return
             
         if position == 'buy':
@@ -72,6 +96,8 @@ class PortfolioTracker:
                     self.portfolio[asset]['quantity'] = total_quantity
                 
                 self.balance -= cost
+                decision_record['action_taken'] = 'buy'
+                decision_record['cost'] = cost
                     
         elif position == 'sell':
             if asset in self.portfolio:
@@ -80,13 +106,22 @@ class PortfolioTracker:
                     revenue = self.portfolio[asset]['quantity'] * current_price
                     self.balance += revenue
                     del self.portfolio[asset]
+                    decision_record['action_taken'] = 'sell_all'
+                    decision_record['revenue'] = revenue
                 else:
                     # Sell partial shares
                     revenue = quantity * current_price
                     self.balance += revenue
                     self.portfolio[asset]['quantity'] -= quantity
+                    decision_record['action_taken'] = 'sell_partial'
+                    decision_record['revenue'] = revenue
+        
+        decision_record['balance_after'] = self.balance
+        decision_record['portfolio_after'] = self.portfolio.copy()
+        self.trading_history.append(decision_record)
         
         self._save_portfolio()
+        self._save_history()
 
     def update_performance(self, timestamp, current_prices):
         """

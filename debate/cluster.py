@@ -57,7 +57,10 @@ class Cluster:
         for round_number in range(1, num_rounds + 1):
             self.debate_rounds.append({})
             for agent in self.debate_agents:
-                prompt = self.prompts.format_leaf_agent_debate_prompt(round_number, self.format_debate(round_number))
+                if agent.role == DebateAgent.Role.LEAF:
+                    prompt = self.prompts.format_leaf_agent_debate_prompt(round_number, self.format_debate(round_number))
+                else:
+                    prompt = self.prompts.format_head_agent_debate_prompt(round_number, self.format_debate(round_number))
                 response = agent.generate_debate_response(prompt)
                 self.debate_rounds[round_number][agent.agent_name] = response
         self.debate_completed = True
