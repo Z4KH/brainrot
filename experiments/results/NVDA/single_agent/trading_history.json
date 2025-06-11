@@ -1,0 +1,558 @@
+[
+  {
+    "timestamp": "2025-05-01",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 111.61000061035156,
+    "quantity": 895,
+    "balance_before": 1000000.0,
+    "portfolio_before": {},
+    "action_taken": "buy",
+    "cost": 99890.95054626465,
+    "balance_after": 900109.0494537354,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-02",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 114.5,
+    "quantity": 100,
+    "balance_before": 900109.0494537354,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 11450.0,
+    "balance_after": 888659.0494537354,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-03",
+    "position": "sell",
+    "asset": "NVIDIA",
+    "price": 114.5,
+    "quantity": 500,
+    "balance_before": 888659.0494537354,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 57250.0,
+    "balance_after": 945909.0494537354,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-04",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 114.5,
+    "quantity": 50,
+    "balance_before": 945909.0494537354,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 5725.0,
+    "balance_after": 940184.0494537354,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-05",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 113.81999969482422,
+    "quantity": 100,
+    "balance_before": 940184.0494537354,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 11381.999969482422,
+    "balance_after": 928802.0494842529,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-06",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 113.54000091552734,
+    "quantity": 100,
+    "balance_before": 928802.0494842529,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 11354.000091552734,
+    "balance_after": 917448.0493927002,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-07",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 117.05999755859376,
+    "quantity": 100,
+    "balance_before": 917448.0493927002,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 11705.999755859377,
+    "balance_after": 905742.0496368408,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-08",
+    "position": "sell",
+    "asset": "NVIDIA",
+    "price": 117.37000274658205,
+    "quantity": 200,
+    "balance_before": 905742.0496368408,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 23474.00054931641,
+    "balance_after": 929216.0501861572,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-09",
+    "position": "wait",
+    "asset": "NVIDIA",
+    "price": 116.6500015258789,
+    "quantity": 0,
+    "balance_before": 929216.0501861572,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-10",
+    "position": "wait",
+    "asset": "NVIDIA",
+    "price": 116.6500015258789,
+    "quantity": 0,
+    "balance_before": 929216.0501861572,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-11",
+    "position": "sell",
+    "asset": "NVIDIA",
+    "price": 116.6500015258789,
+    "quantity": 100,
+    "balance_before": 929216.0501861572,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 11665.00015258789,
+    "balance_after": 940881.0503387451,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-12",
+    "position": "sell",
+    "asset": "NVIDIA",
+    "price": 123.0,
+    "quantity": 273,
+    "balance_before": 940881.0503387451,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 33579.0,
+    "balance_after": 974460.0503387451,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-13",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 129.92999267578125,
+    "quantity": 100,
+    "balance_before": 974460.0503387451,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 12992.999267578125,
+    "balance_after": 961467.051071167,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-14",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 135.33999633789062,
+    "quantity": 100,
+    "balance_before": 961467.051071167,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 13533.999633789062,
+    "balance_after": 947933.0514373779,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-16",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 135.39999389648438,
+    "quantity": 100,
+    "balance_before": 947933.0514373779,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 13539.999389648438,
+    "balance_after": 934393.0520477295,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-17",
+    "position": "sell",
+    "asset": "NVIDIA",
+    "price": 135.39999389648438,
+    "quantity": 286,
+    "balance_before": 934393.0520477295,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 38724.39825439453,
+    "balance_after": 973117.450302124,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-18",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 135.39999389648438,
+    "quantity": 100,
+    "balance_before": 973117.450302124,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 13539.999389648438,
+    "balance_after": 959577.4509124756,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-19",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 135.57000732421875,
+    "quantity": 100,
+    "balance_before": 959577.4509124756,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 13557.000732421875,
+    "balance_after": 946020.4501800537,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-20",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 134.3800048828125,
+    "quantity": 100,
+    "balance_before": 946020.4501800537,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "buy",
+    "cost": 13438.00048828125,
+    "balance_after": 932582.4496917725,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-21",
+    "position": "sell",
+    "asset": "NVIDIA",
+    "price": 131.8000030517578,
+    "quantity": 586,
+    "balance_before": 932582.4496917725,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 129.6044444372424,
+        "quantity": 586
+      }
+    },
+    "action_taken": "sell_all",
+    "revenue": 77234.80178833008,
+    "balance_after": 1009817.2514801025,
+    "portfolio_after": {}
+  },
+  {
+    "timestamp": "2025-05-25",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 131.2899932861328,
+    "quantity": 7000,
+    "balance_before": 1009817.2514801025,
+    "portfolio_before": {},
+    "action_taken": "buy",
+    "cost": 919029.9530029297,
+    "balance_after": 90787.29847717285,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 131.2899932861328,
+        "quantity": 3500
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-26",
+    "position": "wait",
+    "asset": "NVIDIA",
+    "price": 131.2899932861328,
+    "quantity": 0,
+    "balance_before": 90787.29847717285,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 131.2899932861328,
+        "quantity": 3500
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-27",
+    "position": "wait",
+    "asset": "NVIDIA",
+    "price": 135.5,
+    "quantity": 0,
+    "balance_before": 90787.29847717285,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 131.2899932861328,
+        "quantity": 3500
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-28",
+    "position": "wait",
+    "asset": "NVIDIA",
+    "price": 134.80999755859375,
+    "quantity": 0,
+    "balance_before": 90787.29847717285,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 131.2899932861328,
+        "quantity": 3500
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-29",
+    "position": "buy",
+    "asset": "NVIDIA",
+    "price": 139.19000244140625,
+    "quantity": 1000,
+    "balance_before": 90787.29847717285,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 131.2899932861328,
+        "quantity": 3500
+      }
+    },
+    "balance_after": 90787.29847717285,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 131.2899932861328,
+        "quantity": 3500
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-30",
+    "position": "wait",
+    "asset": "NVIDIA",
+    "price": 135.1300048828125,
+    "quantity": 0,
+    "balance_before": 90787.29847717285,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 131.2899932861328,
+        "quantity": 3500
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-31",
+    "position": "sell",
+    "asset": "NVIDIA",
+    "price": 135.1300048828125,
+    "quantity": 3500,
+    "balance_before": 90787.29847717285,
+    "portfolio_before": {
+      "NVIDIA": {
+        "price": 131.2899932861328,
+        "quantity": 3500
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 472955.01708984375,
+    "balance_after": 563742.3155670166,
+    "portfolio_after": {
+      "NVIDIA": {
+        "price": 131.2899932861328,
+        "quantity": 3500
+      }
+    }
+  }
+]

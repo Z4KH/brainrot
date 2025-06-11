@@ -1,0 +1,642 @@
+[
+  {
+    "timestamp": "2025-05-01",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 280.5199890136719,
+    "quantity": 1000,
+    "balance_before": 1000000.0,
+    "portfolio_before": {},
+    "balance_after": 1000000.0,
+    "portfolio_after": {}
+  },
+  {
+    "timestamp": "2025-05-02",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 287.2099914550781,
+    "quantity": 346,
+    "balance_before": 1000000.0,
+    "portfolio_before": {},
+    "action_taken": "buy",
+    "cost": 99374.65704345703,
+    "balance_after": 900625.342956543,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-03",
+    "position": "wait",
+    "asset": "Tesla",
+    "price": 287.2099914550781,
+    "quantity": 0,
+    "balance_before": 900625.342956543,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-04",
+    "position": "wait",
+    "asset": "Tesla",
+    "price": 287.2099914550781,
+    "quantity": 0,
+    "balance_before": 900625.342956543,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-05",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 280.260009765625,
+    "quantity": 173,
+    "balance_before": 900625.342956543,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 48484.981689453125,
+    "balance_after": 949110.3246459961,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-06",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 275.3500061035156,
+    "quantity": 100,
+    "balance_before": 949110.3246459961,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 27535.000610351562,
+    "balance_after": 976645.3252563477,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-07",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 276.2200012207031,
+    "quantity": 30,
+    "balance_before": 976645.3252563477,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 8286.600036621094,
+    "balance_after": 984931.9252929688,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-08",
+    "position": "wait",
+    "asset": "Tesla",
+    "price": 284.82000732421875,
+    "quantity": 0,
+    "balance_before": 984931.9252929688,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-09",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 298.260009765625,
+    "quantity": 100,
+    "balance_before": 984931.9252929688,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 29826.0009765625,
+    "balance_after": 955105.9243164062,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-10",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 298.260009765625,
+    "quantity": 10,
+    "balance_before": 955105.9243164062,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 2982.60009765625,
+    "balance_after": 952123.32421875,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-11",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 298.260009765625,
+    "quantity": 50,
+    "balance_before": 952123.32421875,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 14913.00048828125,
+    "balance_after": 937210.3237304688,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-12",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 318.3800048828125,
+    "quantity": 100,
+    "balance_before": 937210.3237304688,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 31838.00048828125,
+    "balance_after": 905372.3232421875,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-13",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 334.07000732421875,
+    "quantity": 100,
+    "balance_before": 905372.3232421875,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 33407.000732421875,
+    "balance_after": 871965.3225097656,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-14",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 347.67999267578125,
+    "quantity": 100,
+    "balance_before": 871965.3225097656,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 34767.999267578125,
+    "balance_after": 837197.3232421875,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-15",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 342.82000732421875,
+    "quantity": 200,
+    "balance_before": 837197.3232421875,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 68564.00146484375,
+    "balance_after": 905761.3247070312,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-16",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 349.9800109863281,
+    "quantity": 100,
+    "balance_before": 905761.3247070312,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 34998.00109863281,
+    "balance_after": 870763.3236083984,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-17",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 349.9800109863281,
+    "quantity": 100,
+    "balance_before": 870763.3236083984,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 34998.00109863281,
+    "balance_after": 835765.3225097656,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-18",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 349.9800109863281,
+    "quantity": 100,
+    "balance_before": 835765.3225097656,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 34998.00109863281,
+    "balance_after": 870763.3236083984,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-19",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 342.0899963378906,
+    "quantity": 200,
+    "balance_before": 870763.3236083984,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 68417.99926757812,
+    "balance_after": 939181.3228759766,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-20",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 343.82000732421875,
+    "quantity": 100,
+    "balance_before": 939181.3228759766,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 34382.000732421875,
+    "balance_after": 973563.3236083984,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-21",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 334.6199951171875,
+    "quantity": 50,
+    "balance_before": 973563.3236083984,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 16730.999755859375,
+    "balance_after": 990294.3233642578,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-22",
+    "position": "wait",
+    "asset": "Tesla",
+    "price": 341.0400085449219,
+    "quantity": 0,
+    "balance_before": 990294.3233642578,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-23",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 339.3399963378906,
+    "quantity": 20,
+    "balance_before": 990294.3233642578,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 6786.7999267578125,
+    "balance_after": 997081.1232910156,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-24",
+    "position": "wait",
+    "asset": "Tesla",
+    "price": 339.3399963378906,
+    "quantity": 0,
+    "balance_before": 997081.1232910156,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-25",
+    "position": "wait",
+    "asset": "Tesla",
+    "price": 339.3399963378906,
+    "quantity": 0,
+    "balance_before": 997081.1232910156,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-26",
+    "position": "sell",
+    "asset": "Tesla",
+    "price": 339.3399963378906,
+    "quantity": 10,
+    "balance_before": 997081.1232910156,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 3393.3999633789062,
+    "balance_after": 1000474.5232543945,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-27",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 362.8900146484375,
+    "quantity": 10,
+    "balance_before": 1000474.5232543945,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 3628.900146484375,
+    "balance_after": 996845.6231079102,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-28",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 356.8999938964844,
+    "quantity": 10,
+    "balance_before": 996845.6231079102,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 3568.9999389648438,
+    "balance_after": 993276.6231689453,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-29",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 358.42999267578125,
+    "quantity": 10,
+    "balance_before": 993276.6231689453,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 3584.2999267578125,
+    "balance_after": 989692.3232421875,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-30",
+    "position": "buy",
+    "asset": "Tesla",
+    "price": 346.4599914550781,
+    "quantity": 100,
+    "balance_before": 989692.3232421875,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "buy",
+    "cost": 34645.99914550781,
+    "balance_after": 955046.3240966797,
+    "portfolio_after": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-31",
+    "position": "wait",
+    "asset": "Tesla",
+    "price": 346.4599914550781,
+    "quantity": 0,
+    "balance_before": 955046.3240966797,
+    "portfolio_before": {
+      "Tesla": {
+        "price": 346.6552854371763,
+        "quantity": 153
+      }
+    },
+    "action_taken": "wait"
+  }
+]

@@ -24,6 +24,7 @@ This file contains the code to interact with the LLM.
 MODEL = 'gemini-1.5-flash'
 from google.oauth2 import service_account
 import google.generativeai as genai
+from google.generativeai.types import GenerationConfig
 GEMINI = True
 TOGETHER = False
 GROQ = False
@@ -66,7 +67,7 @@ class LLM:
                 if GEMINI:
                     # Convert messages to Gemini format
                     prompt = self._convert_messages_to_gemini_format(messages)
-                    response = self.client.generate_content(prompt)
+                    response = self.client.generate_content(prompt, generation_config=GenerationConfig(temperature=0.0, top_p=0.0, top_k=1))
                     content = response.text
                 else:
                     # Together and Groq use the same format
@@ -81,7 +82,7 @@ class LLM:
                 if i == max_retries - 1:
                     raise e
                 time.sleep(60) # Likely rate limited -- wait 60 seconds and try again
-                with open("error.txt", "a") as f:
+                with open("error.txt", "a", encoding='utf-8') as f:
                     f.write(f"Error generating response: {e}\n")
                     f.write(f"Messages: {messages}\n")
                     f.write(f"Response: {response if 'response' in locals() else 'None'}\n")
