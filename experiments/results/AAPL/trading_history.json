@@ -1,0 +1,498 @@
+[
+  {
+    "timestamp": "2025-05-02",
+    "position": "buy",
+    "asset": "Apple",
+    "price": 205.08106994628903,
+    "quantity": 2000,
+    "balance_before": 1000000.0,
+    "portfolio_before": {},
+    "action_taken": "buy",
+    "cost": 410162.13989257807,
+    "balance_after": 589837.8601074219,
+    "portfolio_after": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-03",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 205.08106994628903,
+    "quantity": 1000,
+    "balance_before": 589837.8601074219,
+    "portfolio_before": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 205081.06994628903,
+    "balance_after": 794918.9300537109,
+    "portfolio_after": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-04",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 205.08106994628903,
+    "quantity": 400,
+    "balance_before": 794918.9300537109,
+    "portfolio_before": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 82032.42797851561,
+    "balance_after": 876951.3580322266,
+    "portfolio_after": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-05",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 198.6295318603516,
+    "quantity": 300,
+    "balance_before": 876951.3580322266,
+    "portfolio_before": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 59588.859558105476,
+    "balance_after": 936540.217590332,
+    "portfolio_after": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-06",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 198.25001525878903,
+    "quantity": 150,
+    "balance_before": 936540.217590332,
+    "portfolio_before": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 29737.502288818356,
+    "balance_after": 966277.7198791504,
+    "portfolio_after": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-07",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 195.99298095703125,
+    "quantity": 50,
+    "balance_before": 966277.7198791504,
+    "portfolio_before": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 9799.649047851562,
+    "balance_after": 976077.368927002,
+    "portfolio_after": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-08",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 197.2313690185547,
+    "quantity": 50,
+    "balance_before": 976077.368927002,
+    "portfolio_before": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 9861.568450927734,
+    "balance_after": 985938.9373779297,
+    "portfolio_after": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-09",
+    "position": "wait",
+    "asset": "Apple",
+    "price": 198.2700042724609,
+    "quantity": 0,
+    "balance_before": 985938.9373779297,
+    "portfolio_before": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-10",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 198.2700042724609,
+    "quantity": 25,
+    "balance_before": 985938.9373779297,
+    "portfolio_before": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 4956.7501068115225,
+    "balance_after": 990895.6874847412,
+    "portfolio_after": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-11",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 198.2700042724609,
+    "quantity": 25,
+    "balance_before": 990895.6874847412,
+    "portfolio_before": {
+      "Apple": {
+        "price": 205.08106994628903,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_all",
+    "revenue": 4956.7501068115225,
+    "balance_after": 995852.4375915527,
+    "portfolio_after": {}
+  },
+  {
+    "timestamp": "2025-05-12",
+    "position": "wait",
+    "asset": "Apple",
+    "price": 210.7899932861328,
+    "quantity": 0,
+    "balance_before": 995852.4375915527,
+    "portfolio_before": {},
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-13",
+    "position": "wait",
+    "asset": "Apple",
+    "price": 212.92999267578125,
+    "quantity": 0,
+    "balance_before": 995852.4375915527,
+    "portfolio_before": {},
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-14",
+    "position": "wait",
+    "asset": "Apple",
+    "price": 212.3300018310547,
+    "quantity": 0,
+    "balance_before": 995852.4375915527,
+    "portfolio_before": {},
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-15",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 211.4499969482422,
+    "quantity": 2000,
+    "balance_before": 995852.4375915527,
+    "portfolio_before": {},
+    "balance_after": 995852.4375915527,
+    "portfolio_after": {}
+  },
+  {
+    "timestamp": "2025-05-16",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 211.25999450683597,
+    "quantity": 1000,
+    "balance_before": 995852.4375915527,
+    "portfolio_before": {},
+    "balance_after": 995852.4375915527,
+    "portfolio_after": {}
+  },
+  {
+    "timestamp": "2025-05-17",
+    "position": "buy",
+    "asset": "Apple",
+    "price": 211.25999450683597,
+    "quantity": 400,
+    "balance_before": 995852.4375915527,
+    "portfolio_before": {},
+    "action_taken": "buy",
+    "cost": 84503.99780273439,
+    "balance_after": 911348.4397888184,
+    "portfolio_after": {
+      "Apple": {
+        "price": 211.25999450683597,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-18",
+    "position": "wait",
+    "asset": "Apple",
+    "price": 211.25999450683597,
+    "quantity": 0,
+    "balance_before": 911348.4397888184,
+    "portfolio_before": {
+      "Apple": {
+        "price": 211.25999450683597,
+        "quantity": 25
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-19",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 208.77999877929688,
+    "quantity": 200,
+    "balance_before": 911348.4397888184,
+    "portfolio_before": {
+      "Apple": {
+        "price": 211.25999450683597,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 41755.999755859375,
+    "balance_after": 953104.4395446777,
+    "portfolio_after": {
+      "Apple": {
+        "price": 211.25999450683597,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-20",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 206.8600006103516,
+    "quantity": 100,
+    "balance_before": 953104.4395446777,
+    "portfolio_before": {
+      "Apple": {
+        "price": 211.25999450683597,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 20686.00006103516,
+    "balance_after": 973790.4396057129,
+    "portfolio_after": {
+      "Apple": {
+        "price": 211.25999450683597,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-21",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 202.08999633789065,
+    "quantity": 75,
+    "balance_before": 973790.4396057129,
+    "portfolio_before": {
+      "Apple": {
+        "price": 211.25999450683597,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 15156.749725341799,
+    "balance_after": 988947.1893310547,
+    "portfolio_after": {
+      "Apple": {
+        "price": 211.25999450683597,
+        "quantity": 25
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-23",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 195.2700042724609,
+    "quantity": 25,
+    "balance_before": 988947.1893310547,
+    "portfolio_before": {
+      "Apple": {
+        "price": 211.25999450683597,
+        "quantity": 25
+      }
+    },
+    "action_taken": "sell_all",
+    "revenue": 4881.7501068115225,
+    "balance_after": 993828.9394378662,
+    "portfolio_after": {}
+  },
+  {
+    "timestamp": "2025-05-24",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 195.2700042724609,
+    "quantity": 1000,
+    "balance_before": 993828.9394378662,
+    "portfolio_before": {},
+    "balance_after": 993828.9394378662,
+    "portfolio_after": {}
+  },
+  {
+    "timestamp": "2025-05-26",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 195.2700042724609,
+    "quantity": 5000,
+    "balance_before": 993828.9394378662,
+    "portfolio_before": {},
+    "balance_after": 993828.9394378662,
+    "portfolio_after": {}
+  },
+  {
+    "timestamp": "2025-05-27",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 200.2100067138672,
+    "quantity": 1000,
+    "balance_before": 993828.9394378662,
+    "portfolio_before": {},
+    "balance_after": 993828.9394378662,
+    "portfolio_after": {}
+  },
+  {
+    "timestamp": "2025-05-28",
+    "position": "buy",
+    "asset": "Apple",
+    "price": 200.4199981689453,
+    "quantity": 1000,
+    "balance_before": 993828.9394378662,
+    "portfolio_before": {},
+    "action_taken": "buy",
+    "cost": 200419.9981689453,
+    "balance_after": 793408.9412689209,
+    "portfolio_after": {
+      "Apple": {
+        "price": 200.4199981689453,
+        "quantity": 650
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-29",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 199.9499969482422,
+    "quantity": 150,
+    "balance_before": 793408.9412689209,
+    "portfolio_before": {
+      "Apple": {
+        "price": 200.4199981689453,
+        "quantity": 650
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 29992.499542236328,
+    "balance_after": 823401.4408111572,
+    "portfolio_after": {
+      "Apple": {
+        "price": 200.4199981689453,
+        "quantity": 650
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-30",
+    "position": "wait",
+    "asset": "Apple",
+    "price": 200.8500061035156,
+    "quantity": 0,
+    "balance_before": 823401.4408111572,
+    "portfolio_before": {
+      "Apple": {
+        "price": 200.4199981689453,
+        "quantity": 650
+      }
+    },
+    "action_taken": "wait"
+  },
+  {
+    "timestamp": "2025-05-31",
+    "position": "sell",
+    "asset": "Apple",
+    "price": 200.8500061035156,
+    "quantity": 200,
+    "balance_before": 823401.4408111572,
+    "portfolio_before": {
+      "Apple": {
+        "price": 200.4199981689453,
+        "quantity": 650
+      }
+    },
+    "action_taken": "sell_partial",
+    "revenue": 40170.00122070312,
+    "balance_after": 863571.4420318604,
+    "portfolio_after": {
+      "Apple": {
+        "price": 200.4199981689453,
+        "quantity": 650
+      }
+    }
+  }
+]
