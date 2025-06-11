@@ -3,19 +3,19 @@ data = [
     "source": "Finnhub",
     "date": "2025-05-07T21:25Z",
     "reliability": "medium",
-    "data": "Apple asks US appeals court to pause ruling in Epic Games case\n\nApple has asked a federalappeals court to temporarily pause key provisions in a U.S.judge’s ruling that ordered the tech company to immediately openits lucrative App Store to more competition. ..."
+    "data": "Apple asks US appeals court to pause ruling in Epic Games case\n\nApple has asked a federalappeals court to temporarily pause key provisions in a U.S.judge's ruling that ordered the tech company to immediately openits lucrative App Store to more competition. ..."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-07T21:25Z",
     "reliability": "medium",
-    "data": "AppLovin Stock Soars on Strong Earnings\n\nAppLovin  stock soared late Wednesday on strong first-quarter earnings results.  Earnings per share rose to $1.67 versus Wall Street’s consensus estimate of $1.44, according to FactSet, and up from 67 cents last year.  It was another quarter of exceeding expectations in AppLovin’s ad business."
+    "data": "AppLovin Stock Soars on Strong Earnings\n\nAppLovin  stock soared late Wednesday on strong first-quarter earnings results.  Earnings per share rose to $1.67 versus Wall Street's consensus estimate of $1.44, according to FactSet, and up from 67 cents last year.  It was another quarter of exceeding expectations in AppLovin's ad business."
   },
   {
     "source": "DowJones",
     "date": "2025-05-07T21:00Z",
     "reliability": "medium",
-    "data": "Apple’s Existential Crisis: Can It Build a Future Around AI?\n\nApple’s Existential Crisis: Can It Build a Future Around AI?"
+    "data": "Apple's Existential Crisis: Can It Build a Future Around AI?\n\nApple's Existential Crisis: Can It Build a Future Around AI?"
   },
   {
     "source": "Yahoo",
@@ -57,7 +57,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-07T19:26Z",
     "reliability": "medium",
-    "data": "Apple wants to move to AI-powered search — and Google stock sinks 8%\n\nApple Inc. (AAPL) is exploring how to incorporate AI-powered search engines on its devices — and it’s sending Google’s (GOOGL) share price tumbling."
+    "data": "Apple wants to move to AI-powered search — and Google stock sinks 8%\n\nApple Inc. (AAPL) is exploring how to incorporate AI-powered search engines on its devices — and it's sending Google's (GOOGL) share price tumbling."
   },
   {
     "source": "Yahoo",
@@ -93,7 +93,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-07T17:39Z",
     "reliability": "medium",
-    "data": "Apple Inc. (AAPL): App Store Revenue Growth Signals Strong Digital Demand\n\nWe recently published a list of 10 AI Stocks Getting Wall Street’s Attention Right Now. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks that are getting Wall Street’s attention right now. Investors in the artificial intelligence trade have been frantic ever since the […]"
+    "data": "Apple Inc. (AAPL): App Store Revenue Growth Signals Strong Digital Demand\n\nWe recently published a list of 10 AI Stocks Getting Wall Street's Attention Right Now. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks that are getting Wall Street's attention right now. Investors in the artificial intelligence trade have been frantic ever since the […]"
   },
   {
     "source": "Yahoo",
@@ -105,7 +105,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-07T17:10Z",
     "reliability": "medium",
-    "data": "Vietnam Says It Wants to Buy More From US as Trade Talks Begin\n\n(Bloomberg) -- Supply Lines is a daily newsletter that tracks global trade. Sign up here.Most Read from BloombergThe Battle Over the Fate of Detroit’s Renaissance CenterVail to Borrow Muni Debt to Ease Ski Resort Town Housing CrunchIceland Plans for a More Volcanic FutureIs Trump’s Plan to Reopen the Notorious Alcatraz Prison Realistic?Vietnam said Wednesday that it wants its companies to buy more high-value US imports in large volumes and at a stable pace, reaffirming its opening line on trade"
+    "data": "Vietnam Says It Wants to Buy More From US as Trade Talks Begin\n\n(Bloomberg) -- Supply Lines is a daily newsletter that tracks global trade. Sign up here.Most Read from BloombergThe Battle Over the Fate of Detroit's Renaissance CenterVail to Borrow Muni Debt to Ease Ski Resort Town Housing CrunchIceland Plans for a More Volcanic FutureIs Trump's Plan to Reopen the Notorious Alcatraz Prison Realistic?Vietnam said Wednesday that it wants its companies to buy more high-value US imports in large volumes and at a stable pace, reaffirming its opening line on trade"
   },
   {
     "source": "Yahoo",
@@ -117,7 +117,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-07T16:25Z",
     "reliability": "medium",
-    "data": "Alphabet’s stock is sliding on AI fears. Are investors overreacting?\n\nAlphabet’s stock is sliding on AI fears. Are investors overreacting?"
+    "data": "Alphabet's stock is sliding on AI fears. Are investors overreacting?\n\nAlphabet's stock is sliding on AI fears. Are investors overreacting?"
   },
   {
     "source": "MarketWatch",
@@ -153,7 +153,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-07T11:42Z",
     "reliability": "medium",
-    "data": "Apple cut share buybacks and its stock took the hit. Here’s what sellers are missing.\n\nApple cut share buybacks and its stock took the hit. Here’s what sellers are missing."
+    "data": "Apple cut share buybacks and its stock took the hit. Here's what sellers are missing.\n\nApple cut share buybacks and its stock took the hit. Here's what sellers are missing."
   },
   {
     "source": "SeekingAlpha",
@@ -201,7 +201,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-07T00:01Z",
     "reliability": "medium",
-    "data": "Berkshire’s Equity Portfolio Is Critical to Company. Who Will Run It After Buffett?\n\nBerkshire’s Equity Portfolio Is Critical to Company. Who Will Run It After Buffett?"
+    "data": "Berkshire's Equity Portfolio Is Critical to Company. Who Will Run It After Buffett?\n\nBerkshire's Equity Portfolio Is Critical to Company. Who Will Run It After Buffett?"
   },
   {
     "source": "SeekingAlpha",
@@ -219,7 +219,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-06T21:00Z",
     "reliability": "medium",
-    "data": "Jamf (NASDAQ:JAMF) Posts Better-Than-Expected Sales In Q1, Full-Year Outlook Exceeds Expectations\n\nApple device management company, Jamf (NASDAQ:JAMF) reported Q1 CY2025 results exceeding the market’s revenue expectations, with sales up 10.2% year on year to $167.6 million. Guidance for next quarter’s revenue was better than expected at $168.5 million at the midpoint, 1.5% above analysts’ estimates. Its non-GAAP profit of $0.22 per share was in line with analysts’ consensus estimates."
+    "data": "Jamf (NASDAQ:JAMF) Posts Better-Than-Expected Sales In Q1, Full-Year Outlook Exceeds Expectations\n\nApple device management company, Jamf (NASDAQ:JAMF) reported Q1 CY2025 results exceeding the market's revenue expectations, with sales up 10.2% year on year to $167.6 million. Guidance for next quarter's revenue was better than expected at $168.5 million at the midpoint, 1.5% above analysts' estimates. Its non-GAAP profit of $0.22 per share was in line with analysts' consensus estimates."
   },
   {
     "source": "Yahoo",
@@ -273,7 +273,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-06T16:49Z",
     "reliability": "medium",
-    "data": "Tech Researcher Says That Apple Inc (AAPL) Is Well-Positioned, Stock Is a Buy\n\nThe Trump administration’s tariffs will prove to be “pretty transitory,” while Apple’s (AAPL) new iPhones will have higher average sales prices than their predecessors, Ben Reitzes, a Managing Director and Head of Technology Research at Melius Research told CNBC recently. As a result of these points, Reitzes has a Buy rating on AAPL stock. How […]"
+    "data": "Tech Researcher Says That Apple Inc (AAPL) Is Well-Positioned, Stock Is a Buy\n\nThe Trump administration's tariffs will prove to be “pretty transitory,” while Apple's (AAPL) new iPhones will have higher average sales prices than their predecessors, Ben Reitzes, a Managing Director and Head of Technology Research at Melius Research told CNBC recently. As a result of these points, Reitzes has a Buy rating on AAPL stock. How […]"
   },
   {
     "source": "Yahoo",
@@ -363,7 +363,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-06T09:30Z",
     "reliability": "medium",
-    "data": "Apple Won’t Be Able to Avoid Price Hikes for Long\n\nThe iPhone maker is absorbing $900 million in tariff costs this quarter, but the hit to profit margins could still get worse."
+    "data": "Apple Won't Be Able to Avoid Price Hikes for Long\n\nThe iPhone maker is absorbing $900 million in tariff costs this quarter, but the hit to profit margins could still get worse."
   },
   {
     "source": "Yahoo",
@@ -423,7 +423,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-06T03:01Z",
     "reliability": "medium",
-    "data": "Warren Buffett Says He Is 'Embarrassed,' But 'Tim Cook Has Made Berkshire A Lot More Money Than I've Ever Made'\n\nIn what was likely the final Berkshire Hathaway Inc. (NYSE:BRK, NYSE:BRK) annual shareholders meeting with Warren Buffett at the helm, the legendary investor made a rare public acknowledgment, praising an executive in attendance who has played a significant role in shaping Berkshire's financial performance in recent years. What Happened: On Saturday, during his opening remarks at Berkshire’s annual shareholders meeting, Buffett took a moment to publicly praise Apple Inc. (NASDAQ:AAPL) CEO Tim Co"
+    "data": "Warren Buffett Says He Is 'Embarrassed,' But 'Tim Cook Has Made Berkshire A Lot More Money Than I've Ever Made'\n\nIn what was likely the final Berkshire Hathaway Inc. (NYSE:BRK, NYSE:BRK) annual shareholders meeting with Warren Buffett at the helm, the legendary investor made a rare public acknowledgment, praising an executive in attendance who has played a significant role in shaping Berkshire's financial performance in recent years. What Happened: On Saturday, during his opening remarks at Berkshire's annual shareholders meeting, Buffett took a moment to publicly praise Apple Inc. (NASDAQ:AAPL) CEO Tim Co"
   },
   {
     "source": "Yahoo",
@@ -435,7 +435,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-05T21:53Z",
     "reliability": "medium",
-    "data": "AAPL Q1 Earnings Call: Growth Across Core Products, AI Integration, and Tariff Risks\n\niPhone and iPad maker Apple (NASDAQ:AAPL) reported Q1 CY2025 results beating Wall Street’s revenue expectations, with sales up 5.1% year on year to $95.36 billion. Its non-GAAP profit of $1.65 per share was 1.7% above analysts’ consensus estimates."
+    "data": "AAPL Q1 Earnings Call: Growth Across Core Products, AI Integration, and Tariff Risks\n\niPhone and iPad maker Apple (NASDAQ:AAPL) reported Q1 CY2025 results beating Wall Street's revenue expectations, with sales up 5.1% year on year to $95.36 billion. Its non-GAAP profit of $1.65 per share was 1.7% above analysts' consensus estimates."
   },
   {
     "source": "Yahoo",
@@ -447,7 +447,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-05T20:29Z",
     "reliability": "medium",
-    "data": "These Stocks Moved the Most Today: Berkshire, Microsoft, Apple, Netflix, Palantir, On Semi, Tyson, Skechers, and More\n\nBerkshire Hathaway’s Class B shares fall after Warren Buffett says he’ll be stepping down as CEO at the end of the year, and Netflix declines as President Donald Trump says he authorized a 100% tariff on films produced overseas. Palantir Technologies, meanwhile, is scheduled to report quarterly earnings later Monday."
+    "data": "These Stocks Moved the Most Today: Berkshire, Microsoft, Apple, Netflix, Palantir, On Semi, Tyson, Skechers, and More\n\nBerkshire Hathaway's Class B shares fall after Warren Buffett says he'll be stepping down as CEO at the end of the year, and Netflix declines as President Donald Trump says he authorized a 100% tariff on films produced overseas. Palantir Technologies, meanwhile, is scheduled to report quarterly earnings later Monday."
   },
   {
     "source": "Yahoo",
@@ -465,7 +465,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-05T19:25Z",
     "reliability": "medium",
-    "data": "Apple Stock Is Still Falling. Will Warren Buffett Sell More?\n\nApple is Berkshire Hathaway’s largest stockholding. But with Buffett stepping aside, will Berkshire sour on the iPhone maker’s shares?"
+    "data": "Apple Stock Is Still Falling. Will Warren Buffett Sell More?\n\nApple is Berkshire Hathaway's largest stockholding. But with Buffett stepping aside, will Berkshire sour on the iPhone maker's shares?"
   },
   {
     "source": "Finnhub",
@@ -501,13 +501,13 @@ data = [
     "source": "Finnhub",
     "date": "2025-05-05T13:49Z",
     "reliability": "medium",
-    "data": "Hagens Berman: Apple Hit with Class-Action Lawsuit for App Store Injunction Violation by Same Law Firm That Secured $100M iOS Developer Win\n\nAttorneys seeking to represent iOS devs in round two, after court finds Apple’s actions in contempt..."
+    "data": "Hagens Berman: Apple Hit with Class-Action Lawsuit for App Store Injunction Violation by Same Law Firm That Secured $100M iOS Developer Win\n\nAttorneys seeking to represent iOS devs in round two, after court finds Apple's actions in contempt..."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-05T13:46Z",
     "reliability": "medium",
-    "data": "These Stocks Are Moving the Most Today: Berkshire Hathaway, Microsoft, Apple, Netflix, Palantir, Skechers, and More\n\nBerkshire Hathaway’s Class B shares fall after Warren Buffett says he’ll be stepping down as CEO at the end of the year, Microsoft kicks off Monday as the largest U.S. company by market cap, Netflix falls as President Donald Trump says he authorized a 100% tariff on films produced overseas. Palantir Technologies, meanwhile, is scheduled to report quarterly earnings later Monday."
+    "data": "These Stocks Are Moving the Most Today: Berkshire Hathaway, Microsoft, Apple, Netflix, Palantir, Skechers, and More\n\nBerkshire Hathaway's Class B shares fall after Warren Buffett says he'll be stepping down as CEO at the end of the year, Microsoft kicks off Monday as the largest U.S. company by market cap, Netflix falls as President Donald Trump says he authorized a 100% tariff on films produced overseas. Palantir Technologies, meanwhile, is scheduled to report quarterly earnings later Monday."
   },
   {
     "source": "Yahoo",
@@ -519,7 +519,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-05T13:18Z",
     "reliability": "medium",
-    "data": "Apple Selling Corporate Bonds for the First Time Since 2023\n\n(Bloomberg) -- Apple Inc. is planning to sell corporate bonds on Monday, according to a person familiar with the matter, in the company’s first debt offering in two years.Most Read from BloombergThe Battle Over the Fate of Detroit’s Renaissance CenterNYC Real Estate Industry Asks Judge to Block New Broker Fee LawNJ Transit Strike Would Be ‘Disaster’ for Region, Sherrill SaysIceland Plans for a More Volcanic FutureNJ Transit Urges Commuters to Work Remotely If Union StrikesThe iPhone maker is loo"
+    "data": "Apple Selling Corporate Bonds for the First Time Since 2023\n\n(Bloomberg) -- Apple Inc. is planning to sell corporate bonds on Monday, according to a person familiar with the matter, in the company's first debt offering in two years.Most Read from BloombergThe Battle Over the Fate of Detroit's Renaissance CenterNYC Real Estate Industry Asks Judge to Block New Broker Fee LawNJ Transit Strike Would Be 'Disaster' for Region, Sherrill SaysIceland Plans for a More Volcanic FutureNJ Transit Urges Commuters to Work Remotely If Union StrikesThe iPhone maker is loo"
   },
   {
     "source": "Yahoo",
@@ -555,7 +555,7 @@ data = [
     "source": "Finnhub",
     "date": "2025-05-05T11:59Z",
     "reliability": "medium",
-    "data": "Apple will appeal contempt ruling in Epic Games case over App Store\n\nApple on Monday lodged anappeal to challenge a U.S. judge’s ruling that ordered the techcompany to immediately open its lucrative App Store to morecompetition. Apple in a court..."
+    "data": "Apple will appeal contempt ruling in Epic Games case over App Store\n\nApple on Monday lodged anappeal to challenge a U.S. judge's ruling that ordered the techcompany to immediately open its lucrative App Store to morecompetition. Apple in a court..."
   },
   {
     "source": "Finnhub",
@@ -609,7 +609,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-05T09:30Z",
     "reliability": "medium",
-    "data": "Momentum a Powerful Ally for Stocks as Whiplash Rally Rolls On\n\n(Bloomberg) -- There are many reasons to doubt the rebound in US stocks, but it has at least one powerful factor on its side: momentum. Most Read from BloombergThe Battle Over the Fate of Detroit’s Renaissance CenterNYC Real Estate Industry Asks Judge to Block New Broker Fee LawNJ Transit Strike Would Be ‘Disaster’ for Region, Sherrill SaysIceland Plans for a More Volcanic FutureNJ Transit Urges Commuters to Work Remotely If Union StrikesHistory shows that the rally may extend further than inves"
+    "data": "Momentum a Powerful Ally for Stocks as Whiplash Rally Rolls On\n\n(Bloomberg) -- There are many reasons to doubt the rebound in US stocks, but it has at least one powerful factor on its side: momentum. Most Read from BloombergThe Battle Over the Fate of Detroit's Renaissance CenterNYC Real Estate Industry Asks Judge to Block New Broker Fee LawNJ Transit Strike Would Be 'Disaster' for Region, Sherrill SaysIceland Plans for a More Volcanic FutureNJ Transit Urges Commuters to Work Remotely If Union StrikesHistory shows that the rally may extend further than inves"
   },
   {
     "source": "Finnhub",
@@ -621,13 +621,13 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-05T08:15Z",
     "reliability": "medium",
-    "data": "Here’s what I’ve learned after writing about Apple, Intel and Silicon Valley for over 30 years\n\nHere’s what I’ve learned after writing about Apple, Intel and Silicon Valley for over 30 years"
+    "data": "Here's what I've learned after writing about Apple, Intel and Silicon Valley for over 30 years\n\nHere's what I've learned after writing about Apple, Intel and Silicon Valley for over 30 years"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-05T05:00Z",
     "reliability": "medium",
-    "data": "What Big Tech Earnings Taught Us—and Didn’t—About Tariffs\n\nTesla, Alphabet, Meta Platforms, Microsoft, Amazon.com and Apple have all reported earnings over the last two weeks."
+    "data": "What Big Tech Earnings Taught Us—and Didn't—About Tariffs\n\nTesla, Alphabet, Meta Platforms, Microsoft, Amazon.com and Apple have all reported earnings over the last two weeks."
   },
   {
     "source": "SeekingAlpha",
@@ -717,7 +717,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-03T23:24Z",
     "reliability": "medium",
-    "data": "The Lesson in Buffett’s Winning Apple Bet\n\nThe famed investor largely shied away from tech until his 2016 Apple bet. It turned out to be his greatest investment."
+    "data": "The Lesson in Buffett's Winning Apple Bet\n\nThe famed investor largely shied away from tech until his 2016 Apple bet. It turned out to be his greatest investment."
   },
   {
     "source": "SeekingAlpha",
@@ -795,7 +795,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-02T20:49Z",
     "reliability": "medium",
-    "data": "Microsoft Beats Apple to Become Largest U.S. Company by Market Cap\n\nMicrosoft stock’s jump following a strong earnings report for its third fiscal quarter helped push the company past Apple to become the largest in the U.S. by market capitalization on Friday.  Microsoft now has a market cap of $3.24 trillion, beating Apple’s $3.07 trillion.  The software company gained $322.8 billion in market cap this week, while Apple lost $58.7 billion."
+    "data": "Microsoft Beats Apple to Become Largest U.S. Company by Market Cap\n\nMicrosoft stock's jump following a strong earnings report for its third fiscal quarter helped push the company past Apple to become the largest in the U.S. by market capitalization on Friday.  Microsoft now has a market cap of $3.24 trillion, beating Apple's $3.07 trillion.  The software company gained $322.8 billion in market cap this week, while Apple lost $58.7 billion."
   },
   {
     "source": "Yahoo",
@@ -807,7 +807,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-02T20:37Z",
     "reliability": "medium",
-    "data": "Tim Cook Tells Commerce Secretary Lutnick How Apple 'Could' Bring iPhone Manufacturing To US\n\nApple Inc.’s (NASDAQ:AAPL) CEO Tim Cook has reportedly identified a crucial factor that could see iPhone manufacturing shift to the United States. What Happened: U.S. Commerce Secretary Howard Lutnick, in a conversation with CNBC's Brian Sullivan on \"The Exchange\" Tuesday, shared details of a discussion he had with Apple CEO Tim Cook about the possibility of relocating iPhone production to the U.S. Amid escalating tariff tensions and global economic uncertainty, President Donald Trump has renewe"
+    "data": "Tim Cook Tells Commerce Secretary Lutnick How Apple 'Could' Bring iPhone Manufacturing To US\n\nApple Inc.'s (NASDAQ:AAPL) CEO Tim Cook has reportedly identified a crucial factor that could see iPhone manufacturing shift to the United States. What Happened: U.S. Commerce Secretary Howard Lutnick, in a conversation with CNBC's Brian Sullivan on \"The Exchange\" Tuesday, shared details of a discussion he had with Apple CEO Tim Cook about the possibility of relocating iPhone production to the U.S. Amid escalating tariff tensions and global economic uncertainty, President Donald Trump has renewe"
   },
   {
     "source": "Yahoo",
@@ -825,7 +825,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-02T20:28Z",
     "reliability": "medium",
-    "data": "These Stocks Moved the Most Today: Apple, Amazon, Block, Take-Two, Dexcom, MicroStrategy, Duolingo, Roku, and More\n\nShares of Apple and Amazon decline as earnings from the tech giants disappoint, Block sinks after cutting guidance, and Take-Two Interactive Software delays the release of ‘Grand Theft Auto VI.’"
+    "data": "These Stocks Moved the Most Today: Apple, Amazon, Block, Take-Two, Dexcom, MicroStrategy, Duolingo, Roku, and More\n\nShares of Apple and Amazon decline as earnings from the tech giants disappoint, Block sinks after cutting guidance, and Take-Two Interactive Software delays the release of 'Grand Theft Auto VI.'"
   },
   {
     "source": "Yahoo",
@@ -843,7 +843,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-02T20:09Z",
     "reliability": "medium",
-    "data": "Stocks climb back to ‘Liberation Day’ levels after surprise jobs report\n\nThe U.S. added 177,000 jobs in April, reported the Bureau of Labor Statistics. That’s more than the 135,000 that economists had estimated."
+    "data": "Stocks climb back to 'Liberation Day' levels after surprise jobs report\n\nThe U.S. added 177,000 jobs in April, reported the Bureau of Labor Statistics. That's more than the 135,000 that economists had estimated."
   },
   {
     "source": "Yahoo",
@@ -903,7 +903,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-02T14:00Z",
     "reliability": "medium",
-    "data": "A Giant Crack Appears in Tim Cook’s Walled Garden\n\nIn a career full of rosy superlatives, the public rebuke of  Tim Cook  this week was a stunner.  Cook chose poorly.  A federal judge—fed up with  Apple’s  shenanigans—wrote those words in a new ruling that blew a hole in the company’s vaunted Walled Garden."
+    "data": "A Giant Crack Appears in Tim Cook's Walled Garden\n\nIn a career full of rosy superlatives, the public rebuke of  Tim Cook  this week was a stunner.  Cook chose poorly.  A federal judge—fed up with  Apple's  shenanigans—wrote those words in a new ruling that blew a hole in the company's vaunted Walled Garden."
   },
   {
     "source": "Yahoo",
@@ -915,7 +915,7 @@ data = [
     "source": "Finnhub",
     "date": "2025-05-02T13:54Z",
     "reliability": "medium",
-    "data": "Apple, Anthropic Team Up To Build Ai-Powered 'Vibe-Coding' Platform- Bloomberg News\n\nMay 2 - * APPLE, ANTHROPIC TEAM UP TO BUILD AI-POWERED ‘VIBE-CODING’PLATFORM- BLOOMBERG NEWSSource text: [https://tinyurl.com/f44m747w]Further company coverage: ..."
+    "data": "Apple, Anthropic Team Up To Build Ai-Powered 'Vibe-Coding' Platform- Bloomberg News\n\nMay 2 - * APPLE, ANTHROPIC TEAM UP TO BUILD AI-POWERED 'VIBE-CODING'PLATFORM- BLOOMBERG NEWSSource text: [https://tinyurl.com/f44m747w]Further company coverage: ..."
   },
   {
     "source": "Yahoo",
@@ -927,13 +927,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-02T13:40Z",
     "reliability": "medium",
-    "data": "Apple Hit With Downgrades as Tariff, Growth Worries Increase\n\n(Bloomberg) -- Apple Inc. received at least two downgrades on Friday, following quarterly results that reinforced concerns over tariffs and its growth potential.Most Read from BloombergNJ Transit Urges Commuters to Work Remotely If Union StrikesNYC Lost $9 Billion of Income to Miami, Palm Beach in Five YearsNew York City Transit System Chips Away at Subway Fare EvasionNYC’s MTA to Cut Costs Instead of Borrowing More to Fund UpgradesNYC’s Congestion Toll Raised $159 Million in the First QuarterJe"
+    "data": "Apple Hit With Downgrades as Tariff, Growth Worries Increase\n\n(Bloomberg) -- Apple Inc. received at least two downgrades on Friday, following quarterly results that reinforced concerns over tariffs and its growth potential.Most Read from BloombergNJ Transit Urges Commuters to Work Remotely If Union StrikesNYC Lost $9 Billion of Income to Miami, Palm Beach in Five YearsNew York City Transit System Chips Away at Subway Fare EvasionNYC's MTA to Cut Costs Instead of Borrowing More to Fund UpgradesNYC's Congestion Toll Raised $159 Million in the First QuarterJe"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-02T13:34Z",
     "reliability": "medium",
-    "data": "TSX futures positive on calming trade tensions, positive U.S. jobs report\n\nInvesting.com -- Canada’s main stock index’s futures pointed upward on Friday, seeking to close higher after two straight days of minimal losses. Investors were examining 1Q results from Apple, Amazon, and others in this week’s earnings deluge, as well as digesting positive data in a key U.S. jobs report."
+    "data": "TSX futures positive on calming trade tensions, positive U.S. jobs report\n\nInvesting.com -- Canada's main stock index's futures pointed upward on Friday, seeking to close higher after two straight days of minimal losses. Investors were examining 1Q results from Apple, Amazon, and others in this week's earnings deluge, as well as digesting positive data in a key U.S. jobs report."
   },
   {
     "source": "MarketWatch",
@@ -957,7 +957,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-02T13:08Z",
     "reliability": "medium",
-    "data": "These Stocks Are Moving the Most Today: Apple, Amazon, Block, Exxon, Chevron, Take-Two, MicroStrategy, Airbnb, Reddit, and More\n\nShares of Apple decline as earnings from the iPhone maker disappoint, Block sinks after cutting guidance, Chevron’s quarterly revenue misses forecasts, and Exxon Mobile tops profit expectations."
+    "data": "These Stocks Are Moving the Most Today: Apple, Amazon, Block, Exxon, Chevron, Take-Two, MicroStrategy, Airbnb, Reddit, and More\n\nShares of Apple decline as earnings from the iPhone maker disappoint, Block sinks after cutting guidance, Chevron's quarterly revenue misses forecasts, and Exxon Mobile tops profit expectations."
   },
   {
     "source": "Yahoo",
@@ -975,13 +975,13 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-02T13:02Z",
     "reliability": "medium",
-    "data": "These companies are emerging as potential winners in Trump’s trade war\n\nThese companies are emerging as potential winners in Trump’s trade war"
+    "data": "These companies are emerging as potential winners in Trump's trade war\n\nThese companies are emerging as potential winners in Trump's trade war"
   },
   {
     "source": "MarketWatch",
     "date": "2025-05-02T12:50Z",
     "reliability": "medium",
-    "data": "Apple’s issues go deeper than tariffs, as analysts worry about AI challenges\n\nApple’s issues go deeper than tariffs, as analysts worry about AI challenges"
+    "data": "Apple's issues go deeper than tariffs, as analysts worry about AI challenges\n\nApple's issues go deeper than tariffs, as analysts worry about AI challenges"
   },
   {
     "source": "Yahoo",
@@ -1005,7 +1005,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-02T11:57Z",
     "reliability": "medium",
-    "data": "Apple Stock Drops. Why a $900 Million Tariff Hit Could Be Just the Start.\n\nApple  stock was falling early on Friday after the company put a number on its financial hit from President Donald Trump’s tariffs.  While a plan to build more iPhones in India should help it escape the worst of the levies, Wall Street is still nervous about what comes next.  CEO Tim Cook told analysts that shipping devices sold in the U.S. from India and Vietnam, rather than China, would add about $900 million to the company’s costs for the June quarter in the company’s earnings call on Thursday."
+    "data": "Apple Stock Drops. Why a $900 Million Tariff Hit Could Be Just the Start.\n\nApple  stock was falling early on Friday after the company put a number on its financial hit from President Donald Trump's tariffs.  While a plan to build more iPhones in India should help it escape the worst of the levies, Wall Street is still nervous about what comes next.  CEO Tim Cook told analysts that shipping devices sold in the U.S. from India and Vietnam, rather than China, would add about $900 million to the company's costs for the June quarter in the company's earnings call on Thursday."
   },
   {
     "source": "SeekingAlpha",
@@ -1029,7 +1029,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-02T11:43Z",
     "reliability": "medium",
-    "data": "Jim Cramer on Apple Inc. (AAPL): ‘The Most Obvious Story in America for Years and Years’\n\nWe recently published an article titled Jim Cramer Listed 20 Best Performing Stocks of the Last 20 Years. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against the other stocks. Discussing two decades of Mad Money, Jim Cramer took a moment to highlight the top-performing stocks since the […]"
+    "data": "Jim Cramer on Apple Inc. (AAPL): 'The Most Obvious Story in America for Years and Years'\n\nWe recently published an article titled Jim Cramer Listed 20 Best Performing Stocks of the Last 20 Years. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against the other stocks. Discussing two decades of Mad Money, Jim Cramer took a moment to highlight the top-performing stocks since the […]"
   },
   {
     "source": "Finnhub",
@@ -1107,7 +1107,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-02T09:57Z",
     "reliability": "medium",
-    "data": "Apple’s $100 billion buyback disappointed some. Here’s where it ranks historically.\n\nApple’s $100 billion buyback disappointed some. Here’s where it ranks historically."
+    "data": "Apple's $100 billion buyback disappointed some. Here's where it ranks historically.\n\nApple's $100 billion buyback disappointed some. Here's where it ranks historically."
   },
   {
     "source": "Finnhub",
@@ -1173,7 +1173,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-14T22:04Z",
     "reliability": "medium",
-    "data": "Don’t Expect a Big Payout From Apple’s $95 Million Settlement\n\nAmericans with a Siri-enabled  Apple  device can file a claim for part of a $95 million legal settlement that the phone maker has agreed to pay.  The settlement stems from a 2021 lawsuit, Lopez v. Apple, filed in federal court in San Jose, Calif., claiming that Apple recorded users without their knowledge when they inadvertently activated the Siri virtual assistant on their devices.  Without admitting fault, Apple agreed to settle the case earlier this year."
+    "data": "Don't Expect a Big Payout From Apple's $95 Million Settlement\n\nAmericans with a Siri-enabled  Apple  device can file a claim for part of a $95 million legal settlement that the phone maker has agreed to pay.  The settlement stems from a 2021 lawsuit, Lopez v. Apple, filed in federal court in San Jose, Calif., claiming that Apple recorded users without their knowledge when they inadvertently activated the Siri virtual assistant on their devices.  Without admitting fault, Apple agreed to settle the case earlier this year."
   },
   {
     "source": "Yahoo",
@@ -1185,7 +1185,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-14T21:16Z",
     "reliability": "medium",
-    "data": "Apple Inc. (AAPL) “Is Not in the Epicenter of AI Right Now,” Veteran Investor Says\n\nAsserting that Apple Inc. (AAPL) “is not in the epicenter of AI right now” and is “facing some considerable challenges,” TheoTrade founder Don Kaufman reported on Schwab Network that he was utilizing a bearish options strategy on Apple Inc. (AAPL). Kaufman explained his options strategy on the network, while Rick Ducat, Schwab’s Lead Market Technician, […]"
+    "data": "Apple Inc. (AAPL) “Is Not in the Epicenter of AI Right Now,” Veteran Investor Says\n\nAsserting that Apple Inc. (AAPL) “is not in the epicenter of AI right now” and is “facing some considerable challenges,” TheoTrade founder Don Kaufman reported on Schwab Network that he was utilizing a bearish options strategy on Apple Inc. (AAPL). Kaufman explained his options strategy on the network, while Rick Ducat, Schwab's Lead Market Technician, […]"
   },
   {
     "source": "Yahoo",
@@ -1197,7 +1197,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-14T18:00Z",
     "reliability": "medium",
-    "data": "Apple May 'Up Its Numbers' Amid China Tariff Truce: Trump Talks $500 Billion US Investment After Tim Cook Call\n\nIn the wake of a 90-day suspension of most tariffs between the U.S. and China, President Donald Trump stated that he engaged in talks with Apple Inc. (NASDAQ:AAPL) CEO Tim Cook. What Happened: Trump revealed that Cook intends to boost Apple’s ..."
+    "data": "Apple May 'Up Its Numbers' Amid China Tariff Truce: Trump Talks $500 Billion US Investment After Tim Cook Call\n\nIn the wake of a 90-day suspension of most tariffs between the U.S. and China, President Donald Trump stated that he engaged in talks with Apple Inc. (NASDAQ:AAPL) CEO Tim Cook. What Happened: Trump revealed that Cook intends to boost Apple's ..."
   },
   {
     "source": "Yahoo",
@@ -1209,7 +1209,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-14T16:38Z",
     "reliability": "medium",
-    "data": "Analyst Warns Apple (AAPL) To Be ‘First’ To Feel Consumer Slowdown Impact\n\nWe recently published a list of Top 10 Buzzing Stocks in May. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other top buzzing stocks in May. The latest quarterly results from a couple of major technology companies have soothed concerns about AI demand that prevailed in […]"
+    "data": "Analyst Warns Apple (AAPL) To Be 'First' To Feel Consumer Slowdown Impact\n\nWe recently published a list of Top 10 Buzzing Stocks in May. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other top buzzing stocks in May. The latest quarterly results from a couple of major technology companies have soothed concerns about AI demand that prevailed in […]"
   },
   {
     "source": "Finnhub",
@@ -1221,7 +1221,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-14T16:26Z",
     "reliability": "medium",
-    "data": "Apple may owe you money. Here’s how to get it\n\nHave you ever had Siri go off unintentionally? If so, Apple might owe you money."
+    "data": "Apple may owe you money. Here's how to get it\n\nHave you ever had Siri go off unintentionally? If so, Apple might owe you money."
   },
   {
     "source": "MarketWatch",
@@ -1245,7 +1245,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-14T14:24Z",
     "reliability": "medium",
-    "data": "Foxconn Supplies Nvidia and Apple. Why It Cut Its Guidance.\n\nIt’s a reminder tariffs are still weighing on international trade.  Foxconn is best known in the U.S. for being the primary contract manufacturer for  Apple  and an essential part of the iPhone supply chain.  “We will take a more cautious view on the future outlook,” Chairman Young Liu said on an earnings call on Wednesday, citing supply-chain disruption caused by U.S. tariff policies over the past month."
+    "data": "Foxconn Supplies Nvidia and Apple. Why It Cut Its Guidance.\n\nIt's a reminder tariffs are still weighing on international trade.  Foxconn is best known in the U.S. for being the primary contract manufacturer for  Apple  and an essential part of the iPhone supply chain.  “We will take a more cautious view on the future outlook,” Chairman Young Liu said on an earnings call on Wednesday, citing supply-chain disruption caused by U.S. tariff policies over the past month."
   },
   {
     "source": "Yahoo",
@@ -1317,7 +1317,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-13T17:07Z",
     "reliability": "medium",
-    "data": "Don’t Chase Dividend Stocks. Here Is a Better Investment Option Now.\n\nDon’t Chase Dividend Stocks. Here Is a Better Investment Option Now."
+    "data": "Don't Chase Dividend Stocks. Here Is a Better Investment Option Now.\n\nDon't Chase Dividend Stocks. Here Is a Better Investment Option Now."
   },
   {
     "source": "Yahoo",
@@ -1329,13 +1329,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-13T17:00Z",
     "reliability": "medium",
-    "data": "Google Unveils Major Android Redesign Ahead of iPhone Overhaul\n\n(Bloomberg) -- Google unveiled the biggest update to its Android mobile operating system in years, weeks before its biggest competitor in the space, Apple Inc., is expected to give a preview of its overhauled iPhone software.Most Read from BloombergAs Coastline Erodes, One California City Considers ‘Retreat Now’A New Central Park Amenity, Tailored to Its East Harlem NeighborsWhat’s Behind the Rise in Serious Injuries on New York City’s Streets?NYC Warns of 17% Drop in Foreign Tourists Due to Tru"
+    "data": "Google Unveils Major Android Redesign Ahead of iPhone Overhaul\n\n(Bloomberg) -- Google unveiled the biggest update to its Android mobile operating system in years, weeks before its biggest competitor in the space, Apple Inc., is expected to give a preview of its overhauled iPhone software.Most Read from BloombergAs Coastline Erodes, One California City Considers 'Retreat Now'A New Central Park Amenity, Tailored to Its East Harlem NeighborsWhat's Behind the Rise in Serious Injuries on New York City's Streets?NYC Warns of 17% Drop in Foreign Tourists Due to Tru"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-13T16:43Z",
     "reliability": "medium",
-    "data": "ChatGPT: Everything you need to know about the AI-powered chatbot\n\nChatGPT, OpenAI’s text-generating AI chatbot, has taken the world by storm since its launch in November 2022. What started as a tool to supercharge productivity through writing essays and code with short text prompts has evolved into a behemoth with 300 million weekly active users. 2024 was a big year for OpenAI, from its partnership with Apple for its generative AI offering, Apple Intelligence, the release of GPT-4o with voice capabilities, and the highly-anticipated launch of its text-to-video"
+    "data": "ChatGPT: Everything you need to know about the AI-powered chatbot\n\nChatGPT, OpenAI's text-generating AI chatbot, has taken the world by storm since its launch in November 2022. What started as a tool to supercharge productivity through writing essays and code with short text prompts has evolved into a behemoth with 300 million weekly active users. 2024 was a big year for OpenAI, from its partnership with Apple for its generative AI offering, Apple Intelligence, the release of GPT-4o with voice capabilities, and the highly-anticipated launch of its text-to-video"
   },
   {
     "source": "Yahoo",
@@ -1353,7 +1353,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-13T15:36Z",
     "reliability": "medium",
-    "data": "Perplexity AI valuation climbs to $14B in funding round: WSJ\n\nArtificial intelligence (AI) startup Perplexity is reportedly seeking funding that would push its valuation to $14 billion, according to The Wall Street Journal. Catalysts host Madison Mills breaks down what the company’s growth says about ongoing investor appetite for AI and the startup's venture into web search engines. To watch more expert insights and analysis on the latest market action, check out more Catalysts here."
+    "data": "Perplexity AI valuation climbs to $14B in funding round: WSJ\n\nArtificial intelligence (AI) startup Perplexity is reportedly seeking funding that would push its valuation to $14 billion, according to The Wall Street Journal. Catalysts host Madison Mills breaks down what the company's growth says about ongoing investor appetite for AI and the startup's venture into web search engines. To watch more expert insights and analysis on the latest market action, check out more Catalysts here."
   },
   {
     "source": "Yahoo",
@@ -1365,7 +1365,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-13T14:03Z",
     "reliability": "medium",
-    "data": "Analyst, Consultant Clash on Apple Inc. (AAPL) Stock\n\nAnalyst Ben Reitzes and consultant Dan Nathan had a bull-bear debate about Apple Inc. (AAPL) stock on CNBC on May 7. Reitzes suggested that Apple’s future is bright, while Nathan warned that the tech giant was “massively behind the 8 ball” in terms of technology and suggested that it would be significantly damaged by the […]"
+    "data": "Analyst, Consultant Clash on Apple Inc. (AAPL) Stock\n\nAnalyst Ben Reitzes and consultant Dan Nathan had a bull-bear debate about Apple Inc. (AAPL) stock on CNBC on May 7. Reitzes suggested that Apple's future is bright, while Nathan warned that the tech giant was “massively behind the 8 ball” in terms of technology and suggested that it would be significantly damaged by the […]"
   },
   {
     "source": "Yahoo",
@@ -1401,7 +1401,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-13T12:59Z",
     "reliability": "medium",
-    "data": "Analyst Highlights ‘Distrubing and Dissappointing” Development for Apple (AAPL)\n\nWe recently published a list of 10 Buzzing Stocks After Latest Earnings Season. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other buzzing stocks after latest earnings season. Markets were cheering the latest US-China trade deal, after which the two countries will significantly reduce tariffs on […]"
+    "data": "Analyst Highlights 'Distrubing and Dissappointing” Development for Apple (AAPL)\n\nWe recently published a list of 10 Buzzing Stocks After Latest Earnings Season. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other buzzing stocks after latest earnings season. Markets were cheering the latest US-China trade deal, after which the two countries will significantly reduce tariffs on […]"
   },
   {
     "source": "Yahoo",
@@ -1527,7 +1527,7 @@ data = [
     "source": "DowJones",
     "date": "2025-05-12T13:44Z",
     "reliability": "medium",
-    "data": "FCC Threatens Charlie Ergen’s Hold on Satellite, 5G Spectrum Licenses\n\nFCC Threatens Charlie Ergen’s Hold on Satellite, 5G Spectrum Licenses"
+    "data": "FCC Threatens Charlie Ergen's Hold on Satellite, 5G Spectrum Licenses\n\nFCC Threatens Charlie Ergen's Hold on Satellite, 5G Spectrum Licenses"
   },
   {
     "source": "MarketWatch",
@@ -1551,7 +1551,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-12T11:54Z",
     "reliability": "medium",
-    "data": "Your New iPhone May Get More Expensive. Apple Won’t Blame China Tariffs.\n\nAfter retailer Amazon was blasted by the White House for potentially citing the tariffs as part of the price on goods purchased by U.S. consumers, Apple is determined to avoid a similar fate."
+    "data": "Your New iPhone May Get More Expensive. Apple Won't Blame China Tariffs.\n\nAfter retailer Amazon was blasted by the White House for potentially citing the tariffs as part of the price on goods purchased by U.S. consumers, Apple is determined to avoid a similar fate."
   },
   {
     "source": "DowJones",
@@ -1593,7 +1593,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-12T10:28Z",
     "reliability": "medium",
-    "data": "Your New iPhone May Get More Expensive. Apple Won’t Blame Tariffs: Report.\n\nYour New iPhone May Get More Expensive. Apple Won’t Blame Tariffs: Report."
+    "data": "Your New iPhone May Get More Expensive. Apple Won't Blame Tariffs: Report.\n\nYour New iPhone May Get More Expensive. Apple Won't Blame Tariffs: Report."
   },
   {
     "source": "Yahoo",
@@ -1623,7 +1623,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-12T09:00Z",
     "reliability": "medium",
-    "data": "Apple's brutal year keeps getting worse\n\nA version of this article originally appeared in Quartz’s members-only Weekend Brief newsletter. Quartz members get access to exclusive newsletters and more. Sign up here."
+    "data": "Apple's brutal year keeps getting worse\n\nA version of this article originally appeared in Quartz's members-only Weekend Brief newsletter. Quartz members get access to exclusive newsletters and more. Sign up here."
   },
   {
     "source": "Yahoo",
@@ -1677,7 +1677,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-11T20:58Z",
     "reliability": "medium",
-    "data": "Is Apple Inc. (AAPL) the Best Stock to Buy According to Jim Simons’ Renaissance Technologies?\n\nWe recently published a list of 15 Best Stocks to Buy According to Jim Simons’ Renaissance Technologies In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other best stocks to buy according to Jim Simons’ Renaissance Technologies. Even after his passing in 2024, billionaire investor and mathematician […]"
+    "data": "Is Apple Inc. (AAPL) the Best Stock to Buy According to Jim Simons' Renaissance Technologies?\n\nWe recently published a list of 15 Best Stocks to Buy According to Jim Simons' Renaissance Technologies In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other best stocks to buy according to Jim Simons' Renaissance Technologies. Even after his passing in 2024, billionaire investor and mathematician […]"
   },
   {
     "source": "Yahoo",
@@ -1695,19 +1695,19 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-10T19:43Z",
     "reliability": "medium",
-    "data": "Two Prominent Investors Are Bearish on Alphabet Inc. (GOOG) Stock\n\nAfter Apple (AAPL) disclosed that searches in its devices’ internet browsers had fallen for the first time ever last month, well-known investors Josh Brown and Joe Terranova, speaking on CNBC, said that the news was significantly negative for Alphabet Inc. (GOOG) and GOOGL stock. Josh Brown is the CEO of Ritholtz Wealth Management, while Terranova […]"
+    "data": "Two Prominent Investors Are Bearish on Alphabet Inc. (GOOG) Stock\n\nAfter Apple (AAPL) disclosed that searches in its devices' internet browsers had fallen for the first time ever last month, well-known investors Josh Brown and Joe Terranova, speaking on CNBC, said that the news was significantly negative for Alphabet Inc. (GOOG) and GOOGL stock. Josh Brown is the CEO of Ritholtz Wealth Management, while Terranova […]"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-10T19:00Z",
     "reliability": "medium",
-    "data": "Wall Street Plays Long Game as Deals Go Private\n\n(Bloomberg) -- A KKR & Co. debt sale shows how far Wall Street is willing to go to keep leveraged underwriting business from slipping away to private credit after periods of turmoil.Most Read from BloombergAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsA New Central Park Amenity, Tailored to Its East Harlem NeighborsIs Trump’s Plan to Reopen the Notorious Alcatraz Prison Realistic?What’s Behind the Rise in Serious Injuries on New York City’s Streets?NYC Warns of 17% Drop in For"
+    "data": "Wall Street Plays Long Game as Deals Go Private\n\n(Bloomberg) -- A KKR & Co. debt sale shows how far Wall Street is willing to go to keep leveraged underwriting business from slipping away to private credit after periods of turmoil.Most Read from BloombergAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsA New Central Park Amenity, Tailored to Its East Harlem NeighborsIs Trump's Plan to Reopen the Notorious Alcatraz Prison Realistic?What's Behind the Rise in Serious Injuries on New York City's Streets?NYC Warns of 17% Drop in For"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-10T16:03Z",
     "reliability": "medium",
-    "data": "Apple Wants Its $20 Billion, and Is Willing to Throw Google Under the Bus to Keep It\n\nA new brief release from Alphabet’s antitrust trial reads a lot like Eddy Cue’s shocking testimony this past week."
+    "data": "Apple Wants Its $20 Billion, and Is Willing to Throw Google Under the Bus to Keep It\n\nA new brief release from Alphabet's antitrust trial reads a lot like Eddy Cue's shocking testimony this past week."
   },
   {
     "source": "Yahoo",
@@ -1749,13 +1749,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-09T21:27Z",
     "reliability": "medium",
-    "data": "Apple Inc. (AAPL): Among Billionaire Bruce Berkowitz’s Stock Picks with Highest Upside Potential\n\nWe recently published a list of Billionaire Bruce Berkowitz’s 6 Stock Picks with Highest Upside Potential. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other billionaire Bruce Berkowitz’s stock picks with highest upside potential. One of the most prominent hedge fund managers on Wall Street and […]"
+    "data": "Apple Inc. (AAPL): Among Billionaire Bruce Berkowitz's Stock Picks with Highest Upside Potential\n\nWe recently published a list of Billionaire Bruce Berkowitz's 6 Stock Picks with Highest Upside Potential. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other billionaire Bruce Berkowitz's stock picks with highest upside potential. One of the most prominent hedge fund managers on Wall Street and […]"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-09T20:23Z",
     "reliability": "medium",
-    "data": "Alphabet Shares Take $138 Billion Blow as Search Warnings Blare\n\n(Bloomberg) -- For more than a year, Alphabet Inc. shareholders have fretted over long-term risks posed by artificial intelligence to the company’s money-printing search business. This week the threat became much more immediate.Most Read from BloombergAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsIs Trump’s Plan to Reopen the Notorious Alcatraz Prison Realistic?What’s Behind the Rise in Serious Injuries on New York City’s Streets?NYC Warns of 17% Drop in Foreign Tourists Due t"
+    "data": "Alphabet Shares Take $138 Billion Blow as Search Warnings Blare\n\n(Bloomberg) -- For more than a year, Alphabet Inc. shareholders have fretted over long-term risks posed by artificial intelligence to the company's money-printing search business. This week the threat became much more immediate.Most Read from BloombergAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsIs Trump's Plan to Reopen the Notorious Alcatraz Prison Realistic?What's Behind the Rise in Serious Injuries on New York City's Streets?NYC Warns of 17% Drop in Foreign Tourists Due t"
   },
   {
     "source": "Yahoo",
@@ -1767,19 +1767,19 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-09T19:10Z",
     "reliability": "medium",
-    "data": "Sonos Interim CEO Says Company Has Turned a Corner and He Wants the Top Job\n\n(Bloomberg) -- Sonos Inc. interim Chief Executive Officer Tom Conrad said the audio company has “turned the corner” following setbacks caused by software issues — and that he wants to be named to the top job permanently. Most Read from BloombergAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsIs Trump’s Plan to Reopen the Notorious Alcatraz Prison Realistic?What’s Behind the Rise in Serious Injuries on New York City’s Streets?NYC Warns of 17% Drop in Foreign Tourists Due to Trump"
+    "data": "Sonos Interim CEO Says Company Has Turned a Corner and He Wants the Top Job\n\n(Bloomberg) -- Sonos Inc. interim Chief Executive Officer Tom Conrad said the audio company has “turned the corner” following setbacks caused by software issues — and that he wants to be named to the top job permanently. Most Read from BloombergAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsIs Trump's Plan to Reopen the Notorious Alcatraz Prison Realistic?What's Behind the Rise in Serious Injuries on New York City's Streets?NYC Warns of 17% Drop in Foreign Tourists Due to Trump"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-09T18:45Z",
     "reliability": "medium",
-    "data": "Analyst After Apple (AAPL) Results: ‘People Will Not Go Without an iPhone’ – Says Revenue ‘Pretty Impressive’\n\nWe recently published a list of 10 Jim Cramer Stocks to Watch as US-China Prepare to Begin Talks. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other stocks that Jim Cramer discussed. The optimism over US-China trade talks is increasing as the US Treasury Secretary is […]"
+    "data": "Analyst After Apple (AAPL) Results: 'People Will Not Go Without an iPhone' – Says Revenue 'Pretty Impressive'\n\nWe recently published a list of 10 Jim Cramer Stocks to Watch as US-China Prepare to Begin Talks. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other stocks that Jim Cramer discussed. The optimism over US-China trade talks is increasing as the US Treasury Secretary is […]"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-09T18:06Z",
     "reliability": "medium",
-    "data": "How the Google Antitrust Trial Is Already Changing Online Search\n\n(Bloomberg) -- A decade ago, when Microsoft Corp. was reined in by the Justice Department, a prominent Silicon Valley attorney popularized a theory about antitrust cases: “The trial is the remedy.”Most Read from BloombergAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsIs Trump’s Plan to Reopen the Notorious Alcatraz Prison Realistic?What’s Behind the Rise in Serious Injuries on New York City’s Streets?NYC Warns of 17% Drop in Foreign Tourists Due to Trump PoliciesVail to Borrow"
+    "data": "How the Google Antitrust Trial Is Already Changing Online Search\n\n(Bloomberg) -- A decade ago, when Microsoft Corp. was reined in by the Justice Department, a prominent Silicon Valley attorney popularized a theory about antitrust cases: “The trial is the remedy.”Most Read from BloombergAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsIs Trump's Plan to Reopen the Notorious Alcatraz Prison Realistic?What's Behind the Rise in Serious Injuries on New York City's Streets?NYC Warns of 17% Drop in Foreign Tourists Due to Trump PoliciesVail to Borrow"
   },
   {
     "source": "SeekingAlpha",
@@ -1815,13 +1815,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-09T14:43Z",
     "reliability": "medium",
-    "data": "Bought an Apple device in the past 10 years? You could be owed money. Here’s how to claim it.\n\nHow to get your piece of Apple's $95 million Siri privacy settlement."
+    "data": "Bought an Apple device in the past 10 years? You could be owed money. Here's how to claim it.\n\nHow to get your piece of Apple's $95 million Siri privacy settlement."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-09T14:24Z",
     "reliability": "medium",
-    "data": "An Apple exec suggested AI chatbots were eroding Google’s search business, sending Alphabet shares plummeting. The truth is more complicated.\n\nAlphabet execs insist search volumes are up, but market share is slipping and revenue growth appears to be slowing."
+    "data": "An Apple exec suggested AI chatbots were eroding Google's search business, sending Alphabet shares plummeting. The truth is more complicated.\n\nAlphabet execs insist search volumes are up, but market share is slipping and revenue growth appears to be slowing."
   },
   {
     "source": "SeekingAlpha",
@@ -1833,19 +1833,19 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-09T13:34Z",
     "reliability": "medium",
-    "data": "Jim Cramer on Apple Inc. (AAPL): ‘These Gains Were Totally Gettable’\n\nWe recently compiled a list of the 10 Jim Cramer Stocks with Huge Upside Potential. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against the other Jim Cramer stocks with huge upside potential. During the episode of Mad Money aired on Wednesday, Jim Cramer broke down what […]"
+    "data": "Jim Cramer on Apple Inc. (AAPL): 'These Gains Were Totally Gettable'\n\nWe recently compiled a list of the 10 Jim Cramer Stocks with Huge Upside Potential. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against the other Jim Cramer stocks with huge upside potential. During the episode of Mad Money aired on Wednesday, Jim Cramer broke down what […]"
   },
   {
     "source": "MarketWatch",
     "date": "2025-05-09T12:54Z",
     "reliability": "medium",
-    "data": "Two reasons to buy Apple’s stock after its 24% decline so far in 2025\n\nTwo reasons to buy Apple’s stock after its 24% decline so far in 2025"
+    "data": "Two reasons to buy Apple's stock after its 24% decline so far in 2025\n\nTwo reasons to buy Apple's stock after its 24% decline so far in 2025"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-09T12:51Z",
     "reliability": "medium",
-    "data": "Google Stock Had a Bad Week. Why We’re Sticking With Our Alphabet Pick.\n\nShares plunged on fears of search disruption. That doesn’t mean the company isn’t prepared for change."
+    "data": "Google Stock Had a Bad Week. Why We're Sticking With Our Alphabet Pick.\n\nShares plunged on fears of search disruption. That doesn't mean the company isn't prepared for change."
   },
   {
     "source": "Yahoo",
@@ -1857,7 +1857,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-09T12:24Z",
     "reliability": "medium",
-    "data": "Google’s search dominance might not be in as much danger as Apple would have you believe\n\nApple says it's seen a drop in search queries via its Safari browser, which uses Google Search. But that doesn't mean Google is done for."
+    "data": "Google's search dominance might not be in as much danger as Apple would have you believe\n\nApple says it's seen a drop in search queries via its Safari browser, which uses Google Search. But that doesn't mean Google is done for."
   },
   {
     "source": "Yahoo",
@@ -1875,13 +1875,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-09T11:00Z",
     "reliability": "medium",
-    "data": "Tech Industry Warns US Investment Pledges Hinge on Research Tax Break\n\n(Bloomberg) -- Major tech companies lobbying to salvage a tax deduction for research and development are warning they may pull back from high-profile pledges of new US investments if Congress doesn’t fully reinstate the break.Most Read from BloombergIs Trump’s Plan to Reopen the Notorious Alcatraz Prison Realistic?As Trump Reshapes Housing Policy, Renters Face Rollback of RightsVail to Borrow Muni Debt to Ease Ski Resort Town Housing CrunchNYC Warns of 17% Drop in Foreign Tourists Due to Trump P"
+    "data": "Tech Industry Warns US Investment Pledges Hinge on Research Tax Break\n\n(Bloomberg) -- Major tech companies lobbying to salvage a tax deduction for research and development are warning they may pull back from high-profile pledges of new US investments if Congress doesn't fully reinstate the break.Most Read from BloombergIs Trump's Plan to Reopen the Notorious Alcatraz Prison Realistic?As Trump Reshapes Housing Policy, Renters Face Rollback of RightsVail to Borrow Muni Debt to Ease Ski Resort Town Housing CrunchNYC Warns of 17% Drop in Foreign Tourists Due to Trump P"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-09T10:39Z",
     "reliability": "medium",
-    "data": "How a China Trade Deal Would Put Stocks on Course for New Records\n\nThe U.K. deal covers a relatively small amount of trade and didn’t remove the 10% baseline tariff on exports to the U.S. That’s a bad precedent, considering the U.S. has a trade surplus with Britain and might have been expected to offer generous terms.  President Donald Trump’s tariffs are already increasing prices on consumer goods and more hikes could be ahead."
+    "data": "How a China Trade Deal Would Put Stocks on Course for New Records\n\nThe U.K. deal covers a relatively small amount of trade and didn't remove the 10% baseline tariff on exports to the U.S. That's a bad precedent, considering the U.S. has a trade surplus with Britain and might have been expected to offer generous terms.  President Donald Trump's tariffs are already increasing prices on consumer goods and more hikes could be ahead."
   },
   {
     "source": "MarketWatch",
@@ -1911,7 +1911,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-09T04:40Z",
     "reliability": "medium",
-    "data": "2 Cash-Producing Stocks to Keep an Eye On and 1 to Avoid\n\nA company that generates cash isn’t automatically a winner. Some businesses stockpile cash but fail to reinvest wisely, limiting their ability to expand."
+    "data": "2 Cash-Producing Stocks to Keep an Eye On and 1 to Avoid\n\nA company that generates cash isn't automatically a winner. Some businesses stockpile cash but fail to reinvest wisely, limiting their ability to expand."
   },
   {
     "source": "Yahoo",
@@ -1923,7 +1923,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T23:25Z",
     "reliability": "medium",
-    "data": "Apple Inc. (AAPL) – AI Innovation Key to Sustained Market Leadership\n\nWe recently published a list of 10 AI Stocks on Wall Street’s Radar Right Now. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks on Wall Street’s radar right now. According to a state media report, China’s President Xi Jinping has pledged “self-reliance and […]"
+    "data": "Apple Inc. (AAPL) – AI Innovation Key to Sustained Market Leadership\n\nWe recently published a list of 10 AI Stocks on Wall Street's Radar Right Now. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks on Wall Street's radar right now. According to a state media report, China's President Xi Jinping has pledged “self-reliance and […]"
   },
   {
     "source": "Yahoo",
@@ -1947,7 +1947,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T19:28Z",
     "reliability": "medium",
-    "data": "Google Had a Bad Week. Why We’re Sticking With Alphabet Stock.\n\nShares plunged on fears of search disruption. That doesn’t mean the company isn’t prepared for change."
+    "data": "Google Had a Bad Week. Why We're Sticking With Alphabet Stock.\n\nShares plunged on fears of search disruption. That doesn't mean the company isn't prepared for change."
   },
   {
     "source": "Yahoo",
@@ -1971,7 +1971,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T17:30Z",
     "reliability": "medium",
-    "data": "Google-Parent Alphabet Shares Decline as More People Use AI for Search\n\nThe threat of artificial intelligence just became more real for Google, after it was revealed that there was a drop in Google search traffic on the Safari web browser. WSJ’s Dan Gallagher explains."
+    "data": "Google-Parent Alphabet Shares Decline as More People Use AI for Search\n\nThe threat of artificial intelligence just became more real for Google, after it was revealed that there was a drop in Google search traffic on the Safari web browser. WSJ's Dan Gallagher explains."
   },
   {
     "source": "Yahoo",
@@ -1983,7 +1983,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T16:45Z",
     "reliability": "medium",
-    "data": "Apple Is Developing Specialized Chips for Glasses, New Macs and AI Servers\n\n(Bloomberg) -- Apple Inc.’s silicon design group is working on new chips that will serve as the brains for future devices, including its first smart glasses, more powerful Macs and artificial intelligence servers. Most Read from BloombergIs Trump’s Plan to Reopen the Notorious Alcatraz Prison Realistic?Vail to Borrow Muni Debt to Ease Ski Resort Town Housing CrunchAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsIceland Plans for a More Volcanic FutureNYC Warns of 17% Drop in For"
+    "data": "Apple Is Developing Specialized Chips for Glasses, New Macs and AI Servers\n\n(Bloomberg) -- Apple Inc.'s silicon design group is working on new chips that will serve as the brains for future devices, including its first smart glasses, more powerful Macs and artificial intelligence servers. Most Read from BloombergIs Trump's Plan to Reopen the Notorious Alcatraz Prison Realistic?Vail to Borrow Muni Debt to Ease Ski Resort Town Housing CrunchAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsIceland Plans for a More Volcanic FutureNYC Warns of 17% Drop in For"
   },
   {
     "source": "Yahoo",
@@ -1995,7 +1995,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T15:36Z",
     "reliability": "medium",
-    "data": "Alphabet slips as Apple considers adding AI Search to browser\n\nShares of Alphabet (GOOGL) are under pressure on Wednesday after an Apple (AAPL) executive said the iPhone maker was exploring adding AI search to its Safari browser. According to comments made during Google’s antitrust trial, Eddy Cue said searches in Apple’s browser fell for the first time in April and that Perplexity and Anthropic could be options. ADDING AI SEARCH TO BROWSER: Apple is “actively looking at” reshaping the Safari web browser on its devices to focus on AI-powered search engines"
+    "data": "Alphabet slips as Apple considers adding AI Search to browser\n\nShares of Alphabet (GOOGL) are under pressure on Wednesday after an Apple (AAPL) executive said the iPhone maker was exploring adding AI search to its Safari browser. According to comments made during Google's antitrust trial, Eddy Cue said searches in Apple's browser fell for the first time in April and that Perplexity and Anthropic could be options. ADDING AI SEARCH TO BROWSER: Apple is “actively looking at” reshaping the Safari web browser on its devices to focus on AI-powered search engines"
   },
   {
     "source": "Yahoo",
@@ -2013,7 +2013,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T14:30Z",
     "reliability": "medium",
-    "data": "Apple Claims ‘Serious and Irreparable Harm’ in Fight Over App Store Ruling\n\nThe company filed an emergency motion to temporarily fend off changes to the U.S. App Store that were ordered by a district court judge in its antitrust suit with Epic Games."
+    "data": "Apple Claims 'Serious and Irreparable Harm' in Fight Over App Store Ruling\n\nThe company filed an emergency motion to temporarily fend off changes to the U.S. App Store that were ordered by a district court judge in its antitrust suit with Epic Games."
   },
   {
     "source": "SeekingAlpha",
@@ -2031,7 +2031,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T13:56Z",
     "reliability": "medium",
-    "data": "Google Stock Rises. It Rejects Apple’s Claim AI Is Hurting Search Volumes.\n\nAlphabet said it continues to see growth in search volumes despite Apple flagging a threat from artificial intelligence."
+    "data": "Google Stock Rises. It Rejects Apple's Claim AI Is Hurting Search Volumes.\n\nAlphabet said it continues to see growth in search volumes despite Apple flagging a threat from artificial intelligence."
   },
   {
     "source": "Yahoo",
@@ -2049,7 +2049,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T13:12Z",
     "reliability": "medium",
-    "data": "AppLovin Stock Soars 15%. Strong Earnings Come Amid Allegations From Short Sellers.\n\nAppLovin  stock soared late Wednesday on strong first-quarter earnings results.  Earnings per share rose to $1.67 versus Wall Street’s consensus estimate of $1.44, according to FactSet, and up from 67 cents last year.  It was another quarter of exceeding expectations in AppLovin’s ad business."
+    "data": "AppLovin Stock Soars 15%. Strong Earnings Come Amid Allegations From Short Sellers.\n\nAppLovin  stock soared late Wednesday on strong first-quarter earnings results.  Earnings per share rose to $1.67 versus Wall Street's consensus estimate of $1.44, according to FactSet, and up from 67 cents last year.  It was another quarter of exceeding expectations in AppLovin's ad business."
   },
   {
     "source": "Finnhub",
@@ -2061,7 +2061,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T12:40Z",
     "reliability": "medium",
-    "data": "An Apple executive sparked a Google stock selloff. Don’t panic, analyst says\n\nGoogle (GOOGL) stock slid 7% on Wednesday after Apple’s (AAPL) head of services, Eddy Cue, dropped a bombshell during antitrust testimony: Safari search volume had declined in April for the first time in over two decades."
+    "data": "An Apple executive sparked a Google stock selloff. Don't panic, analyst says\n\nGoogle (GOOGL) stock slid 7% on Wednesday after Apple's (AAPL) head of services, Eddy Cue, dropped a bombshell during antitrust testimony: Safari search volume had declined in April for the first time in over two decades."
   },
   {
     "source": "Yahoo",
@@ -2079,7 +2079,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T10:43Z",
     "reliability": "medium",
-    "data": "Apple’s Safari to threaten Google’s dominance\n\nThe current agreement between Apple and Google, reportedly worth around $20bn annually, makes Google the default search engine on Safari."
+    "data": "Apple's Safari to threaten Google's dominance\n\nThe current agreement between Apple and Google, reportedly worth around $20bn annually, makes Google the default search engine on Safari."
   },
   {
     "source": "SeekingAlpha",
@@ -2097,7 +2097,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-08T10:12Z",
     "reliability": "medium",
-    "data": "Arm Stock Plunges. Why Chip Design Isn’t a Hiding Place From Tariffs.\n\nArm Stock Plunges. Why Chip Design Isn’t a Hiding Place From Tariffs."
+    "data": "Arm Stock Plunges. Why Chip Design Isn't a Hiding Place From Tariffs.\n\nArm Stock Plunges. Why Chip Design Isn't a Hiding Place From Tariffs."
   },
   {
     "source": "Yahoo",
@@ -2109,7 +2109,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T10:00Z",
     "reliability": "medium",
-    "data": "AI’s Threat to Google Just Got Real\n\nA drop in search traffic is a reminder that technological advancement can displace long-established tech giants."
+    "data": "AI's Threat to Google Just Got Real\n\nA drop in search traffic is a reminder that technological advancement can displace long-established tech giants."
   },
   {
     "source": "Yahoo",
@@ -2121,7 +2121,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-08T08:32Z",
     "reliability": "medium",
-    "data": "Why Alphabet Inc. (GOOG) Nosedived on Wednesday\n\nWe recently published an article titled Why These 10 Firms Nosedived Today. In this article, we are going to take a look at where Alphabet Inc. (NASDAQ:GOOG) stands against the other stocks. The stock market bounced back from the previous day’s losses, with all major indices finishing higher as investors cheered the central bank’s decision to […]"
+    "data": "Why Alphabet Inc. (GOOG) Nosedived on Wednesday\n\nWe recently published an article titled Why These 10 Firms Nosedived Today. In this article, we are going to take a look at where Alphabet Inc. (NASDAQ:GOOG) stands against the other stocks. The stock market bounced back from the previous day's losses, with all major indices finishing higher as investors cheered the central bank's decision to […]"
   },
   {
     "source": "DowJones",
@@ -2163,7 +2163,7 @@ data = [
     "source": "DowJones",
     "date": "2025-05-21T22:59Z",
     "reliability": "medium",
-    "data": "What Sam Altman Told OpenAI About the Secret Device He’s Making With Jony Ive\n\nWhat Sam Altman Told OpenAI About the Secret Device He’s Making With Jony Ive"
+    "data": "What Sam Altman Told OpenAI About the Secret Device He's Making With Jony Ive\n\nWhat Sam Altman Told OpenAI About the Secret Device He's Making With Jony Ive"
   },
   {
     "source": "Yahoo",
@@ -2181,7 +2181,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-21T21:57Z",
     "reliability": "medium",
-    "data": "Trump Stages Another Oval Office Ambush, Lecturing Ramaphosa\n\n(Bloomberg) -- President Cyril Ramaphosa came to the White House looking to persuade President Donald Trump to stop floating the conspiracy theory that there’s a genocide against White people in South Africa. Instead, the man who’d helped negotiate the end of apartheid walked into a trap.Most Read from BloombergCan Frank Gehry’s ‘Grand LA’ Make Downtown Feel Like a Neighborhood?Chicago’s O’Hare Airport Seeks Up to $4.3 Billion of Muni DebtNJ Transit Makes Deal With Engineers, Ending Three-Day St"
+    "data": "Trump Stages Another Oval Office Ambush, Lecturing Ramaphosa\n\n(Bloomberg) -- President Cyril Ramaphosa came to the White House looking to persuade President Donald Trump to stop floating the conspiracy theory that there's a genocide against White people in South Africa. Instead, the man who'd helped negotiate the end of apartheid walked into a trap.Most Read from BloombergCan Frank Gehry's 'Grand LA' Make Downtown Feel Like a Neighborhood?Chicago's O'Hare Airport Seeks Up to $4.3 Billion of Muni DebtNJ Transit Makes Deal With Engineers, Ending Three-Day St"
   },
   {
     "source": "Yahoo",
@@ -2211,19 +2211,19 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-21T19:05Z",
     "reliability": "medium",
-    "data": "Sir Jony Ive joins OpenAI in $6.5bn deal to topple iPhone\n\nApple’s former chief designer Sir Jony Ive has joined OpenAI in a $6.5bn (£4.8bn) deal to challenge the iPhone."
+    "data": "Sir Jony Ive joins OpenAI in $6.5bn deal to topple iPhone\n\nApple's former chief designer Sir Jony Ive has joined OpenAI in a $6.5bn (£4.8bn) deal to challenge the iPhone."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-21T18:55Z",
     "reliability": "medium",
-    "data": "OpenAI’s hiring of legendary former Apple design boss Jony Ive is a $6.5 billion move to dominate the AI age by creating the next iPhone\n\nThe deal for the startup founded by the iPhone's chief designer is OpenAi's biggest ever."
+    "data": "OpenAI's hiring of legendary former Apple design boss Jony Ive is a $6.5 billion move to dominate the AI age by creating the next iPhone\n\nThe deal for the startup founded by the iPhone's chief designer is OpenAi's biggest ever."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-21T18:45Z",
     "reliability": "medium",
-    "data": "Former Apple design chief Jony Ive is joining OpenAI\n\nJony Ive, the famous former Apple design chief credited with shaping the company’s product design, is joining ChatGPT maker OpenAI."
+    "data": "Former Apple design chief Jony Ive is joining OpenAI\n\nJony Ive, the famous former Apple design chief credited with shaping the company's product design, is joining ChatGPT maker OpenAI."
   },
   {
     "source": "Yahoo",
@@ -2235,7 +2235,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-21T18:35Z",
     "reliability": "medium",
-    "data": "OpenAI recruits iPhone designer Jony Ive to work on AI hardware\n\nOpenAI said its CEO Sam Altman had been ‘quietly’ collaborating since 2023 with Mr Ive and his design firm, LoveFrom."
+    "data": "OpenAI recruits iPhone designer Jony Ive to work on AI hardware\n\nOpenAI said its CEO Sam Altman had been 'quietly' collaborating since 2023 with Mr Ive and his design firm, LoveFrom."
   },
   {
     "source": "Yahoo",
@@ -2253,7 +2253,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-21T18:09Z",
     "reliability": "medium",
-    "data": "OpenAI Is Buying Jony Ive’s AI  Start-Up for $6.4 Billion. Apple Stock Falls.\n\nOpenAI said Wednesday that it was buying a start-up owned by Jony Ive,  Apple’s  former chief design officer, for $6.4 billion.  The all-stock deal to acquire artificial intelligence device-maker io includes OpenAI’s current stake in the company.  In a statement alongside Ive, CEO Sam Altman said io would merge with OpenAI “to work more intimately with the research, engineering and product teams in San Francisco,” while Ive and LoveFrom, his so-called creative collective, would assume “design and creative responsibilities.”"
+    "data": "OpenAI Is Buying Jony Ive's AI  Start-Up for $6.4 Billion. Apple Stock Falls.\n\nOpenAI said Wednesday that it was buying a start-up owned by Jony Ive,  Apple's  former chief design officer, for $6.4 billion.  The all-stock deal to acquire artificial intelligence device-maker io includes OpenAI's current stake in the company.  In a statement alongside Ive, CEO Sam Altman said io would merge with OpenAI “to work more intimately with the research, engineering and product teams in San Francisco,” while Ive and LoveFrom, his so-called creative collective, would assume “design and creative responsibilities.”"
   },
   {
     "source": "Yahoo",
@@ -2271,13 +2271,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-21T17:47Z",
     "reliability": "medium",
-    "data": "Former Apple Design Guru Jony Ive to Take Expansive Role at OpenAI\n\nOpenAI will buy Ive’s startup in a $6.5 billion deal, as Ive and CEO Sam Altman work on new generation of devices and other AI products."
+    "data": "Former Apple Design Guru Jony Ive to Take Expansive Role at OpenAI\n\nOpenAI will buy Ive's startup in a $6.5 billion deal, as Ive and CEO Sam Altman work on new generation of devices and other AI products."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-21T17:45Z",
     "reliability": "medium",
-    "data": "Apple stock falls amid OpenAI’s acquisition of Jony Ive’s startup\n\nInvesting.com -- Apple shares (NASDAQ:AAPL) slipped 1.8% following news OpenAI is acquiring Jony Ive’s hardware startup io Products. The move has raised concerns among investors about potential competition in consumer devices."
+    "data": "Apple stock falls amid OpenAI's acquisition of Jony Ive's startup\n\nInvesting.com -- Apple shares (NASDAQ:AAPL) slipped 1.8% following news OpenAI is acquiring Jony Ive's hardware startup io Products. The move has raised concerns among investors about potential competition in consumer devices."
   },
   {
     "source": "MarketWatch",
@@ -2289,7 +2289,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-21T16:25Z",
     "reliability": "medium",
-    "data": "Game On: Take-Two reports mixed Q4 earnings results\n\n“Game On” is The Fly’s weekly recap of the stories powering up or beating down video game stocks. TAKE-TWO REPORTS MIXED Q4 EARNINGS RESULTS: Last week, Take-Two (TTWO) reported a fourth quarter loss per share of ($21.08) on net bookings of $1.58B, which compared to a loss per share of ($17.02) for the same period last year and analyst net bookings estimates of $1.55B. GAAP results include impairment charges of $3.55B related to goodwill and $176.3M for acquisition-related intangible assets. The"
+    "data": "Game On: Take-Two reports mixed Q4 earnings results\n\n“Game On” is The Fly's weekly recap of the stories powering up or beating down video game stocks. TAKE-TWO REPORTS MIXED Q4 EARNINGS RESULTS: Last week, Take-Two (TTWO) reported a fourth quarter loss per share of ($21.08) on net bookings of $1.58B, which compared to a loss per share of ($17.02) for the same period last year and analyst net bookings estimates of $1.55B. GAAP results include impairment charges of $3.55B related to goodwill and $176.3M for acquisition-related intangible assets. The"
   },
   {
     "source": "MarketWatch",
@@ -2301,25 +2301,25 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-21T16:14Z",
     "reliability": "medium",
-    "data": "Apple’s India Push Receives a Boost on Foxconn’s $1.5B Investment\n\nApple Inc.’s (NASDAQ:AAPL) plans to reduce reliance on China’s iPhone manufacturing capacity have received a significant boost. On May 20, the company’s supplier Foxconn announced plans to invest $1.5 billion in an Indian Unit. The investment will help support the iPhone maker’s plans to shift more manufacturing out of China, which is the subject of […]"
+    "data": "Apple's India Push Receives a Boost on Foxconn's $1.5B Investment\n\nApple Inc.'s (NASDAQ:AAPL) plans to reduce reliance on China's iPhone manufacturing capacity have received a significant boost. On May 20, the company's supplier Foxconn announced plans to invest $1.5 billion in an Indian Unit. The investment will help support the iPhone maker's plans to shift more manufacturing out of China, which is the subject of […]"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-21T16:10Z",
     "reliability": "medium",
-    "data": "Apple to let third-parties write software with its AI models, Bloomberg reports\n\nApple (AAPL) plans to let third-party developers write software using its AI models, and is working on a software development kit and related frameworks that will let outsiders build AI features based on the large language models that the company uses for Apple Intelligence, people familiar with the matter tell Bloomberg’s Mark Gurman. Apple is expected to unveil its plan at WWDC on June 9, the people say. Published first on TheFly – the ultimate source for real-time, market-moving breaking fina"
+    "data": "Apple to let third-parties write software with its AI models, Bloomberg reports\n\nApple (AAPL) plans to let third-party developers write software using its AI models, and is working on a software development kit and related frameworks that will let outsiders build AI features based on the large language models that the company uses for Apple Intelligence, people familiar with the matter tell Bloomberg's Mark Gurman. Apple is expected to unveil its plan at WWDC on June 9, the people say. Published first on TheFly – the ultimate source for real-time, market-moving breaking fina"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-21T15:56Z",
     "reliability": "medium",
-    "data": "Alphabet gains after adding more AI functions to search\n\n(Bloomberg) -- Alphabet Inc. shares gained after the company said it will offer “AI mode” in search to all US users, showing its commitment to redesigning its core business to keep pace with new rivals in the artificial intelligence age. Most Read from BloombergCan Frank Gehry’s ‘Grand LA’ Make Downtown Feel Like a Neighborhood?Chicago’s O’Hare Airport Seeks Up to $4.3 Billion of Muni DebtNJ Transit Makes Deal With Engineers, Ending Three-Day Strike“We want to get our best models into your hands"
+    "data": "Alphabet gains after adding more AI functions to search\n\n(Bloomberg) -- Alphabet Inc. shares gained after the company said it will offer “AI mode” in search to all US users, showing its commitment to redesigning its core business to keep pace with new rivals in the artificial intelligence age. Most Read from BloombergCan Frank Gehry's 'Grand LA' Make Downtown Feel Like a Neighborhood?Chicago's O'Hare Airport Seeks Up to $4.3 Billion of Muni DebtNJ Transit Makes Deal With Engineers, Ending Three-Day Strike“We want to get our best models into your hands"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-21T15:53Z",
     "reliability": "medium",
-    "data": "Alibaba Shares Slide as AI Deal with Apple Faces US Scrutiny\n\nAlibaba Group Holding Limited’s (NYSE:BABA) impressive run came under pressure on May 19 as it emerged that authorities in the US are scrutinizing a potential strategic partnership with Apple. The Chinese tech giant shed as much as 4.8% in market value as White House and Congressional officials ramped up scrutiny of a deal that would […]"
+    "data": "Alibaba Shares Slide as AI Deal with Apple Faces US Scrutiny\n\nAlibaba Group Holding Limited's (NYSE:BABA) impressive run came under pressure on May 19 as it emerged that authorities in the US are scrutinizing a potential strategic partnership with Apple. The Chinese tech giant shed as much as 4.8% in market value as White House and Congressional officials ramped up scrutiny of a deal that would […]"
   },
   {
     "source": "MarketWatch",
@@ -2367,7 +2367,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-21T12:21Z",
     "reliability": "medium",
-    "data": "Google AI Praised as Alphabet Stock Rises. A ‘Great Opportunity’ for ‘Anyone Brave Enough.’\n\nGoogle AI Praised as Alphabet Stock Rises. A ‘Great Opportunity’ for ‘Anyone Brave Enough.’"
+    "data": "Google AI Praised as Alphabet Stock Rises. A 'Great Opportunity' for 'Anyone Brave Enough.'\n\nGoogle AI Praised as Alphabet Stock Rises. A 'Great Opportunity' for 'Anyone Brave Enough.'"
   },
   {
     "source": "Finnhub",
@@ -2433,7 +2433,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-20T20:10Z",
     "reliability": "medium",
-    "data": "‘Fortnite’ returns to Apple’s App Store after 5-year exile\n\n‘Fortnite’ returns to Apple’s App Store after 5-year exile"
+    "data": "'Fortnite' returns to Apple's App Store after 5-year exile\n\n'Fortnite' returns to Apple's App Store after 5-year exile"
   },
   {
     "source": "Finnhub",
@@ -2475,7 +2475,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-20T13:35Z",
     "reliability": "medium",
-    "data": "Alphabet Traders Look to Developer Event to Shift AI Narrative\n\n(Bloomberg) -- Alphabet Inc.’s investors are looking to this week’s developer conference to see if the company can reset the narrative amid fears that its long-standing market dominance is on shaky ground.Most Read from BloombergAmerica, ‘Nation of Porches’NJ Transit Train Engineers Strike, Disrupting Travel to NYCNJ Transit Makes Deal With Engineers, Ending Three-Day StrikeThe Google I/O event, which begins Tuesday, is expected to showcase the company’s latest advancements in artificial intelli"
+    "data": "Alphabet Traders Look to Developer Event to Shift AI Narrative\n\n(Bloomberg) -- Alphabet Inc.'s investors are looking to this week's developer conference to see if the company can reset the narrative amid fears that its long-standing market dominance is on shaky ground.Most Read from BloombergAmerica, 'Nation of Porches'NJ Transit Train Engineers Strike, Disrupting Travel to NYCNJ Transit Makes Deal With Engineers, Ending Three-Day StrikeThe Google I/O event, which begins Tuesday, is expected to showcase the company's latest advancements in artificial intelli"
   },
   {
     "source": "Finnhub",
@@ -2487,7 +2487,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-20T12:46Z",
     "reliability": "medium",
-    "data": "It’s Musk and T-Mobile Starlink vs. Apple and Globalstar in the satellite phone wars. But one stock is already the clear winner.\n\nIt’s Musk and T-Mobile Starlink vs. Apple and Globalstar in the satellite phone wars. But one stock is already the clear winner."
+    "data": "It's Musk and T-Mobile Starlink vs. Apple and Globalstar in the satellite phone wars. But one stock is already the clear winner.\n\nIt's Musk and T-Mobile Starlink vs. Apple and Globalstar in the satellite phone wars. But one stock is already the clear winner."
   },
   {
     "source": "Yahoo",
@@ -2505,7 +2505,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-20T11:23Z",
     "reliability": "medium",
-    "data": "Apple Ignores Trump Over Indian iPhone Plan. Why That’s Probably Smart.\n\nApple Ignores Trump Over Indian iPhone Plan. Why That’s Probably Smart."
+    "data": "Apple Ignores Trump Over Indian iPhone Plan. Why That's Probably Smart.\n\nApple Ignores Trump Over Indian iPhone Plan. Why That's Probably Smart."
   },
   {
     "source": "Finnhub",
@@ -2535,7 +2535,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-20T07:34Z",
     "reliability": "medium",
-    "data": "Chinese Smartphone Exports to US Plunge to Lowest Since 2011\n\n(Bloomberg) -- Chinese shipments of Apple Inc.’s iPhone and other mobile devices to the US dived to their lowest levels since 2011 in April, underscoring how the threat of US tariffs choked off the flow of big-ticket goods between the world’s two largest economies.Most Read from BloombergAmerica, ‘Nation of Porches’NJ Transit Train Engineers Strike, Disrupting Travel to NYCNJ Transit Makes Deal With Engineers, Ending Three-Day StrikeSmartphone exports slid 72% to just under $700 million last mon"
+    "data": "Chinese Smartphone Exports to US Plunge to Lowest Since 2011\n\n(Bloomberg) -- Chinese shipments of Apple Inc.'s iPhone and other mobile devices to the US dived to their lowest levels since 2011 in April, underscoring how the threat of US tariffs choked off the flow of big-ticket goods between the world's two largest economies.Most Read from BloombergAmerica, 'Nation of Porches'NJ Transit Train Engineers Strike, Disrupting Travel to NYCNJ Transit Makes Deal With Engineers, Ending Three-Day StrikeSmartphone exports slid 72% to just under $700 million last mon"
   },
   {
     "source": "SeekingAlpha",
@@ -2619,7 +2619,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-19T15:26Z",
     "reliability": "medium",
-    "data": "Apple Stock Faces Major Legal Risks. Here’s How Bad It Could Get, Says Analyst.\n\nEvercore’s Amit Daryanani says Apple faces a threat to around 20% of its earnings if two legal threats turn out badly."
+    "data": "Apple Stock Faces Major Legal Risks. Here's How Bad It Could Get, Says Analyst.\n\nEvercore's Amit Daryanani says Apple faces a threat to around 20% of its earnings if two legal threats turn out badly."
   },
   {
     "source": "SeekingAlpha",
@@ -2661,7 +2661,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-19T13:50Z",
     "reliability": "medium",
-    "data": "Apple remains under-owned vs. peers, Meta still over-held - Morgan Stanley\n\nInvesting.com -- Apple remains the most under-owned mega-cap tech stock among large institutions, while Meta (NASDAQ:META) continues to be over-held, according to Morgan Stanley’s latest analysis of first-quarter 13-F filings."
+    "data": "Apple remains under-owned vs. peers, Meta still over-held - Morgan Stanley\n\nInvesting.com -- Apple remains the most under-owned mega-cap tech stock among large institutions, while Meta (NASDAQ:META) continues to be over-held, according to Morgan Stanley's latest analysis of first-quarter 13-F filings."
   },
   {
     "source": "Yahoo",
@@ -2691,7 +2691,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-19T10:13Z",
     "reliability": "medium",
-    "data": "Alibaba Stock Drops. China’s Retail Sales Are Just Part of the Story.\n\nAlibaba Stock Drops. China’s Retail Sales Are Just Part of the Story."
+    "data": "Alibaba Stock Drops. China's Retail Sales Are Just Part of the Story.\n\nAlibaba Stock Drops. China's Retail Sales Are Just Part of the Story."
   },
   {
     "source": "MarketWatch",
@@ -2721,13 +2721,13 @@ data = [
     "source": "Finnhub",
     "date": "2025-05-19T06:13Z",
     "reliability": "medium",
-    "data": "Epic Games Secures Decision That Apple Violated Anti‑Steering Injunction\n\nOn April 30, 2025, the U.S. District Court for the Northern District of California granted Cravath client Epic Games, Inc.'s motion to enforce a nationwide permanent injunction against Apple, Inc.'s ..."
+    "data": "Epic Games Secures Decision That Apple Violated Anti-Steering Injunction\n\nOn April 30, 2025, the U.S. District Court for the Northern District of California granted Cravath client Epic Games, Inc.'s motion to enforce a nationwide permanent injunction against Apple, Inc.'s ..."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-19T03:30Z",
     "reliability": "medium",
-    "data": "Winners And Losers Of Q1: GoPro (NASDAQ:GPRO) Vs The Rest Of The Consumer Electronics Stocks\n\nThe end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let’s take a look at how GoPro (NASDAQ:GPRO) and the rest of the consumer electronics stocks fared in Q1."
+    "data": "Winners And Losers Of Q1: GoPro (NASDAQ:GPRO) Vs The Rest Of The Consumer Electronics Stocks\n\nThe end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let's take a look at how GoPro (NASDAQ:GPRO) and the rest of the consumer electronics stocks fared in Q1."
   },
   {
     "source": "Finnhub",
@@ -2799,7 +2799,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-18T00:00Z",
     "reliability": "medium",
-    "data": "Beyond Nvidia, Four Things to Know at Asia’s Biggest Tech Show\n\n(Bloomberg) -- Nvidia Corp.’s Jensen Huang headlines the 2025 edition of Asia’s biggest electronics conference, for years a showcase for his company’s cutting-edge AI chips and the companies lining up to buy them. This year, however, the spotlight may well be on another far bigger personality: US President Donald Trump.Most Read from BloombergHow a Highway Became San Francisco’s Newest ParkAmerica, ‘Nation of Porches’Power-Hungry Data Centers Are Warming Homes in the NordicsMaryland’s Credit Rat"
+    "data": "Beyond Nvidia, Four Things to Know at Asia's Biggest Tech Show\n\n(Bloomberg) -- Nvidia Corp.'s Jensen Huang headlines the 2025 edition of Asia's biggest electronics conference, for years a showcase for his company's cutting-edge AI chips and the companies lining up to buy them. This year, however, the spotlight may well be on another far bigger personality: US President Donald Trump.Most Read from BloombergHow a Highway Became San Francisco's Newest ParkAmerica, 'Nation of Porches'Power-Hungry Data Centers Are Warming Homes in the NordicsMaryland's Credit Rat"
   },
   {
     "source": "Yahoo",
@@ -2823,7 +2823,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-17T16:20Z",
     "reliability": "medium",
-    "data": "Epic Games asks judge to force Apple to approve Fortnite\n\nEpic Games is escalating its efforts to pressure Apple to allow its game Fortnite into its App Store, with a new court filing asking Judge Yvonne Gonzalez Rogers to require that Apple “accept any compliant version of Fortnite onto the U.S. storefront of the App Store.” Epic and Apple have been engaged in a years-long legal battle over Apple’s App Store policies, particularly the commissions Apple charges for in-app purchases. The Fortnite publisher scored a major victory last month when Judge Ro"
+    "data": "Epic Games asks judge to force Apple to approve Fortnite\n\nEpic Games is escalating its efforts to pressure Apple to allow its game Fortnite into its App Store, with a new court filing asking Judge Yvonne Gonzalez Rogers to require that Apple “accept any compliant version of Fortnite onto the U.S. storefront of the App Store.” Epic and Apple have been engaged in a years-long legal battle over Apple's App Store policies, particularly the commissions Apple charges for in-app purchases. The Fortnite publisher scored a major victory last month when Judge Ro"
   },
   {
     "source": "Yahoo",
@@ -2835,7 +2835,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-17T12:00Z",
     "reliability": "medium",
-    "data": "Apple’s love affair with India is being tested by Trump’s ‘little problem’ with CEO Tim Cook\n\nApple's growing reliance on India for manufacturing iPhones is being attacked by Donald Trump."
+    "data": "Apple's love affair with India is being tested by Trump's 'little problem' with CEO Tim Cook\n\nApple's growing reliance on India for manufacturing iPhones is being attacked by Donald Trump."
   },
   {
     "source": "Yahoo",
@@ -2877,7 +2877,7 @@ data = [
     "source": "Finnhub",
     "date": "2025-05-17T05:13Z",
     "reliability": "medium",
-    "data": "In Recent Months, White House, Congressional Officials Been Scrutinizing Apple's Plan To Strike Deal With Alibaba To Make Co'S AI Available On Iphones In China - NYT\n\nMay 17 - * IN RECENT MONTHS, WHITE HOUSE, CONGRESSIONAL OFFICIALSBEENSCRUTINIZING APPLE’S PLAN TO STRIKE DEAL WITH ALIBABA TO MAKECO’S AI AVAILABLE ON IPHONES IN CHINA -..."
+    "data": "In Recent Months, White House, Congressional Officials Been Scrutinizing Apple's Plan To Strike Deal With Alibaba To Make Co'S AI Available On Iphones In China - NYT\n\nMay 17 - * IN RECENT MONTHS, WHITE HOUSE, CONGRESSIONAL OFFICIALSBEENSCRUTINIZING APPLE'S PLAN TO STRIKE DEAL WITH ALIBABA TO MAKECO'S AI AVAILABLE ON IPHONES IN CHINA -..."
   },
   {
     "source": "Finnhub",
@@ -2901,7 +2901,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-16T20:31Z",
     "reliability": "medium",
-    "data": "Trump Had A 'Little Problem' With Apple CEO Tim Cook, Says 'I Don't Want You Building In India'\n\nPresident Donald Trump said he told Apple Inc. (NASDAQ:AAPL) CEO Tim Cook about the tech giant’s manufacturing expansion in India, revealing details of their conversation during a news conference in Doha, Qatar, on Thursday. What Happened: “I had a little problem with Tim Cook yesterday... I said to him, ‘Tim, you’re my friend, we treated you very good... but now I hear you’re building all over India. I don’t want you building in India,” Trump stated. The exchange comes as Apple accelerates its"
+    "data": "Trump Had A 'Little Problem' With Apple CEO Tim Cook, Says 'I Don't Want You Building In India'\n\nPresident Donald Trump said he told Apple Inc. (NASDAQ:AAPL) CEO Tim Cook about the tech giant's manufacturing expansion in India, revealing details of their conversation during a news conference in Doha, Qatar, on Thursday. What Happened: “I had a little problem with Tim Cook yesterday... I said to him, 'Tim, you're my friend, we treated you very good... but now I hear you're building all over India. I don't want you building in India,” Trump stated. The exchange comes as Apple accelerates its"
   },
   {
     "source": "MarketWatch",
@@ -2925,13 +2925,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-16T18:36Z",
     "reliability": "medium",
-    "data": "Apple Stock Has Been in the Tariff Spotlight. Where Things Stand Now.\n\nThe company’s ‘aggressive push towards India production has been a very smart strategic move,’ Wedbush says."
+    "data": "Apple Stock Has Been in the Tariff Spotlight. Where Things Stand Now.\n\nThe company's 'aggressive push towards India production has been a very smart strategic move,' Wedbush says."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-16T18:34Z",
     "reliability": "medium",
-    "data": "Why Making iPhones in the US Is a ‘Non-Starter,' Wedbush Says, as Trump Pressures Apple\n\nPresident Trump wants Apple to make iPhones in the U.S. Wall Street analysts say that's not likely to happen."
+    "data": "Why Making iPhones in the US Is a 'Non-Starter,' Wedbush Says, as Trump Pressures Apple\n\nPresident Trump wants Apple to make iPhones in the U.S. Wall Street analysts say that's not likely to happen."
   },
   {
     "source": "Yahoo",
@@ -3009,7 +3009,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-16T13:48Z",
     "reliability": "medium",
-    "data": "Nvidia Shares Roar Back as Clouds Hanging Over Chipmaker Fade\n\n(Bloomberg) -- After several months in the wilderness, Nvidia Corp. shares have found their way again as doubts about Big Tech spending subside, trade tensions with China ease, and new chip buyers emerge. Most Read from BloombergAs Coastline Erodes, One California City Considers ‘Retreat Now’How a Highway Became San Francisco’s Newest ParkMaryland’s Credit Rating Gets Downgraded as Governor Blames Trump NYC Commuters Brace for Chaos as NJ Transit Strike LoomsPower-Hungry Data Centers Are Warming"
+    "data": "Nvidia Shares Roar Back as Clouds Hanging Over Chipmaker Fade\n\n(Bloomberg) -- After several months in the wilderness, Nvidia Corp. shares have found their way again as doubts about Big Tech spending subside, trade tensions with China ease, and new chip buyers emerge. Most Read from BloombergAs Coastline Erodes, One California City Considers 'Retreat Now'How a Highway Became San Francisco's Newest ParkMaryland's Credit Rating Gets Downgraded as Governor Blames Trump NYC Commuters Brace for Chaos as NJ Transit Strike LoomsPower-Hungry Data Centers Are Warming"
   },
   {
     "source": "Yahoo",
@@ -3039,7 +3039,7 @@ data = [
     "source": "DowJones",
     "date": "2025-05-16T12:07Z",
     "reliability": "medium",
-    "data": "Epic Games’ ‘Fortnite’ Claims Apple Blocked Submission, Now Unavailable on iOS\n\nEpic Games’ ‘Fortnite’ Claims Apple Blocked Submission, Now Unavailable on iOS"
+    "data": "Epic Games' 'Fortnite' Claims Apple Blocked Submission, Now Unavailable on iOS\n\nEpic Games' 'Fortnite' Claims Apple Blocked Submission, Now Unavailable on iOS"
   },
   {
     "source": "Finnhub",
@@ -3057,7 +3057,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-16T12:00Z",
     "reliability": "medium",
-    "data": "Elite CEOs Don’t Need Earnings Guidance\n\nAvoiding the short-termism of Wall Street’s expectations game might be a good thing for more companies."
+    "data": "Elite CEOs Don't Need Earnings Guidance\n\nAvoiding the short-termism of Wall Street's expectations game might be a good thing for more companies."
   },
   {
     "source": "Finnhub",
@@ -3075,7 +3075,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-16T11:32Z",
     "reliability": "medium",
-    "data": "iPhone 17 to be made in India and China, not the U.S.- Wedbush’s Ives\n\nInvesting.com -- Apple is doubling down on its production strategy for the iPhone 17, with manufacturing centered in India and China, not the United States, according to a new note from Wedbush analysts led by Dan Ives."
+    "data": "iPhone 17 to be made in India and China, not the U.S.- Wedbush's Ives\n\nInvesting.com -- Apple is doubling down on its production strategy for the iPhone 17, with manufacturing centered in India and China, not the United States, according to a new note from Wedbush analysts led by Dan Ives."
   },
   {
     "source": "MarketWatch",
@@ -3087,7 +3087,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-16T09:52Z",
     "reliability": "medium",
-    "data": "David Tepper’s Appaloosa Sells FedEx Stock, Alters Mag 7 Holding\n\nDavid Tepper’s Appaloosa Sells FedEx Stock, Alters Mag 7 Holding"
+    "data": "David Tepper's Appaloosa Sells FedEx Stock, Alters Mag 7 Holding\n\nDavid Tepper's Appaloosa Sells FedEx Stock, Alters Mag 7 Holding"
   },
   {
     "source": "SeekingAlpha",
@@ -3099,7 +3099,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-16T09:15Z",
     "reliability": "medium",
-    "data": "Block’s (XYZ) Square Resilence Shines Through Cash App Headwinds\n\nBlock (XYZ) continues to face challenges with its Cash App segment amid intensifying competition and a soft macroeconomic environment. The company’s first-quarter 2025 earnings report fell short of market expectations, primarily driven by Cash App’s underperformance, leading to missed EPS and revenue targets and subsequent downgrades from several analysts. However, the report also highlighted positive developments. Despite a 3% decline in overall revenue, Block’s operating income rose an impress"
+    "data": "Block's (XYZ) Square Resilence Shines Through Cash App Headwinds\n\nBlock (XYZ) continues to face challenges with its Cash App segment amid intensifying competition and a soft macroeconomic environment. The company's first-quarter 2025 earnings report fell short of market expectations, primarily driven by Cash App's underperformance, leading to missed EPS and revenue targets and subsequent downgrades from several analysts. However, the report also highlighted positive developments. Despite a 3% decline in overall revenue, Block's operating income rose an impress"
   },
   {
     "source": "Yahoo",
@@ -3165,7 +3165,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-15T23:46Z",
     "reliability": "medium",
-    "data": "Berkshire Sells Financial Stocks, Doubles Constellation Stake, Holds Steady on Apple\n\nWarren Buffett’s Berkshire Hathaway sold some  Bank of America  and  Capital One Financial  shares and all of its  Citigroup  stake earlier this year.  Berkshire maintained its position in  Apple  its biggest stockholding, for a second consecutive quarter after selling much of it earlier last year.  Berkshire’s stake in the iPhone maker was worth $66.6 billion on March 31."
+    "data": "Berkshire Sells Financial Stocks, Doubles Constellation Stake, Holds Steady on Apple\n\nWarren Buffett's Berkshire Hathaway sold some  Bank of America  and  Capital One Financial  shares and all of its  Citigroup  stake earlier this year.  Berkshire maintained its position in  Apple  its biggest stockholding, for a second consecutive quarter after selling much of it earlier last year.  Berkshire's stake in the iPhone maker was worth $66.6 billion on March 31."
   },
   {
     "source": "SeekingAlpha",
@@ -3195,7 +3195,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-15T18:40Z",
     "reliability": "medium",
-    "data": "7 countries Apple relies on to build the iPhone\n\nPresident Trump took a shot at Apple’s CEO Tim Cook for moving much of the production of the iconic iPhone from China to India to evade tariffs. But experts paint a more complicated picture. While the iPhones may be assembled largely in China or India, the components of an iPhone represent a veritable Olympic village of countries, which makes the impact of tariffs an especially complicated one for Apple (AAPL). The supply chain for the iPhone spans the globe. According to tech pub Lifewire and r"
+    "data": "7 countries Apple relies on to build the iPhone\n\nPresident Trump took a shot at Apple's CEO Tim Cook for moving much of the production of the iconic iPhone from China to India to evade tariffs. But experts paint a more complicated picture. While the iPhones may be assembled largely in China or India, the components of an iPhone represent a veritable Olympic village of countries, which makes the impact of tariffs an especially complicated one for Apple (AAPL). The supply chain for the iPhone spans the globe. According to tech pub Lifewire and r"
   },
   {
     "source": "Yahoo",
@@ -3219,7 +3219,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-15T16:53Z",
     "reliability": "medium",
-    "data": "Warren Buffett’s Berkshire Hathaway dumps Citigroup stake, trims Bank of America, Capital One\n\nWarren Buffett’s Berkshire Hathaway dumps Citigroup stake, trims Bank of America, Capital One"
+    "data": "Warren Buffett's Berkshire Hathaway dumps Citigroup stake, trims Bank of America, Capital One\n\nWarren Buffett's Berkshire Hathaway dumps Citigroup stake, trims Bank of America, Capital One"
   },
   {
     "source": "DowJones",
@@ -3231,7 +3231,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-15T16:33Z",
     "reliability": "medium",
-    "data": "Trump says he has a ‘little problem’ with Tim Cook\n\nPresident Donald Trump isn’t pleased with Apple CEO Tim Cook’s plan to manufacture iPhones bound for the United States at newly built plants in India."
+    "data": "Trump says he has a 'little problem' with Tim Cook\n\nPresident Donald Trump isn't pleased with Apple CEO Tim Cook's plan to manufacture iPhones bound for the United States at newly built plants in India."
   },
   {
     "source": "Yahoo",
@@ -3267,7 +3267,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-28T20:30Z",
     "reliability": "medium",
-    "data": "Trump's Apple Beef Isn't Just About India-Made iPhones — It's Also About Skipped Middle East Trip: Report\n\nApple Inc. (NASDAQ:AAPL) CEO Tim Cook has found himself at the receiving end of President Donald Trump‘s criticism, marking a stark contrast to their previously warm relationship, but reports suggest iPhone production in India is not the only reason. What Happened: According to The New York Times sources, Tim Cook turned down the Trump administration’s offer to join him alongside other CEOs and founders on a trip to the Middle East. During the trip, the President openly expressed his displeasure"
+    "data": "Trump's Apple Beef Isn't Just About India-Made iPhones — It's Also About Skipped Middle East Trip: Report\n\nApple Inc. (NASDAQ:AAPL) CEO Tim Cook has found himself at the receiving end of President Donald Trump's criticism, marking a stark contrast to their previously warm relationship, but reports suggest iPhone production in India is not the only reason. What Happened: According to The New York Times sources, Tim Cook turned down the Trump administration's offer to join him alongside other CEOs and founders on a trip to the Middle East. During the trip, the President openly expressed his displeasure"
   },
   {
     "source": "Yahoo",
@@ -3327,7 +3327,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-28T14:46Z",
     "reliability": "medium",
-    "data": "Fox News Host Roasts Trump's Mornings: 'Wake Up, Watch Cable News, Create Chaos, Watch The Futures Tank'\n\nFox News co-host Jessica Tarlov took a swipe at President Donald Trump on X recently, mocking his “morning schedule” as he continues to publicly threaten individual companies like Apple (NASDAQ:AAPL) with tariffs. Trump recently warned that he would impose a 25% tariff on all iPhones not made in the U.S., a move that stunned analysts and rattled Apple’s stock. Don't Miss: Hasbro, MGM, and Skechers trust this AI marketing firm — Invest before it's too late. ‘Scrolling To UBI' — Deloitte's #1 fast"
+    "data": "Fox News Host Roasts Trump's Mornings: 'Wake Up, Watch Cable News, Create Chaos, Watch The Futures Tank'\n\nFox News co-host Jessica Tarlov took a swipe at President Donald Trump on X recently, mocking his “morning schedule” as he continues to publicly threaten individual companies like Apple (NASDAQ:AAPL) with tariffs. Trump recently warned that he would impose a 25% tariff on all iPhones not made in the U.S., a move that stunned analysts and rattled Apple's stock. Don't Miss: Hasbro, MGM, and Skechers trust this AI marketing firm — Invest before it's too late. 'Scrolling To UBI' — Deloitte's #1 fast"
   },
   {
     "source": "Finnhub",
@@ -3375,19 +3375,19 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-28T11:00Z",
     "reliability": "medium",
-    "data": "Trust the process, not the pitch\n\nYou can catch Trader Talk on Apple Podcasts, Spotify, YouTube, or wherever you get your podcasts. In the latest episode of Trader Talk, Kenny Polcari sits down with Chris Versace, chief investment officer at Tematica Research, to discuss how thematic investing can help navigate today’s volatile markets. Versace shares insights into identifying structural changes like AI, digital infrastructure, and sustainability, as well as building portfolios aligned with these long-term trends. They also touch on the recent rebound in tech, rising trade tensions, and shifting earnings expectations, concluding that clear strategies and adaptability are key to success in uncertain times. Watch more episodes of Trader Talk here. Trader Talk with Kenny Polcari on Yahoo Finance delivers expert analysis and actionable insights, empowering you to navigate market volatility and secure your financial future. This post was written by Langston Sessoms."
+    "data": "Trust the process, not the pitch\n\nYou can catch Trader Talk on Apple Podcasts, Spotify, YouTube, or wherever you get your podcasts. In the latest episode of Trader Talk, Kenny Polcari sits down with Chris Versace, chief investment officer at Tematica Research, to discuss how thematic investing can help navigate today's volatile markets. Versace shares insights into identifying structural changes like AI, digital infrastructure, and sustainability, as well as building portfolios aligned with these long-term trends. They also touch on the recent rebound in tech, rising trade tensions, and shifting earnings expectations, concluding that clear strategies and adaptability are key to success in uncertain times. Watch more episodes of Trader Talk here. Trader Talk with Kenny Polcari on Yahoo Finance delivers expert analysis and actionable insights, empowering you to navigate market volatility and secure your financial future. This post was written by Langston Sessoms."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-28T10:46Z",
     "reliability": "medium",
-    "data": "Jim Cramer Warns Market Could Be In Trouble If Apple, Nvidia Stocks Slide This Week: 'Really Bad Sign'\n\nVeteran financial commentator, CNBC’s Jim Cramer, is sounding an alarm for investors, suggesting that the performance of tech giants Apple Inc. (NASDAQ:AAPL) and Nvidia Corp. (NASDAQ:NVDA) this week will be a critical indicator for the broader ..."
+    "data": "Jim Cramer Warns Market Could Be In Trouble If Apple, Nvidia Stocks Slide This Week: 'Really Bad Sign'\n\nVeteran financial commentator, CNBC's Jim Cramer, is sounding an alarm for investors, suggesting that the performance of tech giants Apple Inc. (NASDAQ:AAPL) and Nvidia Corp. (NASDAQ:NVDA) this week will be a critical indicator for the broader ..."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-28T09:30Z",
     "reliability": "medium",
-    "data": "Why Apple doesn’t make iPhones in America – and probably won’t\n\nIn 2011, then-President Barack Obama pressed Apple CEO Steve Jobs on what it would take to bring iPhone production to the United States, according to The New York Times."
+    "data": "Why Apple doesn't make iPhones in America – and probably won't\n\nIn 2011, then-President Barack Obama pressed Apple CEO Steve Jobs on what it would take to bring iPhone production to the United States, according to The New York Times."
   },
   {
     "source": "Finnhub",
@@ -3399,7 +3399,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-28T08:20Z",
     "reliability": "medium",
-    "data": "Trump’s 25% Tariff Threat Looms, But Apple (AAPL) Isn’t Moving – Yet\n\nWe recently published a list of 10 AI Stocks on Analyst’s Radar Today. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks that are on analyst’s radar today. One of the most notable analyst calls on Tuesday, May 27, was for Apple Inc. (NASDAQ:AAPL). […]"
+    "data": "Trump's 25% Tariff Threat Looms, But Apple (AAPL) Isn't Moving – Yet\n\nWe recently published a list of 10 AI Stocks on Analyst's Radar Today. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks that are on analyst's radar today. One of the most notable analyst calls on Tuesday, May 27, was for Apple Inc. (NASDAQ:AAPL). […]"
   },
   {
     "source": "Yahoo",
@@ -3465,7 +3465,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-27T21:09Z",
     "reliability": "medium",
-    "data": "Meta’s Future Lies With Judge as FTC Antitrust Trial Ends\n\n(Bloomberg) -- Meta Platforms Inc. has done all it can in court to fight back at the US Federal Trade Commission’s claims that it’s a monopoly. Now it’s up to a federal judge to decide whether the company should be broken up.Most Read from BloombergUAE’s AI University Aims to Become Stanford of the GulfNY Wins Order Against US Funding Freeze in Congestion FightThe seven-week trial wrapped up Tuesday, and now each side has four months to make its case in writing. Then US District Judge James Boas"
+    "data": "Meta's Future Lies With Judge as FTC Antitrust Trial Ends\n\n(Bloomberg) -- Meta Platforms Inc. has done all it can in court to fight back at the US Federal Trade Commission's claims that it's a monopoly. Now it's up to a federal judge to decide whether the company should be broken up.Most Read from BloombergUAE's AI University Aims to Become Stanford of the GulfNY Wins Order Against US Funding Freeze in Congestion FightThe seven-week trial wrapped up Tuesday, and now each side has four months to make its case in writing. Then US District Judge James Boas"
   },
   {
     "source": "Yahoo",
@@ -3483,7 +3483,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-27T20:15Z",
     "reliability": "medium",
-    "data": "These Stocks Moved the Most Today: Apple, Tesla, DJT, Informatica, Super Micro, PDD, SoundHound, and More\n\nApple rises after tumbling Friday when President Donald Trump threatened a 25% tariff on iPhones sold in the U.S. that are made overseas, while Tesla trades higher even as the electric-vehicle maker’s sales in Europe decline for a fourth straight month."
+    "data": "These Stocks Moved the Most Today: Apple, Tesla, DJT, Informatica, Super Micro, PDD, SoundHound, and More\n\nApple rises after tumbling Friday when President Donald Trump threatened a 25% tariff on iPhones sold in the U.S. that are made overseas, while Tesla trades higher even as the electric-vehicle maker's sales in Europe decline for a fourth straight month."
   },
   {
     "source": "SeekingAlpha",
@@ -3495,13 +3495,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-27T19:40Z",
     "reliability": "medium",
-    "data": "Apple to Debut Dedicated Gaming App Within Days of Switch 2’s Arrival\n\n(Bloomberg) -- Apple Inc. is planning a dedicated app for video games on its devices, seeking to sell gamers and developers on the idea that it’s a leader in the market.Most Read from BloombergUAE’s AI University Aims to Become Stanford of the GulfNY Wins Order Against US Funding Freeze in Congestion FightThe company will preinstall the app on the iPhone, iPad, Mac and Apple TV set-top box later this year, according to people with knowledge of the matter. The software will serve as a launcher fo"
+    "data": "Apple to Debut Dedicated Gaming App Within Days of Switch 2's Arrival\n\n(Bloomberg) -- Apple Inc. is planning a dedicated app for video games on its devices, seeking to sell gamers and developers on the idea that it's a leader in the market.Most Read from BloombergUAE's AI University Aims to Become Stanford of the GulfNY Wins Order Against US Funding Freeze in Congestion FightThe company will preinstall the app on the iPhone, iPad, Mac and Apple TV set-top box later this year, according to people with knowledge of the matter. The software will serve as a launcher fo"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-27T19:38Z",
     "reliability": "medium",
-    "data": "Citi Reiterates Buy Rating on Apple (AAPL), Keeps PT at $240\n\nOn May 27, Citi reiterated its Buy rating on Apple Inc. (NASDAQ:AAPL), keeping its price target of $240 for the stock. Atif Malik from Citi maintains his rating on Apple, as he sees President Trump’s announcement of 25% tariffs on Apple Inc. (NASDAQ:AAPL) to have a limited impact on the company’s business. Malik shared his […]"
+    "data": "Citi Reiterates Buy Rating on Apple (AAPL), Keeps PT at $240\n\nOn May 27, Citi reiterated its Buy rating on Apple Inc. (NASDAQ:AAPL), keeping its price target of $240 for the stock. Atif Malik from Citi maintains his rating on Apple, as he sees President Trump's announcement of 25% tariffs on Apple Inc. (NASDAQ:AAPL) to have a limited impact on the company's business. Malik shared his […]"
   },
   {
     "source": "Yahoo",
@@ -3537,7 +3537,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-27T17:08Z",
     "reliability": "medium",
-    "data": "Qualcomm-backed study finds Apple’s in-house modem falls short in 5G tests\n\nInvesting.com -- Qualcomm Incorporated (NASDAQ:QCOM) is touting a new study highlighting the performance edge of its 5G modem chips over Apple Inc’s (NASDAQ:AAPL) first in-house modem, as both tech giants vie for wireless supremacy. The report, conducted by Cellular Insights and funded by Qualcomm, found that Android smartphones powered by its Snapdragon X75 and X80 modems significantly outperformed Apple’s C1 modem in download and upload speeds, particularly in challenging urban 5G environments"
+    "data": "Qualcomm-backed study finds Apple's in-house modem falls short in 5G tests\n\nInvesting.com -- Qualcomm Incorporated (NASDAQ:QCOM) is touting a new study highlighting the performance edge of its 5G modem chips over Apple Inc's (NASDAQ:AAPL) first in-house modem, as both tech giants vie for wireless supremacy. The report, conducted by Cellular Insights and funded by Qualcomm, found that Android smartphones powered by its Snapdragon X75 and X80 modems significantly outperformed Apple's C1 modem in download and upload speeds, particularly in challenging urban 5G environments"
   },
   {
     "source": "SeekingAlpha",
@@ -3561,7 +3561,7 @@ data = [
     "source": "Finnhub",
     "date": "2025-05-27T15:46Z",
     "reliability": "medium",
-    "data": "Apple To Debut Dedicated Gaming App Within Days Of Switch 2'S Arrival - Bloomberg News\n\nMay 27 - * APPLE TO DEBUT DEDICATED GAMING APP WITHIN DAYS OF SWITCH2’SARRIVAL - BLOOMBERG NEWSSource text: [https://tinyurl.com/4fsat79v]Further company coverage: ..."
+    "data": "Apple To Debut Dedicated Gaming App Within Days Of Switch 2'S Arrival - Bloomberg News\n\nMay 27 - * APPLE TO DEBUT DEDICATED GAMING APP WITHIN DAYS OF SWITCH2'SARRIVAL - BLOOMBERG NEWSSource text: [https://tinyurl.com/4fsat79v]Further company coverage: ..."
   },
   {
     "source": "Yahoo",
@@ -3573,13 +3573,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-27T15:01Z",
     "reliability": "medium",
-    "data": "Indeed’s CEO shares the unusual question he’s been asking job candidates for 15 years: Apple or Android?\n\nCEOs at TripAdvisor, StockX, Wisp, and CTA have their own make-or-break questions for job-seekers—like how many degrees separate the minute and hour hands of a clock at 3:15?"
+    "data": "Indeed's CEO shares the unusual question he's been asking job candidates for 15 years: Apple or Android?\n\nCEOs at TripAdvisor, StockX, Wisp, and CTA have their own make-or-break questions for job-seekers—like how many degrees separate the minute and hour hands of a clock at 3:15?"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-27T14:10Z",
     "reliability": "medium",
-    "data": "Trump threatens iPhone tariffs as he spotlights Apple’s supply chain\n\nApple's attempt to protect its supply chain by moving some iPhone production to India has backfired."
+    "data": "Trump threatens iPhone tariffs as he spotlights Apple's supply chain\n\nApple's attempt to protect its supply chain by moving some iPhone production to India has backfired."
   },
   {
     "source": "Yahoo",
@@ -3591,7 +3591,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-27T13:42Z",
     "reliability": "medium",
-    "data": "Apple Shares Face More Pain as Trump’s Tariff Threat Looms\n\n(Bloomberg) -- Apple Inc. shares are coming off their longest selloff in more than three years, as escalating attacks from the White House threaten to further erode the company’s profit outlook, suggesting the stock’s struggles this year are far from over. Most Read from BloombergUAE’s AI University Aims to Become Stanford of the GulfPacific Coast Highway to Reopen Near Malibu After January FiresNY Wins Order Against US Funding Freeze in Congestion FightPresident Donald Trump on Friday threatene"
+    "data": "Apple Shares Face More Pain as Trump's Tariff Threat Looms\n\n(Bloomberg) -- Apple Inc. shares are coming off their longest selloff in more than three years, as escalating attacks from the White House threaten to further erode the company's profit outlook, suggesting the stock's struggles this year are far from over. Most Read from BloombergUAE's AI University Aims to Become Stanford of the GulfPacific Coast Highway to Reopen Near Malibu After January FiresNY Wins Order Against US Funding Freeze in Congestion FightPresident Donald Trump on Friday threatene"
   },
   {
     "source": "Yahoo",
@@ -3633,7 +3633,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-27T10:27Z",
     "reliability": "medium",
-    "data": "As Trump hits E.U., phone makers with fresh threats, here’s where all his tariffs stand now\n\nAs Trump hits E.U., phone makers with fresh threats, here’s where all his tariffs stand now"
+    "data": "As Trump hits E.U., phone makers with fresh threats, here's where all his tariffs stand now\n\nAs Trump hits E.U., phone makers with fresh threats, here's where all his tariffs stand now"
   },
   {
     "source": "SeekingAlpha",
@@ -3735,7 +3735,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-26T03:00Z",
     "reliability": "medium",
-    "data": "Largest U.S. Pension Sells Apple Stock, Buys Meta, AMD, and McDonald’s\n\nLargest U.S. Pension Sells Apple Stock, Buys Meta, AMD, and McDonald’s"
+    "data": "Largest U.S. Pension Sells Apple Stock, Buys Meta, AMD, and McDonald's\n\nLargest U.S. Pension Sells Apple Stock, Buys Meta, AMD, and McDonald's"
   },
   {
     "source": "Finnhub",
@@ -3801,7 +3801,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-25T05:48Z",
     "reliability": "medium",
-    "data": "Apple (AAPL) Faces a New Kind of Rival – And Wall Street Is Paying Attention\n\nWe recently published a list of 10 AI Stocks on Wall Street’s Radar. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks on Wall Street’s radar. Apple Inc. (NASDAQ:AAPL) is a technology company known for its consumer electronics, like iPhones and MacBooks. One of […]"
+    "data": "Apple (AAPL) Faces a New Kind of Rival – And Wall Street Is Paying Attention\n\nWe recently published a list of 10 AI Stocks on Wall Street's Radar. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks on Wall Street's radar. Apple Inc. (NASDAQ:AAPL) is a technology company known for its consumer electronics, like iPhones and MacBooks. One of […]"
   },
   {
     "source": "Yahoo",
@@ -3837,55 +3837,55 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-24T18:54Z",
     "reliability": "medium",
-    "data": "Ships are canceling crossings to U.S., and Trump’s new 50% E.U. tariff threat isn’t likely to help\n\nThe spotlight is back on U.S. supply chains after President Trump threatened new E.U. and smartphone tariffs"
+    "data": "Ships are canceling crossings to U.S., and Trump's new 50% E.U. tariff threat isn't likely to help\n\nThe spotlight is back on U.S. supply chains after President Trump threatened new E.U. and smartphone tariffs"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-24T18:01Z",
     "reliability": "medium",
-    "data": "Mark Zuckerberg Once Vented Why Apple AirPods Have No Competition: 'One Of The Protocols That They Used...'\n\nMeta Platforms Inc. (NASDAQ:META) CEO Mark Zuckerberg had once criticized the proprietary AirPods protocol of Apple Inc. (NASDAQ:AAPL), advocating for it to be made accessible to competitors. What Happened: Zuckerberg, on the Joe Rogan Podcast episode 2255, expressed his concerns over Apple’s exclusive AirPods protocol, which provides effortless connectivity with iPhones, claiming it to be an unjust limitation on competitors. Zuckerberg rejected Apple’s assertions of privacy and security risks,"
+    "data": "Mark Zuckerberg Once Vented Why Apple AirPods Have No Competition: 'One Of The Protocols That They Used...'\n\nMeta Platforms Inc. (NASDAQ:META) CEO Mark Zuckerberg had once criticized the proprietary AirPods protocol of Apple Inc. (NASDAQ:AAPL), advocating for it to be made accessible to competitors. What Happened: Zuckerberg, on the Joe Rogan Podcast episode 2255, expressed his concerns over Apple's exclusive AirPods protocol, which provides effortless connectivity with iPhones, claiming it to be an unjust limitation on competitors. Zuckerberg rejected Apple's assertions of privacy and security risks,"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-24T14:34Z",
     "reliability": "medium",
-    "data": "Dan Ives Fires Back: Trump’s Apple Plan Needs ‘Herculean Logistics’\n\nOn Friday, May 23, Wedbush analyst Dan Ives rebuked President Donald Trump’s announcement of a special tariff on Apple Inc. (NASDAQ:AAPL) iPhones. In a bold move that could escalate tariff tensions, President Donald Trump demanded that Apple and other smartphone makers manufacture their phones in the United States- or face a 25% tariff instead. “I […]"
+    "data": "Dan Ives Fires Back: Trump's Apple Plan Needs 'Herculean Logistics'\n\nOn Friday, May 23, Wedbush analyst Dan Ives rebuked President Donald Trump's announcement of a special tariff on Apple Inc. (NASDAQ:AAPL) iPhones. In a bold move that could escalate tariff tensions, President Donald Trump demanded that Apple and other smartphone makers manufacture their phones in the United States- or face a 25% tariff instead. “I […]"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-24T14:18Z",
     "reliability": "medium",
-    "data": "Trump threatens Apple Inc. (AAPL) with New Tariffs if iPhones Not Made in U.S.\n\nPresident Trump has threatened Apple Inc. (NASDAQ:AAPL) with a 25% tariff for iPhones made outside the country. The latest jab follows Trump’s displeasure with Tim Cook over the company’s plans to manufacture iPhones set to be sold in the U.S. at its new plants in India. Trump on Friday posted the following on Truth Social: […]"
+    "data": "Trump threatens Apple Inc. (AAPL) with New Tariffs if iPhones Not Made in U.S.\n\nPresident Trump has threatened Apple Inc. (NASDAQ:AAPL) with a 25% tariff for iPhones made outside the country. The latest jab follows Trump's displeasure with Tim Cook over the company's plans to manufacture iPhones set to be sold in the U.S. at its new plants in India. Trump on Friday posted the following on Truth Social: […]"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-24T13:15Z",
     "reliability": "medium",
-    "data": "Morning Movers: Apple slips following President Trump tariff threat\n\nStock futures are trending lower, reflecting investor concerns over escalating trade tensions and fiscal uncertainties. President Donald Trump’s recent announcements have heightened market apprehensions. He proposed a 25% tariff on iPhones not manufactured in the U.S., causing Apple shares to decline nearly 4% in pre-market trading. Additionally, he recommended a 50% tariff on European Union goods, leading to a drop in European stocks and a weakening euro. On the legislative front, the House nar"
+    "data": "Morning Movers: Apple slips following President Trump tariff threat\n\nStock futures are trending lower, reflecting investor concerns over escalating trade tensions and fiscal uncertainties. President Donald Trump's recent announcements have heightened market apprehensions. He proposed a 25% tariff on iPhones not manufactured in the U.S., causing Apple shares to decline nearly 4% in pre-market trading. Additionally, he recommended a 50% tariff on European Union goods, leading to a drop in European stocks and a weakening euro. On the legislative front, the House nar"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-24T13:00Z",
     "reliability": "medium",
-    "data": "Trump’s New Tariff Threats Show Trade Uncertainty Here to Stay\n\n(Bloomberg) -- Supply Lines is a daily newsletter that tracks global trade. Sign up here.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE’s AI University Aims to Become Stanford of the GulfNYC’s War on Trash Gets a Glam SquadCan Frank Gehry’s ‘Grand LA’ Make Downtown Feel Like a Neighborhood?Chicago’s O’Hare Airport Seeks Up to $4.3 Billion of Muni DebtInvestors were growing optimistic that Donald Trump’s trade wars had started to calm down."
+    "data": "Trump's New Tariff Threats Show Trade Uncertainty Here to Stay\n\n(Bloomberg) -- Supply Lines is a daily newsletter that tracks global trade. Sign up here.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE's AI University Aims to Become Stanford of the GulfNYC's War on Trash Gets a Glam SquadCan Frank Gehry's 'Grand LA' Make Downtown Feel Like a Neighborhood?Chicago's O'Hare Airport Seeks Up to $4.3 Billion of Muni DebtInvestors were growing optimistic that Donald Trump's trade wars had started to calm down."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-24T09:45Z",
     "reliability": "medium",
-    "data": "OpenAI looks to ship 100M AI ‘companion’ devices for everyday life, WSJ reports\n\nSam Altman told his staff that Microsoft (MSFT)-backed OpenAI aims to ship 100M AI “companion” devices meant for everyday life, and to release the first by late 2026, The Wall Street Journal’s Berber Jin reports. The AI device, not a phone or glasses, will be pocket-size, screen-free and contextually aware, Jin writes. Sam Altman and Jony Ive envision a “family of devices” integrating hardware and software, according to the report. Published first on TheFly – the ultimate source for real-time, m"
+    "data": "OpenAI looks to ship 100M AI 'companion' devices for everyday life, WSJ reports\n\nSam Altman told his staff that Microsoft (MSFT)-backed OpenAI aims to ship 100M AI “companion” devices meant for everyday life, and to release the first by late 2026, The Wall Street Journal's Berber Jin reports. The AI device, not a phone or glasses, will be pocket-size, screen-free and contextually aware, Jin writes. Sam Altman and Jony Ive envision a “family of devices” integrating hardware and software, according to the report. Published first on TheFly – the ultimate source for real-time, m"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-24T09:00Z",
     "reliability": "medium",
-    "data": "Charting the Global Economy: Long-Term Bond Yields Soar Around the World\n\n(Bloomberg) -- Around the world, yields on longer-dated sovereign debt have soared as investors question the ability of governments to cover massive budget deficits.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE’s AI University Aims to Become Stanford of the GulfNYC’s War on Trash Gets a Glam SquadCan Frank Gehry’s ‘Grand LA’ Make Downtown Feel Like a Neighborhood?Chicago’s O’Hare Airport Seeks Up to $4.3 Billion of Muni DebtIn the US, 30-y"
+    "data": "Charting the Global Economy: Long-Term Bond Yields Soar Around the World\n\n(Bloomberg) -- Around the world, yields on longer-dated sovereign debt have soared as investors question the ability of governments to cover massive budget deficits.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE's AI University Aims to Become Stanford of the GulfNYC's War on Trash Gets a Glam SquadCan Frank Gehry's 'Grand LA' Make Downtown Feel Like a Neighborhood?Chicago's O'Hare Airport Seeks Up to $4.3 Billion of Muni DebtIn the US, 30-y"
   },
   {
     "source": "MarketWatch",
     "date": "2025-05-24T08:30Z",
     "reliability": "medium",
-    "data": "Apple has been the worst Big Tech stock lately. Here’s why investors are missing the big picture.\n\nApple has been the worst Big Tech stock lately. Here’s why investors are missing the big picture."
+    "data": "Apple has been the worst Big Tech stock lately. Here's why investors are missing the big picture.\n\nApple has been the worst Big Tech stock lately. Here's why investors are missing the big picture."
   },
   {
     "source": "SeekingAlpha",
@@ -3909,13 +3909,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-24T03:31Z",
     "reliability": "medium",
-    "data": "Apple Faces 'First Serious Threat In 20 Years' As OpenAI Acquires iPhone Maker's Former Design Chief Jony Ive's Hardware Startup, Says Gene Munster\n\nGene Munster, Managing Partner at Deepwater Asset Management, warned Wednesday that OpenAI represents the first serious competitive threat to Apple Inc. (NASDAQ:AAPL) in two decades following the artificial intelligence company’s $6.5 billion acquisition of former Apple design chief Jony Ive‘s hardware startup. What Happened: “The real risk for AAPL is whether the threat of these devices from OpenAI compresses Apple’s multiple,” Munster wrote on X, highlighting concerns about the iPhone maker’s"
+    "data": "Apple Faces 'First Serious Threat In 20 Years' As OpenAI Acquires iPhone Maker's Former Design Chief Jony Ive's Hardware Startup, Says Gene Munster\n\nGene Munster, Managing Partner at Deepwater Asset Management, warned Wednesday that OpenAI represents the first serious competitive threat to Apple Inc. (NASDAQ:AAPL) in two decades following the artificial intelligence company's $6.5 billion acquisition of former Apple design chief Jony Ive's hardware startup. What Happened: “The real risk for AAPL is whether the threat of these devices from OpenAI compresses Apple's multiple,” Munster wrote on X, highlighting concerns about the iPhone maker's"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-24T02:00Z",
     "reliability": "medium",
-    "data": "Tim Cook’s Bad Year Keeps Getting Worse\n\nOn Friday, President Trump targeted  Apple  with new demands that the company make iPhones in the U.S., threatening 25% tariffs if the company doesn’t comply.  “Rise and shine Tim Cook,” Trump whisperer  Laura Loomer  posted on X, reminding the Apple CEO he is at the center of the president’s trade bull’s-eye.  Aside from Trump, Cook is facing off against two U.S. judges, European and worldwide regulators, state and federal lawmakers, and even a creator of the iPhone, to say nothing of the cast of rivals outrunning Apple in artificial intelligence."
+    "data": "Tim Cook's Bad Year Keeps Getting Worse\n\nOn Friday, President Trump targeted  Apple  with new demands that the company make iPhones in the U.S., threatening 25% tariffs if the company doesn't comply.  “Rise and shine Tim Cook,” Trump whisperer  Laura Loomer  posted on X, reminding the Apple CEO he is at the center of the president's trade bull's-eye.  Aside from Trump, Cook is facing off against two U.S. judges, European and worldwide regulators, state and federal lawmakers, and even a creator of the iPhone, to say nothing of the cast of rivals outrunning Apple in artificial intelligence."
   },
   {
     "source": "SeekingAlpha",
@@ -3927,13 +3927,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-23T21:57Z",
     "reliability": "medium",
-    "data": "Stocks to Watch: Apple, Booz Allen,  Constellation Energy, Intuit\n\n↘️ Booz Allen (BAH): The company plans to cut roughly 2,500 jobs as it grapples with the effects of the Trump administration’s crackdown on federal contracting. Shares dropped more than 16%. ↘️ Apple (AAPL): President Trump racketed up pressure on Apple, saying iPhones manufactured abroad could face import taxes of at least 25%."
+    "data": "Stocks to Watch: Apple, Booz Allen,  Constellation Energy, Intuit\n\n↘️ Booz Allen (BAH): The company plans to cut roughly 2,500 jobs as it grapples with the effects of the Trump administration's crackdown on federal contracting. Shares dropped more than 16%. ↘️ Apple (AAPL): President Trump racketed up pressure on Apple, saying iPhones manufactured abroad could face import taxes of at least 25%."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-23T21:40Z",
     "reliability": "medium",
-    "data": "Tim Cook Called Texas Governor to Stop Online Child-Safety Legislation\n\nApple’s CEO called Texas Gov. Greg Abbott after a law passed requiring app stores to verify user ages."
+    "data": "Tim Cook Called Texas Governor to Stop Online Child-Safety Legislation\n\nApple's CEO called Texas Gov. Greg Abbott after a law passed requiring app stores to verify user ages."
   },
   {
     "source": "Yahoo",
@@ -3957,13 +3957,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-23T20:59Z",
     "reliability": "medium",
-    "data": "Trump Threatens EU, Smartphones as Tariff Rhetoric Escalates\n\n(Bloomberg) -- Supply Lines is a daily newsletter that tracks global trade. Sign up here.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE’s AI University Aims to Become Stanford of the GulfCan Frank Gehry’s ‘Grand LA’ Make Downtown Feel Like a Neighborhood?NYC’s War on Trash Gets a Glam SquadChicago’s O’Hare Airport Seeks Up to $4.3 Billion of Muni DebtPresident Donald Trump dug in on his threat to impose a 50% tariff on the European Union an"
+    "data": "Trump Threatens EU, Smartphones as Tariff Rhetoric Escalates\n\n(Bloomberg) -- Supply Lines is a daily newsletter that tracks global trade. Sign up here.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE's AI University Aims to Become Stanford of the GulfCan Frank Gehry's 'Grand LA' Make Downtown Feel Like a Neighborhood?NYC's War on Trash Gets a Glam SquadChicago's O'Hare Airport Seeks Up to $4.3 Billion of Muni DebtPresident Donald Trump dug in on his threat to impose a 50% tariff on the European Union an"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-23T20:56Z",
     "reliability": "medium",
-    "data": "Trump Targets Samsung, Apple Phones With 25% Tariff Threat\n\n(Bloomberg) -- Supply Lines is a daily newsletter that tracks global trade. Sign up here.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE’s AI University Aims to Become Stanford of the GulfCan Frank Gehry’s ‘Grand LA’ Make Downtown Feel Like a Neighborhood?NYC’s War on Trash Gets a Glam SquadChicago’s O’Hare Airport Seeks Up to $4.3 Billion of Muni DebtPresident Donald Trump said that the tariffs he threatened against Apple Inc. earlier Frida"
+    "data": "Trump Targets Samsung, Apple Phones With 25% Tariff Threat\n\n(Bloomberg) -- Supply Lines is a daily newsletter that tracks global trade. Sign up here.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE's AI University Aims to Become Stanford of the GulfCan Frank Gehry's 'Grand LA' Make Downtown Feel Like a Neighborhood?NYC's War on Trash Gets a Glam SquadChicago's O'Hare Airport Seeks Up to $4.3 Billion of Muni DebtPresident Donald Trump said that the tariffs he threatened against Apple Inc. earlier Frida"
   },
   {
     "source": "Yahoo",
@@ -3993,7 +3993,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-23T20:16Z",
     "reliability": "medium",
-    "data": "Dollar Falls to Lowest Since 2023 as Investors Eye Trade Risks\n\n(Bloomberg) -- The US dollar slumped to its lowest level since 2023 as new tariff threats from President Donald Trump and the risk of a widening fiscal deficit drag on the currency’s appeal.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE’s AI University Aims to Become Stanford of the GulfCan Frank Gehry’s ‘Grand LA’ Make Downtown Feel Like a Neighborhood?NYC’s War on Trash Gets a Glam SquadChicago’s O’Hare Airport Seeks Up to $4.3 Billion of"
+    "data": "Dollar Falls to Lowest Since 2023 as Investors Eye Trade Risks\n\n(Bloomberg) -- The US dollar slumped to its lowest level since 2023 as new tariff threats from President Donald Trump and the risk of a widening fiscal deficit drag on the currency's appeal.Most Read from BloombergNY Private School Pleads for Donors to Stay Open After Declaring BankruptcyUAE's AI University Aims to Become Stanford of the GulfCan Frank Gehry's 'Grand LA' Make Downtown Feel Like a Neighborhood?NYC's War on Trash Gets a Glam SquadChicago's O'Hare Airport Seeks Up to $4.3 Billion of"
   },
   {
     "source": "Yahoo",
@@ -4005,13 +4005,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-23T20:09Z",
     "reliability": "medium",
-    "data": "Markets dip after Trump threatens tariffs against Europe and Apple, sinking the iPhone maker’s stock by 3%\n\nThe president said he would issue a 50% tariff on the EU and a 25% tax on Apple in a pair of Truth Social posts."
+    "data": "Markets dip after Trump threatens tariffs against Europe and Apple, sinking the iPhone maker's stock by 3%\n\nThe president said he would issue a 50% tariff on the EU and a 25% tax on Apple in a pair of Truth Social posts."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-23T20:08Z",
     "reliability": "medium",
-    "data": "Tim Cook to Donald Trump: You Were Serious About That?\n\nJust moving out of China won’t be enough for Apple to satisfy the president’s demands for U.S. production, Ben Rose writes in a guest commentary."
+    "data": "Tim Cook to Donald Trump: You Were Serious About That?\n\nJust moving out of China won't be enough for Apple to satisfy the president's demands for U.S. production, Ben Rose writes in a guest commentary."
   },
   {
     "source": "Yahoo",
@@ -4059,7 +4059,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-23T17:51Z",
     "reliability": "medium",
-    "data": "The Stock Market Had a Bad Week. It’s Your Fault.\n\nThe Stock Market Had a Bad Week. It’s Your Fault."
+    "data": "The Stock Market Had a Bad Week. It's Your Fault.\n\nThe Stock Market Had a Bad Week. It's Your Fault."
   },
   {
     "source": "Finnhub",
@@ -4413,13 +4413,13 @@ data = [
     "source": "Finnhub",
     "date": "2025-05-23T09:44Z",
     "reliability": "medium",
-    "data": "The Latest: Harvard sues the Trump administration over ban on enrolling foreign students\n\nHarvard University is challenging the Trump administration’s decision to bar the Ivy League school from enrolling foreign students, calling it unconstitutional retaliation for defying the White..."
+    "data": "The Latest: Harvard sues the Trump administration over ban on enrolling foreign students\n\nHarvard University is challenging the Trump administration's decision to bar the Ivy League school from enrolling foreign students, calling it unconstitutional retaliation for defying the White..."
   },
   {
     "source": "MarketWatch",
     "date": "2025-05-23T09:44Z",
     "reliability": "medium",
-    "data": "Apple’s stock falls as Trump makes a tariff threat on iPhones. Here’s why it’s misguided.\n\nApple’s stock falls as Trump makes a tariff threat on iPhones. Here’s why it’s misguided."
+    "data": "Apple's stock falls as Trump makes a tariff threat on iPhones. Here's why it's misguided.\n\nApple's stock falls as Trump makes a tariff threat on iPhones. Here's why it's misguided."
   },
   {
     "source": "MarketWatch",
@@ -4467,7 +4467,7 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-23T08:45Z",
     "reliability": "medium",
-    "data": "‘Tariff Man’ Is in a Bad Mood Ahead of the Memorial Day Weekend\n\n‘Tariff Man’ Is in a Bad Mood Ahead of the Memorial Day Weekend"
+    "data": "'Tariff Man' Is in a Bad Mood Ahead of the Memorial Day Weekend\n\n'Tariff Man' Is in a Bad Mood Ahead of the Memorial Day Weekend"
   },
   {
     "source": "Yahoo",
@@ -4485,25 +4485,25 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-31T09:00Z",
     "reliability": "medium",
-    "data": "Shimmers, floating toolbars, and radical transparency: Here’s what iOS 26 could look like\n\nApple needs something eye-catching right now. A new user interface, likely called ‘solarium,’ is about to turn heads."
+    "data": "Shimmers, floating toolbars, and radical transparency: Here's what iOS 26 could look like\n\nApple needs something eye-catching right now. A new user interface, likely called 'solarium,' is about to turn heads."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-31T08:40Z",
     "reliability": "medium",
-    "data": "Warren Buffett Holds Apple Stock Despite Tariffs and Buys a Restaurant Stock Up 4,500% in 15 Years\n\nWarren Buffett's Berkshire Hathaway continued to hold Apple and added to its stake in Domino’s Pizza in the first quarter.  Apple stock looks expensive with earnings increasing just 8% in the second quarter, and tariffs could slow profit growth even further.  Warren Buffett manages the vast majority of Berkshire Hathaway's stock portfolio, and the company made interesting capital allocation decisions concerning Apple (NASDAQ: AAPL) and Domino's Pizza (NASDAQ: DPZ) in the first quarter."
+    "data": "Warren Buffett Holds Apple Stock Despite Tariffs and Buys a Restaurant Stock Up 4,500% in 15 Years\n\nWarren Buffett's Berkshire Hathaway continued to hold Apple and added to its stake in Domino's Pizza in the first quarter.  Apple stock looks expensive with earnings increasing just 8% in the second quarter, and tariffs could slow profit growth even further.  Warren Buffett manages the vast majority of Berkshire Hathaway's stock portfolio, and the company made interesting capital allocation decisions concerning Apple (NASDAQ: AAPL) and Domino's Pizza (NASDAQ: DPZ) in the first quarter."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-31T08:00Z",
     "reliability": "medium",
-    "data": "Trump’s trade war is bruising Apple — and your 401(k)\n\nPresident Donald Trump’s swipes at Apple aren’t just bruising the company’s bottom line — they may also be taking a bite out of your 401(k)."
+    "data": "Trump's trade war is bruising Apple — and your 401(k)\n\nPresident Donald Trump's swipes at Apple aren't just bruising the company's bottom line — they may also be taking a bite out of your 401(k)."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-30T21:35Z",
     "reliability": "medium",
-    "data": "Judge Weighs Big Changes to Google, Including Breakup, AI Limits\n\n(Bloomberg) -- The federal judge who will decide how to limit Google’s monopoly in search is considering its advantage in artificial intelligence, and aiming to minimize harm to the other players in the market with any resolution. Most Read from BloombergNow With Colorful Blocks, Tirana’s Pyramid Represents a Changing AlbaniaBillionaire Steve Cohen Wants NY to Expand Taxpayer-Backed FerryNYC Congestion Toll Brings In $216 Million in First Four MonthsThe Economic Benefits of Paying Workers to Mov"
+    "data": "Judge Weighs Big Changes to Google, Including Breakup, AI Limits\n\n(Bloomberg) -- The federal judge who will decide how to limit Google's monopoly in search is considering its advantage in artificial intelligence, and aiming to minimize harm to the other players in the market with any resolution. Most Read from BloombergNow With Colorful Blocks, Tirana's Pyramid Represents a Changing AlbaniaBillionaire Steve Cohen Wants NY to Expand Taxpayer-Backed FerryNYC Congestion Toll Brings In $216 Million in First Four MonthsThe Economic Benefits of Paying Workers to Mov"
   },
   {
     "source": "Yahoo",
@@ -4563,19 +4563,19 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-30T07:50Z",
     "reliability": "medium",
-    "data": "Nvidia Stock Slips. It Just Hasn’t Been Able to Catch Microsoft.\n\nNvidia Stock Slips. It Just Hasn’t Been Able to Catch Microsoft."
+    "data": "Nvidia Stock Slips. It Just Hasn't Been Able to Catch Microsoft.\n\nNvidia Stock Slips. It Just Hasn't Been Able to Catch Microsoft."
   },
   {
     "source": "Yahoo",
     "date": "2025-05-30T09:15Z",
     "reliability": "medium",
-    "data": "Smartphone Sales Growth Hit by Tariff ‘Whirlwind of Uncertainty’\n\n(Bloomberg) -- Sales of Apple Inc.’s iPhone and its closest rivals are expected to take a significant blow from the Trump administration’s new tariff policy unveiled in April.Most Read from BloombergNYC Congestion Toll Brings In $216 Million in First Four MonthsNow With Colorful Blocks, Tirana’s Pyramid Represents a Changing AlbaniaThe Economic Benefits of Paying Workers to MoveNY Wins Order Against US Funding Freeze in Congestion FightWhy Arid Cities Should Stick TogetherTwo independent market"
+    "data": "Smartphone Sales Growth Hit by Tariff 'Whirlwind of Uncertainty'\n\n(Bloomberg) -- Sales of Apple Inc.'s iPhone and its closest rivals are expected to take a significant blow from the Trump administration's new tariff policy unveiled in April.Most Read from BloombergNYC Congestion Toll Brings In $216 Million in First Four MonthsNow With Colorful Blocks, Tirana's Pyramid Represents a Changing AlbaniaThe Economic Benefits of Paying Workers to MoveNY Wins Order Against US Funding Freeze in Congestion FightWhy Arid Cities Should Stick TogetherTwo independent market"
   },
   {
     "source": "MarketWatch",
     "date": "2025-05-30T08:16Z",
     "reliability": "medium",
-    "data": "Here’s what’s worth streaming in June 2025 as ‘The Bear’ and ‘Squid Game’ return\n\nHere’s what’s worth streaming in June 2025 as ‘The Bear’ and ‘Squid Game’ return"
+    "data": "Here's what's worth streaming in June 2025 as 'The Bear' and 'Squid Game' return\n\nHere's what's worth streaming in June 2025 as 'The Bear' and 'Squid Game' return"
   },
   {
     "source": "Finnhub",
@@ -4593,7 +4593,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-30T05:30Z",
     "reliability": "medium",
-    "data": "Apple (AAPL) Rated Hold by Loop Capital Amid Tariff and iPhone 17 Buzz\n\nWe recently published a list of 10 AI Stocks on Wall Street’s Radar. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks on Wall Street’s radar. On May 28, Loop Capital analyst Ananda Baruah reiterated a “Hold” rating on Apple Inc. (NASDAQ:AAPL) and $215.00 […]"
+    "data": "Apple (AAPL) Rated Hold by Loop Capital Amid Tariff and iPhone 17 Buzz\n\nWe recently published a list of 10 AI Stocks on Wall Street's Radar. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other AI stocks on Wall Street's radar. On May 28, Loop Capital analyst Ananda Baruah reiterated a “Hold” rating on Apple Inc. (NASDAQ:AAPL) and $215.00 […]"
   },
   {
     "source": "Finnhub",
@@ -4629,7 +4629,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-29T20:22Z",
     "reliability": "medium",
-    "data": "Jim Cramer on Apple Inc. (AAPL): “They’ll Have the Best AI”\n\nWe recently published a list of Jim Cramer Put These 14 Stocks Under the Microscope. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other stocks that Jim Cramer discusses. While discussing Apple Inc. (NASDAQ:AAPL), Cramer praised the company’s CEO as he said: “… The endless carping […]"
+    "data": "Jim Cramer on Apple Inc. (AAPL): “They'll Have the Best AI”\n\nWe recently published a list of Jim Cramer Put These 14 Stocks Under the Microscope. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other stocks that Jim Cramer discusses. While discussing Apple Inc. (NASDAQ:AAPL), Cramer praised the company's CEO as he said: “… The endless carping […]"
   },
   {
     "source": "Yahoo",
@@ -4647,7 +4647,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-29T19:24Z",
     "reliability": "medium",
-    "data": "iPhone Shipments Still Set to Grow Despite Tariffs, Research Firm Says\n\nU.S. iPhone shipments are expected to grow 2.5% this year, IDC estimates, a figure that’s lower than the 3.4% the research firm previously expected but is nonetheless robust in the face of tariff headwinds.  Surprisingly, its forecast for global iPhone shipments is basically flat at 1.7% growth compared with its prior forecast of 1.8% growth.  IDC also reduced its 2025 growth projections for overall global smartphone shipments to 0.6%, down from a 2.3% forecast made in February before President Trump’s Liberation Day tariff announcement."
+    "data": "iPhone Shipments Still Set to Grow Despite Tariffs, Research Firm Says\n\nU.S. iPhone shipments are expected to grow 2.5% this year, IDC estimates, a figure that's lower than the 3.4% the research firm previously expected but is nonetheless robust in the face of tariff headwinds.  Surprisingly, its forecast for global iPhone shipments is basically flat at 1.7% growth compared with its prior forecast of 1.8% growth.  IDC also reduced its 2025 growth projections for overall global smartphone shipments to 0.6%, down from a 2.3% forecast made in February before President Trump's Liberation Day tariff announcement."
   },
   {
     "source": "Yahoo",
@@ -4665,13 +4665,13 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-29T18:16Z",
     "reliability": "medium",
-    "data": "Wedbush: Apple Inc. (NASDAQ:AAPL) Could Face US Pressure, But India Key to Avoiding $3,500 iPhones\n\nWedbush analyst Daniel Ives believes Outperform-rated Apple Inc. (NASDAQ:AAPL) has put itself in a very hedged supply chain strategy heading into iPhone 17 production this Fall. Apple is a consumer electronics firm. All of the advisory’s work in the supply chain throughout Asia over the past few weeks gives it a high level of confidence […]"
+    "data": "Wedbush: Apple Inc. (NASDAQ:AAPL) Could Face US Pressure, But India Key to Avoiding $3,500 iPhones\n\nWedbush analyst Daniel Ives believes Outperform-rated Apple Inc. (NASDAQ:AAPL) has put itself in a very hedged supply chain strategy heading into iPhone 17 production this Fall. Apple is a consumer electronics firm. All of the advisory's work in the supply chain throughout Asia over the past few weeks gives it a high level of confidence […]"
   },
   {
     "source": "Yahoo",
     "date": "2025-05-29T17:30Z",
     "reliability": "medium",
-    "data": "Google To Launch Direct Sales and Physical Stores in India\n\nAlphabet Inc.’s (NASDAQ:GOOGL) Google has joined Apple in enabling direct hardware sales in India. On May 28, the company began direct sale of Pixel Phones, watches, and earbuds in India ahead of an official launch in physical stores. Over the years, the company has sold its products through authorized retailers and e-commerce platform Flipkart. Media […]"
+    "data": "Google To Launch Direct Sales and Physical Stores in India\n\nAlphabet Inc.'s (NASDAQ:GOOGL) Google has joined Apple in enabling direct hardware sales in India. On May 28, the company began direct sale of Pixel Phones, watches, and earbuds in India ahead of an official launch in physical stores. Over the years, the company has sold its products through authorized retailers and e-commerce platform Flipkart. Media […]"
   },
   {
     "source": "Yahoo",
@@ -4683,13 +4683,13 @@ data = [
     "source": "MarketWatch",
     "date": "2025-05-29T16:47Z",
     "reliability": "medium",
-    "data": "Nvidia’s Most Impressive Feat Yet? How the Chip Maker Overcame a China Ban.\n\nNvidia’s Most Impressive Feat Yet? How the Chip Maker Overcame a China Ban."
+    "data": "Nvidia's Most Impressive Feat Yet? How the Chip Maker Overcame a China Ban.\n\nNvidia's Most Impressive Feat Yet? How the Chip Maker Overcame a China Ban."
   },
   {
     "source": "MarketWatch",
     "date": "2025-05-29T16:45Z",
     "reliability": "medium",
-    "data": "Berkshire Hathaway Stock Is Slipping. The ‘Buffett Premium’ Is Leaking Out.\n\nBerkshire Hathaway Stock Is Slipping. The ‘Buffett Premium’ Is Leaking Out."
+    "data": "Berkshire Hathaway Stock Is Slipping. The 'Buffett Premium' Is Leaking Out.\n\nBerkshire Hathaway Stock Is Slipping. The 'Buffett Premium' Is Leaking Out."
   },
   {
     "source": "Yahoo",
@@ -4707,7 +4707,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-29T15:59Z",
     "reliability": "medium",
-    "data": "Big Tech stocks pare gains as uncertainty looms over Trump tariffs\n\nBig Tech stocks pared gains after a brief spike Thursday morning following a US trade court decision that invalidates the vast majority of Trump’s global tariffs."
+    "data": "Big Tech stocks pare gains as uncertainty looms over Trump tariffs\n\nBig Tech stocks pared gains after a brief spike Thursday morning following a US trade court decision that invalidates the vast majority of Trump's global tariffs."
   },
   {
     "source": "Yahoo",
@@ -4737,7 +4737,7 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-29T12:14Z",
     "reliability": "medium",
-    "data": "Apple is falling behind its Magnificent 7 rivals. Should it just be the Mag 6?\n\nThe “Magnificent Seven” tech stocks led the market’s post-pandemic boom. But as Big Tech sprints into the AI future, one big name is falling dangerously behind: Apple (AAPL). Once an undisputed tech heavyweight, it risks becoming the least magnificent of them all."
+    "data": "Apple is falling behind its Magnificent 7 rivals. Should it just be the Mag 6?\n\nThe “Magnificent Seven” tech stocks led the market's post-pandemic boom. But as Big Tech sprints into the AI future, one big name is falling dangerously behind: Apple (AAPL). Once an undisputed tech heavyweight, it risks becoming the least magnificent of them all."
   },
   {
     "source": "SeekingAlpha",
@@ -4791,12 +4791,12 @@ data = [
     "source": "Yahoo",
     "date": "2025-05-29T04:58Z",
     "reliability": "medium",
-    "data": "US Tightens China Chip Curbs by Targeting Design Software\n\n(Bloomberg) -- The Trump administration is moving to restrict the sale of chip design software to China, people familiar with the matter said, as the US government evaluates a broader policy announcement on the issue.Most Read from BloombergNYC Congestion Toll Brings In $216 Million in First Four MonthsNY Wins Order Against US Funding Freeze in Congestion FightNY Congestion Pricing Is Likely to Stay Until Year End During Court CaseNow With Colorful Blocks, Tirana’s Pyramid Represents a Changing"
+    "data": "US Tightens China Chip Curbs by Targeting Design Software\n\n(Bloomberg) -- The Trump administration is moving to restrict the sale of chip design software to China, people familiar with the matter said, as the US government evaluates a broader policy announcement on the issue.Most Read from BloombergNYC Congestion Toll Brings In $216 Million in First Four MonthsNY Wins Order Against US Funding Freeze in Congestion FightNY Congestion Pricing Is Likely to Stay Until Year End During Court CaseNow With Colorful Blocks, Tirana's Pyramid Represents a Changing"
   },
   {
     "source": "MarketWatch",
     "date": "2025-05-29T02:00Z",
     "reliability": "medium",
-    "data": "This Investment Strategy Has Worked for 15 Years. It’s Time for a Shift.\n\nThis Investment Strategy Has Worked for 15 Years. It’s Time for a Shift."
+    "data": "This Investment Strategy Has Worked for 15 Years. It's Time for a Shift.\n\nThis Investment Strategy Has Worked for 15 Years. It's Time for a Shift."
   }
 ]
