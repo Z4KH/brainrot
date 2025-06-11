@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 # Set console encoding to UTF-8
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-from data.NVDA_news import data
+from data.TSLA_news import data
 from experiments.portfolio_tracker import PortfolioTracker
 from debate.debate import Debate
 from experiments.prompts import Prompts
@@ -67,6 +67,9 @@ def main():
     utils = Utils()
     dates = sorted(sorted_data.keys())
     for date in dates:
+        # Start from 2025-05-20
+        if date < "2025-05-20":
+            continue
         # Update prompts current date and price
         prompts.current_date = date
         current_price = get_most_recent_close(f"experiments/prices.csv", STOCK_NAME, date)
@@ -89,7 +92,7 @@ def main():
         debate.initialize(num_static_agents=5)
         decision = debate.run_debate(num_rounds=NUM_ROUNDS, num_hidden_layers=NUM_LAYERS)
         debate_output = debate.get_debate()
-        with open(f"experiments/results/{STOCK_NAME}/debates/{date}.txt", "w") as f:
+        with open(f"experiments/results/{STOCK_NAME}/debates/{date}.txt", "w", encoding='utf-8') as f:
             f.write(debate_output)
         
         # Pass the decision to the portfolio tracker

@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from experiments.config import STOCK_NAME, COMPANY_NAME
 
-INIT = True
+INIT = False
 
 class PortfolioTracker:
     def __init__(self, initial_balance=1000000.00):
