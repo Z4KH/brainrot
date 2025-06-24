@@ -14,8 +14,9 @@
 **BRAINROT** is a cutting-edge multi-agent financial reasoning framework that uses **Large Language Models (LLMs)** to make **short-term stock trading decisions** based on **real financial news**. Agents dynamically ingest, debate, and reason over real-world data to output explainable buy/sell/wait decisions.
 
 Inspired by systems like **ai-hedge-fund** and **TradingAgents**, BRAINROT introduces:
+- **Dynamic agents** allocated certain portions of the data
 - Modular **hierarchical debates**
-- **Static personas** (e.g., Warren Buffett-style agents)
+- **Static agents** (e.g., Warren Buffett-style personas)
 - **Dynamic clustering** for maximizing viewpoint diversity
 - **Portfolio-aware trading actions**
 - **Real-world evaluation with market slippage**
