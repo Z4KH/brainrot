@@ -64,7 +64,7 @@ Quickstart example in the [`examples/`](./examples/) directory:
               Final Decision Agent
                      ▼
               🔻 Trade Execution 🔻
-
+```
 ## TODO:
 - get next cluster count at each iteration rather than at start - cluster counts may change
 - Smarter way to add static agents than round robin(perhaps maximize diversity)
